@@ -18,5 +18,7 @@ public class EjercicioAcumulador2 {
         }
         System.out.println("la suma de los pares es " + par + " La suma de los impares " + impar);
 
+        System.out.println("prueba");
+
     }
 }
