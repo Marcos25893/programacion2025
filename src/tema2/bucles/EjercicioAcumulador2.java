@@ -20,6 +20,7 @@ public class EjercicioAcumulador2 {
 
         System.out.println("prueba");
         System.out.println("prueba2");
+        System.out.println("prueba3");
 
     }
 }
