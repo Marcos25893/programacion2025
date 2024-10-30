@@ -10,26 +10,39 @@ public class Ejercicio3 {
         System.out.println("Dime un numero de un digito");
         num1=Integer.parseInt(sc.nextLine());
 
-        if (num1>0 && num1<10){
-            if (num1==1){
+        switch (num1) {
+            case 1:
                 System.out.println("Uno");
-            }else if (num1==2){
+                break;
+            case 2:
                 System.out.println("Dos");
-            }else if (num1==3){
+                break;
+            case 3:
                 System.out.println("Tres");
-            }else if (num1==4){
+                break;
+            case 4:
                 System.out.println("Cuatro");
-            }else if (num1==5){
+                break;
+            case 5:
                 System.out.println("Cinco");
-            }else if (num1==6){
+                break;
+            case 6:
                 System.out.println("Seis");
-            }else if (num1==7){
+                break;
+            case 7:
                 System.out.println("Siete");
-            }else if (num1==8){
+                break;
+            case 8:
                 System.out.println("Ocho");
-            }else System.out.println("Nueve");
+                break;
+            case 9:
+                System.out.println("Nueve");
+                break;
+            default:
+                System.out.println("El numero no es valido");
+        }
 
-        }else System.out.println("Error: no es un número de un dígito");
+
 
     }
 }
