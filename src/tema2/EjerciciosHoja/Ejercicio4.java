@@ -16,39 +16,39 @@ public class Ejercicio4 {
         precio = Integer.parseInt(sc.nextLine());
         resto = precio;
 
-        if (precio>500){
+        if (precio>=500){
             cantidad=precio/500;
             resto=precio-(cantidad*500);
             System.out.println(cantidad + " billete de 500");
         }
-        if (resto>200){
+        if (resto>=200){
             cantidad=resto/200;
-            resto=precio-(cantidad*200);
+            resto=resto-(cantidad*200);
             System.out.println(cantidad + " billete de 200");
         }
-        if (resto>100){
+        if (resto>=100){
             cantidad=resto/100;
-            resto=precio-(cantidad*100);
+            resto=resto-(cantidad*100);
             System.out.println(cantidad + " billete de 100");
         }
-        if (resto>50){
+        if (resto>=50){
             cantidad=resto/50;
-            resto=precio-(cantidad*50);
+            resto=resto-(cantidad*50);
             System.out.println(cantidad + " billete de 50");
         }
-        if (resto>20){
+        if (resto>=20){
             cantidad=resto/20;
-            resto=precio-(cantidad*20);
+            resto=resto-(cantidad*20);
             System.out.println(cantidad + " billete de 20");
         }
-        if (resto>10){
+        if (resto>=10){
             cantidad=resto/10;
-            resto=precio-(cantidad*10);
+            resto=resto-(cantidad*10);
             System.out.println(cantidad + " billete de 10");
         }
-        if (resto>5){
+        if (resto>=5){
             cantidad=resto/5;
-            resto=precio-(cantidad*5);
+            resto=resto-(cantidad*5);
             System.out.println(cantidad + " billete de 5");
         }
         if (resto<5){
