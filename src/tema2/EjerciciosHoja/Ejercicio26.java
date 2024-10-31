@@ -5,12 +5,19 @@ import java.util.Scanner;
 public class Ejercicio26 {
 
     public static void convierteEnPalos(int n){
-
+        int resto=0;
         for (int i=0;i<1;i++) {
-            for (int j=0;j<n;j++) {
-                 System.out.print("|");
+            while(n>9){
+                resto=n%10;
+                n=n/10;
+            }
+            for (int j = 0; j < n; j++) {
+                    System.out.print("|");
             }
             System.out.print("-");
+            for (int j = 0; j < resto; j++) {
+                System.out.print("|");
+            }
         }
     }
 
@@ -23,7 +30,9 @@ public class Ejercicio26 {
         System.out.println("Dime un numero");
         int numero=Integer.parseInt(sc.nextLine());
 
-        miles=numero/1000;
+        convierteEnPalos(numero);
+
+/*        miles=numero/1000;
         centenas=(numero-(miles*1000))/100;
         decenas=(numero-((miles*1000)+(centenas*100)))/10;
         unidades=(numero-((miles*1000)+(centenas*100)+(decenas*10)));
@@ -39,7 +48,7 @@ public class Ejercicio26 {
         }
         if(unidades>0){
             convierteEnPalos(unidades);
-        }
+        }*/
 
 
 

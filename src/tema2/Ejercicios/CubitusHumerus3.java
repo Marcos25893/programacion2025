@@ -34,19 +34,19 @@ public class CubitusHumerus3 {
             dadoH=tirada();
 
             if((dadoC%2==0 && dadoH%2==0) || (dadoC%2!=0 && dadoH%2!=0)){
-                sumatotalC=sumaC+dadoC+dadoH;
                 sumaC=dadoC+dadoH;
+                sumatotalC+=sumaC;
                 System.out.println("Cubitus gana se apunta " + sumaC);
             }else {
-            sumatotalH=sumaH+dadoC+dadoH;
             sumaH=dadoC+dadoH;
+            sumatotalH+=sumaH;
             System.out.println("Humerus gana se apunta " + sumaH);
             }
         }
 
-        if (sumaC>sumaH) {
+        if (sumatotalC>sumatotalH) {
             System.out.println("Cubitus a ganado con una suma de " + sumatotalC + " puntos, frente a " + sumatotalH);
-        } else if (sumaC<sumaH) {
+        } else if (sumatotalC<sumatotalH) {
             System.out.println("Humerus a ganado con una suma de " + sumatotalH + " puntos, frente a " + sumatotalC);
         }else System.out.println("Empate");
 
