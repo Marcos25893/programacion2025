@@ -6,51 +6,65 @@ public class Ejercicio26 {
 
     public static void convierteEnPalos(int n){
         int resto=0;
+        int resto2=0;
+        int valor=0;
+        String cadena= String.valueOf(n);
+        if (cadena.length()==1){
+            valor=1;
+        } else if (cadena.length()==2) {
+            valor=2;
+        } else if (cadena.length()==3) {
+            valor=3;
+        }
         for (int i=0;i<1;i++) {
-            while(n>9){
+            if (valor==2) {
                 resto=n%10;
                 n=n/10;
+            } else if (valor==3) {
+                resto2=n%100;
+                resto=n%10;
+                resto2=(resto2-resto)/10;
+                n=n/100;
             }
-            for (int j = 0; j < n; j++) {
+            if(n==0) {
+                System.out.println("-");
+            }else {
+                for (int j = 0; j < n; j++) {
                     System.out.print("|");
+                }
             }
+
             System.out.print("-");
-            for (int j = 0; j < resto; j++) {
-                System.out.print("|");
+            if (resto2==0) {
+                System.out.print("-");
+            }else {
+                for (int j = 0; j < resto2; j++) {
+                    System.out.print("|");
+                }
             }
+
+                System.out.print("-");
+            if (resto==0) {
+                System.out.print("-");
+            }else{
+                for (int j = 0; j < resto; j++) {
+                    System.out.print("|");
+                }
+            }
+
         }
     }
 
     public static void main(String[] args) {
 
-
-        int miles,centenas,decenas,unidades,distancia;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Dime un numero");
-        int numero=Integer.parseInt(sc.nextLine());
-
+        int numero=1000;
+        while(numero>999 || numero<0) {
+            System.out.println("Dime un numero");
+            numero = Integer.parseInt(sc.nextLine());
+        }
         convierteEnPalos(numero);
-
-/*        miles=numero/1000;
-        centenas=(numero-(miles*1000))/100;
-        decenas=(numero-((miles*1000)+(centenas*100)))/10;
-        unidades=(numero-((miles*1000)+(centenas*100)+(decenas*10)));
-
-        if (miles>0){
-            convierteEnPalos(miles);
-        }
-        if (centenas>0){
-            convierteEnPalos(centenas);
-        }
-        if (decenas>0){
-            convierteEnPalos(decenas);
-        }
-        if(unidades>0){
-            convierteEnPalos(unidades);
-        }*/
-
-
 
     }
 }

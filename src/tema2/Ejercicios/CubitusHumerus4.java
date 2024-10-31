@@ -8,7 +8,16 @@ public class CubitusHumerus4 {
         tirada:return (int)(Math.random()*13)+1;
 
     }
-
+    /**
+     * Devuelve true si si los tres primeros numeros coincide con los otros tres numeros
+     * @param n1
+     * @param n2
+     * @param n3
+     * @param n4
+     * @param n5
+     * @param n6
+     * @return
+     */
     public static boolean iguales(int n1, int n2, int n3, int n4, int n5,int n6){
 
         return n1 == n4 || n1 == n5 || n1 == n6 || n2 == n4 || n2 == n5 || n2 == n6 || n3 == n4 || n3 == n5 || n3 == n6;
@@ -17,7 +26,6 @@ public class CubitusHumerus4 {
     public static void numeros(int n1, int n2, int n3, int n4, int n5,int n6){
         System.out.println("Cubitus a sacado " + n1 + "-" + n2 + "-" + n3 + " y Humerus a sacado " + n4 + "-" + n5 + "-" + n6);
     }
-
 
     public static void main(String[] args) {
 
@@ -68,16 +76,10 @@ public class CubitusHumerus4 {
                     System.out.println("El valor a no coincidido Cubitus");
                     contadorC++;
                 }
-
             }
-
-
         }
         if (contadorC>contadorH) {
             System.out.println("Gana Cubitus por " + contadorC + " victorias a " + contadorH);
         }else System.out.println("Gana Humerus por " + contadorH + " victorias a " + contadorC);
-
-
-
     }
 }

@@ -50,7 +50,6 @@ public class CubitusHumerus3 {
             System.out.println("Humerus a ganado con una suma de " + sumatotalH + " puntos, frente a " + sumatotalC);
         }else System.out.println("Empate");
 
-
     }
 
 }
