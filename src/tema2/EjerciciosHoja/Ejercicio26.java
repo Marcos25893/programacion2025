@@ -21,9 +21,7 @@ public class Ejercicio26 {
                     }
                     palos="-" + palos;
                 }
-                if (numero==0){
                 totalPalos=palos + totalPalos;
-                }else totalPalos=palos + totalPalos;
                 n=n/10;
                 palos="";
             }
