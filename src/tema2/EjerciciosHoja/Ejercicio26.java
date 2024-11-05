@@ -20,14 +20,11 @@ public class Ejercicio26 {
                         palos+="|";
                     }
                 }
-                if ((n%100)-(n%10)==0){ //Si el siguiente numero es un cero le pongo la variable numero=0 (se podria usar otra variable)
-                    numero=0;           //solo para que luego entre en el otro if y no salga un "-" de mas
-                }
 
-                n=n/10; //Lo dividos para que en la siguiente vuelta coja el siguiente numero
+                n=n/10; //Lo dividos para que cuando vuelva a entrar en el bucle coja el siguiente numero
                 if (n<=0){ //De esta manera no sale un "-" al principio
                     totalPalos=palos + totalPalos;
-                }else if (numero==0){ //Aqui uso la variable numero==0 para que no salga un "-" demas
+                }else if (n%10==0 || numero==0){ //Cuando el numero sea cero o el siguiente lo sea para que no salga un "-" ya que palos="--"
                     totalPalos=palos+totalPalos;
                 }else{ //Mientras no sea el ultimo numero y el siguiente numero no sea un cero los separa con el "-" + palos
                     totalPalos = "-" + palos + totalPalos;

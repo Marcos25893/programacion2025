@@ -7,13 +7,14 @@ public class Ejercicio24 {
     public static boolean esFechaValida(int dia,int mes,int ano){
 
         if ((dia>0 && dia<=31) && (mes>0 && mes<13) && (ano>0)){
-            if (mes==2 && dia>28){
+            if (mes==2 && dia<=28){
                 return true;
-            } else if ((mes==4 || mes==6 || mes==9 || mes==11) && dia>=30) {
+            } else if ((mes==4 || mes==6 || mes==9 || mes==11) && dia<=30) {
                 return true;
-            }else if((mes==1 || mes==3 || mes==5 || mes==7 || mes==8 || mes==10 || mes==12) && dia>=31){
+            }else if((mes==1 || mes==3 || mes==5 || mes==7 || mes==8 || mes==10 || mes==12) && dia<=31){
                 return true;
             }
+            return false;
 
         }
         return false;

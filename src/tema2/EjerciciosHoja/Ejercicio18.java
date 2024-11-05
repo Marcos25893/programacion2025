@@ -28,31 +28,45 @@ public class Ejercicio18 {
 
                 if (dado1%2!=0 && i%2==0){
                     sumaC=sumaC+dado1;
-                }else sumaH=sumaH+dado1;
+                }else if(dado1%2!=0){
+                    sumaH=sumaH+dado1;
+                }
 
                 if (dado2%2!=0 && i%2==0){
                     sumaC=sumaC+dado2;
-                }else sumaH=sumaH+dado2;
+                }else if(dado2%2!=0){
+                    sumaH=sumaH+dado2;
+                }
 
                 if (dado3%2!=0 && i%2==0){
                     sumaC=sumaC+dado3;
-                }else sumaH=sumaH+dado3;
+                }else if(dado3%2!=0){
+                    sumaH=sumaH+dado3;
+                }
 
                 if (dado4%2!=0 && i%2==0){
                     sumaC=sumaC+dado4;
-                }else sumaH=sumaH+dado4;
+                }else if(dado4%2!=0){
+                    sumaH=sumaH+dado4;
+                }
 
-                if (dado5%2==0 && i%2!=0){
+                if (dado5%2==0 && i%2==0){
                     sumaH=sumaH+dado5;
-                }else sumaC=sumaC+dado5;
+                }else if(dado5%2==0) {
+                    sumaC=sumaC+dado5;
+                }
 
-                if (dado6%2==0 && i%2!=0){
+                if (dado6%2==0 && i%2==0){
                     sumaH=sumaH+dado6;
-                }else sumaC=sumaC+dado6;
+                }else if(dado6%2==0){
+                    sumaC=sumaC+dado6;
+                }
 
-                if (dado7%2==0 && i%2!=0){
+                if (dado7%2==0 && i%2==0){
                     sumaH=sumaH+dado7;
-                }else sumaC=sumaC+dado7;
+                }else if(dado7%2==0){
+                    sumaC=sumaC+dado7;
+                }
 
                 if (sumaC>sumaH){
                     System.out.println("Gana Cubitus las ronda por " + sumaC + " a " + sumaH);
@@ -62,6 +76,8 @@ public class Ejercicio18 {
                     puntoH++;
                 }else System.out.println("Ronda empatada");
 
+                sumaC=0;
+                sumaH=0;
         }
         if (puntoC>puntoH){
             System.out.println("Gana Cubitus en un total de " + puntoC + " a " + puntoH);
