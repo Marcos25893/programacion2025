@@ -8,7 +8,7 @@ public class Ejercicio7 {
         Scanner sc = new Scanner(System.in);
 
         int numero;
-        int factorial=1;
+        double factorial=1;
 
         System.out.println("Dime un numero que quieras sacar su factorial");
         numero=Integer.parseInt(sc.nextLine());
