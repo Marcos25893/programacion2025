@@ -22,25 +22,42 @@ public class Ejercicio5 {
         int contador=0;
         boolean alarma=false;
 
-        for (int i=0; i < dispositivo.length; i++){
-            dispositivo[i]=tirada(50,5);
-            suma+=dispositivo[i];
+        //Una forma de hacerlo sin usar el throw Exception
 
-            System.out.println(dispositivo[i] + " -> media = " + (suma / (i+1)));
+/*        for (int i=0; i < dispositivo.length; i++) {
+            dispositivo[i] = tirada(50, 5);
+            suma += dispositivo[i];
 
-            if ((suma/(i+1))>=35){
+            System.out.println(dispositivo[i] + " -> media = " + (suma / (i + 1)));
+
+            if ((suma / (i + 1)) >= 35) {
                 alarma = true;
                 break;
             }
+        }
 
             if (alarma){
                 System.out.println("Se ha superado la temperatura");
             }else {
                 System.out.println("La temperatura esta estable");
+            }*/
+
+        // Usando el throw Exception
+
+        try{
+            for (int i=0; i < dispositivo.length; i++) {
+                dispositivo[i] = tirada(50, 5);
+                suma += dispositivo[i];
+
+                System.out.println(dispositivo[i] + " -> media = " + (suma / (i + 1)));
+
+                if ((suma / (i + 1)) >= 35) {
+                    throw new Exception("Alarma se a superado el umbral");
+                }
+
             }
-
+        }catch (Exception ex){
+            System.out.println(ex.getMessage());
         }
-
     }
-
 }
