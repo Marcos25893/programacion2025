@@ -54,7 +54,6 @@ public class Ejercicio5 {
                 if ((suma / (i + 1)) >= 35) {
                     throw new Exception("Alarma se a superado el umbral");
                 }
-
             }
         }catch (Exception ex){
             System.out.println(ex.getMessage());
