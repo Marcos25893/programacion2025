@@ -63,9 +63,9 @@ public class Ej3 {
         }
 
         if (contadorC>contadorH){
-            System.out.println("El ganador es Cubitus " + puntosCubitus);
+            System.out.println("El ganador es Cubitus por " + puntosCubitus + " puntos");
         }else if(contadorH>contadorC){
-            System.out.println("El ganador es Humerus " + puntosHumerus);
+            System.out.println("El ganador es Humerus por " + puntosHumerus + " puntos");
         }
         System.out.println("La media de las partidas es " + partidastotal/partidas.length);
 
