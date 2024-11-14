@@ -1,4 +1,4 @@
-package tema3.arrays;
+package tema3.arrays.EjerciciosClase;
 
 public class Ej7 {
     public static int numero_aleatorio(int min , int max){

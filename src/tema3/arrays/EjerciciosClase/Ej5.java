@@ -1,4 +1,4 @@
-package tema3.arrays;
+package tema3.arrays.EjerciciosClase;
 
 public class Ej5 {
     //5. Vamos a crear un array de 1000 valores double,

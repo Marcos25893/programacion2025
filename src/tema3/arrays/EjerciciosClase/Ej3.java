@@ -1,4 +1,4 @@
-package tema3.arrays;
+package tema3.arrays.EjerciciosClase;
 
 public class Ej3 {
 
