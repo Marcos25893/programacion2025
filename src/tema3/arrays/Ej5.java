@@ -1,41 +1,66 @@
 package tema3.arrays;
 
 public class Ej5 {
+    //5. Vamos a crear un array de 1000 valores double,
+    // debes rellenarlos con valores aleatorios entre 5 y 50 (temperaturas).
+    // Debes devolver la media y la mediana = ((máximo + mínimo) / 2)
 
-    public static int tirada(int mayor, int menor){
-        return (int)(Math.random()*(mayor-menor+1)+menor);
+    public static double numero_aleatorio(int min , int max){
+        return Math.random()*(max-min+1) +min;
     }
 
-    public static double maximo(double num1, double num2){
-        if (num1>num2){
-            return num1;
-        }else return num2;
+    public static double maximo(double temp[]) {
+        double max = temp[0];
+        for(int i=1; i < temp.length; i++){
+            if (temp[i] > max) {
+                max = temp[i];
+            }
+        }
+        return max;
+    }
+    public static double minimo(double temp[]) {
+        double min = temp[0];
+        for(int i=1; i < temp.length; i++){
+            if (temp[i] < min) {
+                min = temp[i];
+            }
+        }
+        return min;
     }
 
     public static double minimo(double num1, double num2){
-        if (num1>num2){
+        if(num1 < num2){
+            return num1;
+        } else {
             return num2;
-        }else return num1;
+        }
+    }
+
+    public static double maximo(double num1, double num2){
+        if(num1 > num2){
+            return num1;
+        } else {
+            return num2;
+        }
     }
 
     public static void main(String[] args) {
-
-        //5.Vamos a crear un array de 1000 valores double, debes rellenarlos con valores aleatorios
-        // entre 5 y 50(temperaturas). Debes devolver la media y la mediana=((máximo+mínimo)/2)
-
-        double numero[]= new double[1000];
-        double total=0;
-        int contador=0;
+        double temp[] = new double[1000];
+        double totalTemp = 0;
         double max = 0, min = 50;
 
-        for (int i=0;i< numero.length;i++){
-            numero[i]=tirada(50,5);
-            max = maximo(max,numero[i]);
-            min = minimo(min,numero[i]);
-            total+=numero[i];
+        for (int i = 0; i < temp.length; i++) {
+            temp[i] = numero_aleatorio(5,50);
+            max = maximo(max, temp[i]);
+            min = minimo(min, temp[i]);
+            totalTemp += temp[i];
         }
-        System.out.println("maximo " + max + "minimo" + min);
-        System.out.println("Temperatura media: " + (total/ numero.length));
-        System.out.println("Mediana: " + ((max+min)/2));
+
+        //max = maximo(temp);
+        //min = minimo(temp);
+
+        System.out.println("minima " + min + " maxima " + max);
+        System.out.println("Temperatura media: " + (totalTemp / temp.length));
+        System.out.println("Mediana: " + ((max + min) / 2 ));
     }
 }
