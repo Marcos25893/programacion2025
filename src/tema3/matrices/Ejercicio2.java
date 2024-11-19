@@ -3,6 +3,7 @@ package tema3.matrices;
 public class Ejercicio2 {
 
     public static double numero_aleatorio(double min, double max) {
+
         return (Math.random() * (max - min + 1)) + min;
     }
 
@@ -23,29 +24,36 @@ public class Ejercicio2 {
         System.out.println("Ejercicio2");
 
         double matriz[][]=new double[7][3];
-        double sumaColumnas=0;
-        double sumaFilas=0;
 
-        for (int j=0;j<matriz[0].length;j++){
-            for (int i=0;i<matriz.length;i++){
-                matriz[i][j]=numero_aleatorio(1.0,9.0);
-                sumaFilas+=matriz[i][j];
+        for(int fila=0; fila < matriz.length; fila++) {
+            for(int colu=0; colu < matriz[0].length; colu++) {
+                matriz[fila][colu] = numero_aleatorio(1,9);
             }
-            System.out.println("Suma de las filas "+ j + " " + sumaFilas);
-            sumaFilas=0;
+        }
+
+        pintar(matriz);
+
+        double sumaFila=0;
+
+        for(int i=0; i < matriz.length; i++) {
+            for(int j=0; j < matriz[0].length; j++) {
+                sumaFila += matriz[i][j];
+            }
+            System.out.println("Fila " + i + " = " + sumaFila);
+            sumaFila = 0;
         }
 
         System.out.println();
 
-        for (int i=0;i<matriz.length;i++){
-            for (int j=0;j<matriz[0].length;j++){
-                sumaColumnas+=matriz[i][j];
+        double sumCol=0;
+        for(int colu=0; colu < matriz[0].length; colu++) {
+            for(int fila=0; fila < matriz.length; fila++) {
+                sumCol += matriz[fila][colu];
             }
-            System.out.println("Suma de la columna " + i + " " + sumaColumnas);
-            sumaColumnas=0;
+            System.out.println("Columna " + colu + " = " + sumCol);
+            sumCol = 0;
         }
 
-        pintar(matriz);
     }
 }
 
