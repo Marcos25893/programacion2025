@@ -5,18 +5,25 @@ import java.util.Scanner;
 public class Ejercicio3 {
 
     public static int numero_aleatorio(int min , int max){
+
         return(int) (Math.random()*(max-min+1) )+min;
     }
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int cantidad, digito=-1;
+        int cantidad=0, digito=-1;
 
-        System.out.println("Cual va a ser el tamaño del array");
-        cantidad=Integer.parseInt(sc.nextLine());
+        while(cantidad<1) {
+            try {
+                System.out.println("Cual va a ser el tamaño del array");
+                cantidad = Integer.parseInt(sc.nextLine());
+            } catch (Exception ex) {
+                System.out.println("Valor no valido");
+            }
+        }
 
-        while (digito<0) {
+        while (digito<0 || digito>9) {
             try {
                 System.out.println("Que ultimo digito quieres que sea los numeros que se muestran");
                 digito = Integer.parseInt(sc.nextLine());
@@ -36,7 +43,7 @@ public class Ejercicio3 {
                     if (contador<cantidad) {
                         resultado[contador] = numero[i];
                         contador++;
-                    }
+                    }else break;
                 }
             }
         }
@@ -44,8 +51,6 @@ public class Ejercicio3 {
         for (int i=0;i< resultado.length;i++){
             System.out.println(resultado[i]);
         }
-
-
 
     }
 }

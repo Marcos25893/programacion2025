@@ -1,5 +1,7 @@
 package tema3.EjerciciosHoja;
 
+import java.util.Arrays;
+
 public class Ejercicio9 {
 
     public static double numero_aleatorio(double min , double max){
@@ -69,5 +71,11 @@ public class Ejercicio9 {
         System.out.println("La media de todos los corredores es " + media);
 
 
+        //Usando Arrays.sort (ordena todos los valores de menor a mayor)
+        Arrays.sort(corredores);
+
+        System.out.printf("El primero es el corredor " + corredores[0]);
+        System.out.printf("El segundo es el corredor " + corredores[1]);
+        System.out.printf("El ultimo es el corredor " + corredores[9]);
     }
 }

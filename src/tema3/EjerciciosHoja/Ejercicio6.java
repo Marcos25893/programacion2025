@@ -3,6 +3,7 @@ package tema3.EjerciciosHoja;
 public class Ejercicio6 {
 
     public static int numero_aleatorio(int min , int max){
+
         return (int) (Math.random()*(max-min+1) )+min;
     }
 
