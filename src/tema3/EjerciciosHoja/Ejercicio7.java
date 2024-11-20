@@ -8,6 +8,7 @@ public class Ejercicio7 {
         Scanner sc = new Scanner(System.in);
 
         int numero[]=new int[5];
+        int copia;
         int desplazar;
 
         for (int i=0;i< numero.length;i++){
@@ -18,31 +19,19 @@ public class Ejercicio7 {
         System.out.println("Cuantas posiciones quieres desplazarlo");
         desplazar=Integer.parseInt(sc.nextLine());
 
-        //Este solo desplaza los numeros en un array mas grande
-//
-//        int total[]=new int[numero.length+desplazar];
-//
-//        for (int i=0;i<numero.length;i++){
-//            total[i+desplazar]=numero[i];
-//        }
-//
-//        for (int i=0;i<total.length;i++){
-//            System.out.println(total[i]);
-//        }
-
-
         //Desplaza los numeros pero sigue guardando esos numeros y los pasa a la primera posicion
-        int total[]=new int[5];
 
-        for (int i=0;i< numero.length-desplazar;i++){
-            total[i+desplazar]=numero[i];
-        }
         for (int i=0;i< desplazar;i++){
-            total[i]=numero[numero.length-(i+1)];
+            copia=numero[numero.length-1];
+
+            for (int j=numero.length-1;j> 0;j--){
+                numero[j]=numero[j-1];
+            }
+            numero[0]=copia;
         }
 
         for (int i=0;i< numero.length;i++){
-            System.out.println(total[i]);
+            System.out.println(numero[i]);
         }
 
     }

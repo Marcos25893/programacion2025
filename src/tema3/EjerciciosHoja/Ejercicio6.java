@@ -20,9 +20,7 @@ public class Ejercicio6 {
 
         for (int i=0;i<numero.length/2;i++) {
             System.out.println(numero[i]);
-            if (i==0) {
-                System.out.println(numero[numero.length - 1]);
-            }else System.out.println(numero[numero.length - (i+1)]);
+            System.out.println(numero[numero.length - (i+1)]);
         }
     }
 }

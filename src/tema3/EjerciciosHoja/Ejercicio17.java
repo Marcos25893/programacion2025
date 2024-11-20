@@ -54,6 +54,18 @@ public class Ejercicio17 {
 
         for (int j=0;j<num1.length;j++){
             for (int i=0;i<num1.length;i++) {
+                columna[i] = num1[i][j];
+            }
+            for (int i=0;i<num1.length;i++) {
+                Arrays.sort(columna);
+                num1[i][j] = columna[i];
+            }
+        }
+        System.out.println("Matriz ordenada por filas y columnas");
+        pintar(num1);
+
+        for (int j=0;j<num1.length;j++){
+            for (int i=0;i<num1.length;i++) {
                 columna[i] = num2[i][j];
             }
             for (int i=0;i<num1.length;i++) {
