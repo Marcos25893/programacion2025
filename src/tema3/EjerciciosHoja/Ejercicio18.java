@@ -20,13 +20,11 @@ public class Ejercicio18 {
         int tabla[][]=new int[4][5];
         int sumaFilas=0, sumaColumnas=0, sumaTotal=0;
         int suma[][]=new int[5][6];
-        int longitudJ=0;
 
         for (int i=0;i<tabla.length;i++) {
             for (int j = 0; j < tabla[i].length; j++) {
                 tabla[i][j]=numero_aleatorio(0,20);
                 suma[i][j]=tabla[i][j];
-                longitudJ=tabla[i].length;
             }
         }
         pintar(tabla);
@@ -40,7 +38,7 @@ public class Ejercicio18 {
             sumaFilas=0;
         }
 
-        for (int j=0;j<longitudJ;j++) {
+        for (int j=0;j<tabla[0].length;j++) {
             for (int i = 0; i < tabla.length; i++) {
                 sumaColumnas+=tabla[i][j];
             }
@@ -49,7 +47,7 @@ public class Ejercicio18 {
             sumaColumnas=0;
         }
 
-        suma[suma.length-1][longitudJ]=sumaTotal; //A la j que tiene el valor de longitudJ no hay que restarle ya que es la longitud de la otra matriz(tabla)
+        suma[suma.length-1][tabla[0].length]=sumaTotal; //A la j que tiene el valor de longitudJ no hay que restarle ya que es la longitud de la otra matriz(tabla)
         System.out.println("Excel");              // que ya es una columna mas pequeña que la matriz suma.
         pintar(suma);
 

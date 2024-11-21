@@ -38,6 +38,7 @@ public class Ejercicio20 {
             jugador2Columna = Integer.parseInt(sc.nextLine());
 
             tablero[jugador2Fila][jugador2Columna] = "O";
+
             jugadas++;
 
             pintar(tablero);

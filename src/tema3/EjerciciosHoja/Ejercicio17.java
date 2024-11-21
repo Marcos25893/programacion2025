@@ -26,10 +26,10 @@ public class Ejercicio17 {
             //b.ordenaColumnas(matriz): que ordene la matriz por columnas, cada columna quedará ordenada de
             //menor a mayor, independientemente de las demás.
 
-        int num1[][]=new int[50][50];
-        int num2[][]=new int[50][50];
-        int columna[]=new int[50];
-        int fila[]=new int[50];
+        int num1[][]=new int[5][5];
+        int num2[][]=new int[5][5];
+        int columna[]=new int[5];
+        int fila[]=new int[5];
 
         for (int i=0;i<num1.length;i++) {
             for (int j = 0; j < num1[i].length; j++) {
@@ -43,8 +43,8 @@ public class Ejercicio17 {
             for (int j=0;j<num1.length;j++) {
                 fila[j] = num1[i][j];
             }
+            Arrays.sort(fila);
             for (int j=0;j<num1.length;j++) {
-                Arrays.sort(fila);
                 num1[i][j] = fila[j];
             }
         }
@@ -52,19 +52,19 @@ public class Ejercicio17 {
         System.out.println("Matriz ordenada por filas");
         pintar(num1);
 
-        for (int j=0;j<num1.length;j++){
+        for (int j=0;j<num1[0].length;j++){
             for (int i=0;i<num1.length;i++) {
                 columna[i] = num1[i][j];
             }
+            Arrays.sort(columna);
             for (int i=0;i<num1.length;i++) {
-                Arrays.sort(columna);
                 num1[i][j] = columna[i];
             }
         }
         System.out.println("Matriz ordenada por filas y columnas");
         pintar(num1);
 
-        for (int j=0;j<num1.length;j++){
+        for (int j=0;j<num1[0].length;j++){
             for (int i=0;i<num1.length;i++) {
                 columna[i] = num2[i][j];
             }
