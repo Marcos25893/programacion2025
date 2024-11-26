@@ -87,7 +87,7 @@ public class Ejercicio1 {
         //1. Conecta 4
         //Representa un tablero 6x7 que pueda contener los valores 0, 1 o 2.
         //Realiza un método:
-        //    boolean colocarFicha(int tablero[][], int i, int j, int numJugador)
+        //    boolean colocarFicha(int tablero[][], int j, int numJugador)
         //
         //    - Ese método devolverá true, si en (i,j) hay un 0, está vacía,
         //    o si debajo no hay nada
@@ -141,6 +141,5 @@ public class Ejercicio1 {
             }
 
         }
-
     }
 }

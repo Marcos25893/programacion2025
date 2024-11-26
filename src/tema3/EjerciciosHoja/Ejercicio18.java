@@ -51,6 +51,5 @@ public class Ejercicio18 {
         System.out.println("Excel");              // que ya es una columna mas pequeña que la matriz suma.
         pintar(suma);
 
-
     }
 }
