@@ -17,10 +17,10 @@ public class Ejercicio20 {
         for (int i=0;i< matriz.length;i++) {
             for (int j = 0; j < matriz[i].length; j++) {
                 if(i==1 && j==1){
-                    if ((matriz[i-1][j-1].equals(matriz[i][j].equals(matriz[i+1][j+1]))) ||
-                        (matriz[i-1][j+1].equals(matriz[i][j].equals(matriz[i+1][j-1]))) ||
-                        (matriz[i-1][j].equals(matriz[i][j].equals(matriz[i+1][j])))   ||
-                        (matriz[i][j-1].equals(matriz[i][j].equals(matriz[i][j+1])))){
+                    if ((matriz[i-1][j-1].equals(matriz[i][j])) && (matriz[i][j].equals(matriz[i+1][j+1])) ||
+                        (matriz[i-1][j+1].equals(matriz[i][j]) && (matriz[i][j].equals(matriz[i+1][j-1]))) ||
+                        (matriz[i-1][j].equals(matriz[i][j]) && (matriz[i][j].equals(matriz[i+1][j])))   ||
+                        (matriz[i][j-1].equals(matriz[i][j]) && (matriz[i][j].equals(matriz[i][j+1])))){
                         return true;
                     }
                 }
