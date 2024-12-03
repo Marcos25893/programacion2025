@@ -27,7 +27,6 @@ public class Ejercicio19 {
         int pila[]=new int[20];
         int contador=0;
 
-
         do {
             if (contador==20){
                 System.out.println("Has llenado la pila");
