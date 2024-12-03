@@ -12,10 +12,8 @@ public class Ejercicio4 {
         String texto="";
         String palabra;
         int numero;
-        int tamano;
 
         Scanner sc = new Scanner(System.in);
-        StringBuffer sb = new StringBuffer(texto);
 
         System.out.println("Escribe el texto");
         texto=sc.nextLine();
@@ -23,19 +21,25 @@ public class Ejercicio4 {
         System.out.println("Que quieres pasar a mayusculas");
         palabra= sc.nextLine();
 
-        tamano=palabra.length();
-        System.out.println(tamano);
+        StringBuffer sb = new StringBuffer(texto);
 
         numero=texto.indexOf(palabra);
-        System.out.println(numero);
+        if (numero==-1){
+            System.out.println("No esta esa palabra");
+        }else {
 
-        tamano=tamano+numero;
-        sb.delete(numero, tamano);
+            palabra = palabra.toUpperCase();
 
-        sb.insert(numero, palabra);
+//            sb.delete(numero, numero + palabra.length());
+//
+//            sb.insert(numero, palabra);
+//
+//            System.out.println(sb.toString());
 
-        System.out.println(texto);
+            sb.replace(numero, numero+palabra.length(),palabra);
 
+            System.out.println(sb.toString());
 
+        }
     }
 }
