@@ -29,7 +29,7 @@ public class Ejemplos {
         String mensa = "En un lugar de la Mancha";
         //El primer índice de una cadena es 0
         System.out.println(mensa.substring(18));
-        System.out.println(mensa.substring(6,11));
+        System.out.println(mensa.substring(6,11)); //Devuelve la parte de la cadena que le pongas
 
         int numero = 345;
         String numeroS = String.valueOf(numero); //Es la cadena con el caracter 3,
@@ -42,7 +42,7 @@ public class Ejemplos {
         System.out.println(numeroInt);
 
         double precio = 129.9935D;
-        System.out.printf("El precio es %.3f", precio);
+        System.out.printf("El precio es %.3f", precio); //d->enteros, f->float, s->cadenas, b->boolean
         System.out.println();
         System.out.printf("El hora es %d y los minutos son %d", 17, 45);
         System.out.println();
