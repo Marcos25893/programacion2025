@@ -28,5 +28,10 @@ public class Ejercicio11 {
 
         System.out.println(sb.toString());
 
+
+        //matrices
+        //dados
+        //String
+        //Juego matrices completo
     }
 }

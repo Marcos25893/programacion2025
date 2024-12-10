@@ -10,7 +10,7 @@ public class Ejercicio6 {
 
     public static void pintarMatrizUna(int matriz[]){
         for (int i=0;i<matriz.length;i++){
-            System.out.println(matriz[i]);
+            System.out.print(matriz[i] +  " ");
         }
     }
 
@@ -32,32 +32,32 @@ public class Ejercicio6 {
         //sido almacenados. Ten en cuenta a la hora de buscar un número en un array que no tienes que
         //comparar con todo el array puesto que ya está ordenado.
 
-
-        int numeros[]=new int[10];
-        int contador=0;
-        int numero=0;
+        int numeros[]=new int[100];
 
         for (int i=0;i<numeros.length;i++){
-            numeros[i]=numero_aleatorio(1,10);
+            numeros[i]=numero_aleatorio(1,100);
         }
 
         Arrays.sort(numeros);
         pintarMatrizUna(numeros);
         System.out.println();
 
-        for (int i=1;i<numeros.length;i++){
-
-            if (contador < 10 && numeros[contador] == i) {
-                contador++;
-            } else {
-                System.out.println(numero);
+        boolean encontrado;
+        for (int i=1;i<=100;i++){
+            encontrado=false;
+            for (int j=0;j<numeros.length;j++){
+                if (i==numeros[j]){
+                    encontrado=true;
+                    break;
+                }
+                if (numeros[j]>i){
+                    break;
+                }
             }
-            numero++;
-
+            if (encontrado==false){
+                System.out.println(i);
+            }
         }
-
-
-
 
     }
 }
