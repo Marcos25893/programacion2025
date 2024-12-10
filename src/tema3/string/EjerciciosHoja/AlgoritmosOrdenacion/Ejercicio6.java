@@ -1,5 +1,7 @@
 package tema3.string.EjerciciosHoja.AlgoritmosOrdenacion;
 
+import java.util.Arrays;
+
 public class Ejercicio6 {
 
     public static int numero_aleatorio(int min , int max){
@@ -13,11 +15,11 @@ public class Ejercicio6 {
     }
 
     public static int []noAlmacenados(int matriz[]){
-        int noAlmacenado[]=new int[100];
+        int noAlmacenado[] = new int[10];
 
         for (int i=0;i<matriz.length;i++){
-            for (int j=0;j<matriz.length;j++){
-
+            if (matriz[i]!=i){
+                noAlmacenado[i]=i;
             }
         }
         return noAlmacenado;
@@ -30,17 +32,31 @@ public class Ejercicio6 {
         //sido almacenados. Ten en cuenta a la hora de buscar un número en un array que no tienes que
         //comparar con todo el array puesto que ya está ordenado.
 
-        int numeros[]=new int[100];
-        int faltantes[];
+
+        int numeros[]=new int[10];
+        int contador=0;
+        int numero=0;
 
         for (int i=0;i<numeros.length;i++){
-            numeros[i]=numero_aleatorio(1,100);
+            numeros[i]=numero_aleatorio(1,10);
         }
-        faltantes =noAlmacenados(numeros);
 
-        for (int i=0;i<numeros.length;i++){
-            System.out.println(faltantes[i]);
+        Arrays.sort(numeros);
+        pintarMatrizUna(numeros);
+        System.out.println();
+
+        for (int i=1;i<numeros.length;i++){
+
+            if (contador < 10 && numeros[contador] == i) {
+                contador++;
+            } else {
+                System.out.println(numero);
+            }
+            numero++;
+
         }
+
+
 
 
     }

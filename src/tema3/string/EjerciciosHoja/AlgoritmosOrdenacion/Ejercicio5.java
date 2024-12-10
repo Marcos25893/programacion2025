@@ -14,19 +14,6 @@ public class Ejercicio5 {
         }
     }
 
-//    public static int []diezMayoresMatriz(int matriz[], int mayores[]){
-//        int mayor=0;
-//        Arrays.sort(matriz);
-//        for (int i=0;i<mayores.length;i++){
-//            for (int j=matriz.length-(1+i);j> matriz.length-(2+i);j--){
-//              mayor=matriz[j];
-//            }
-//            mayores[i]=mayor;
-//
-//        }
-//        return mayores;
-//    }
-
     public static int []diezMayoresMatriz(int matriz[], int mayores[]){
         Arrays.sort(matriz);
         for (int i=0;i<mayores.length;i++){
