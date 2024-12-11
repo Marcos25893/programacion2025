@@ -136,4 +136,42 @@ public class Clases {
         return matrizT;
     }
 
+    //Suma de diagonal principal y inversa
+
+    public static int Suma(int numero[][], int diagonalP, int diagonalS){
+        for (int i = 0; i < numero.length; i++) {
+            for (int j = 0; j < numero[0].length; j++) {
+                if (i == j) {
+                    diagonalP += numero[i][j];
+                }
+                if (i + j == numero.length - 1) {
+                    diagonalS += numero[i][j];
+                }
+            }
+        }
+     return diagonalS;
+    }
+
+    //Ordenacion metodo burbuja (de menor a mayor)
+
+    public static int [] ordenacionBurbujaMejorada(int matriz[]){
+        int comparador;
+        boolean centinela=false;
+        for (int i=0;i<matriz.length;i++){
+            for (int j=0;j< matriz.length-(1+i);j++) {
+                if (matriz[j] > matriz[j+1]) {
+                    comparador = matriz[j];
+                    matriz[j] = matriz[j+1];
+                    matriz[j+1] = comparador;
+                    centinela=true;
+                }
+            }
+            if (centinela==false){
+                break;
+            }
+            centinela=false;
+        }
+        return matriz;
+    }
+
 }
