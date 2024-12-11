@@ -159,7 +159,7 @@ public class Clases {
         boolean centinela=false;
         for (int i=0;i<matriz.length;i++){
             for (int j=0;j< matriz.length-(1+i);j++) {
-                if (matriz[j] > matriz[j+1]) {
+                if (matriz[j] > matriz[j+1]) {  //cambiar a < para que ordene de mayor a menor
                     comparador = matriz[j];
                     matriz[j] = matriz[j+1];
                     matriz[j+1] = comparador;

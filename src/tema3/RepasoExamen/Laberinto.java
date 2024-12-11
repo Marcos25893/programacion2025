@@ -55,13 +55,11 @@ public class Laberinto {
         return laberinto;
     }
 
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
         String laberinto[][]=new String[20][20];
-
 
         int bombax=0;
         int bombay=0;
@@ -76,7 +74,6 @@ public class Laberinto {
        bombay=numero_aleatorio(1, laberinto[0].length-2);
 
        CrearLaberinto(laberinto);
-        System.out.println(bombax + " " + bombay);
 
         for (int i = 0; i < laberinto.length; i++) {
             for (int j = 0; j < laberinto[i].length; j++) {
@@ -92,10 +89,17 @@ public class Laberinto {
         boolean salirse=false;
 
         while (bomba==false && ganar==false && salirse==false ){
-            pintarTablero(laberinto);
 
             try{
-                movimiento=Integer.parseInt(sc.nextLine());
+                do {
+                    pintarTablero(laberinto);
+                    movimiento = Integer.parseInt(sc.nextLine());
+                }while (movimiento<1 || movimiento>4);
+
+                laberinto[jugadorX][jugadorY]="*";
+
+                numeroPasos++;
+
                 switch (movimiento){
                     case 1:
                         jugadorY++;
@@ -116,8 +120,6 @@ public class Laberinto {
                 } else if (laberinto[jugadorX][jugadorY]==laberinto[salidaX][salidaY]) {
                     ganar=true;
                 }
-
-                numeroPasos++;
 
             }catch (IndexOutOfBoundsException ex){
                 salirse=true;

@@ -14,17 +14,6 @@ public class Ejercicio6 {
         }
     }
 
-    public static int []noAlmacenados(int matriz[]){
-        int noAlmacenado[] = new int[10];
-
-        for (int i=0;i<matriz.length;i++){
-            if (matriz[i]!=i){
-                noAlmacenado[i]=i;
-            }
-        }
-        return noAlmacenado;
-    }
-
     public static void main(String[] args) {
 
         //Realiza un programa que cree un vector de 100 posiciones con números aleatorios entre 1 y 100. Una
