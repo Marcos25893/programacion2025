@@ -7,6 +7,11 @@ public class Ejercicio8 {
 
         String texto="http://www.iesjaroso.es/noticias";
 
+        StringBuffer sb = new StringBuffer(texto);
+        sb.delete(4,6);
+
+        texto = sb.toString();
+
         String []trozo= texto.split("/");
 
         for (int i=0;i<trozo.length;i++){
