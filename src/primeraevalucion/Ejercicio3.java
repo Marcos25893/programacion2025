@@ -5,7 +5,20 @@ public class Ejercicio3 {
 
     public static String encriptar(String texto) {
         StringBuffer sb = new StringBuffer();
+
+//        String palabras[]=texto.split(" ");
         char letra;
+//        String cambio;
+//        for (String palabra:palabras){
+//            StringBuffer uno = new StringBuffer();
+//            letra=palabra.charAt(0);
+//            sb.insert(palabra.length(), letra);
+//            sb.deleteCharAt(0);
+//            cambio=uno.toString();
+//            sb.append(cambio);
+//
+//        }
+
         for (int i=0;i<texto.length();i++){
             letra=texto.charAt(i);
             switch (letra){
@@ -42,6 +55,7 @@ public class Ejercicio3 {
 
     public static String desencritar(String textoEncriptado) {
         StringBuffer sb = new StringBuffer();
+
         char letra;
         for (int i=0;i<textoEncriptado.length();i++){
             letra=textoEncriptado.charAt(i);
