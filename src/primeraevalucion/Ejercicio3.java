@@ -12,8 +12,8 @@ public class Ejercicio3 {
 //        for (String palabra:palabras){
 //            StringBuffer uno = new StringBuffer();
 //            letra=palabra.charAt(0);
-//            sb.insert(palabra.length(), letra);
 //            sb.deleteCharAt(0);
+//            sb.append(palabra.length()-1,letra);
 //            cambio=uno.toString();
 //            sb.append(cambio);
 //
@@ -44,10 +44,9 @@ public class Ejercicio3 {
         String palabras[]=texto.split(" ");
         for (String palabra:palabras){
             if (palabra.length()%2!=0){
-                sb.reverse();
+                sb.append(sb.reverse());
             }
         }
-
 
         return sb.toString();
     }
@@ -86,8 +85,6 @@ public class Ejercicio3 {
                 sb.reverse();
             }
         }
-
-
 
         return sb.toString();
     }

@@ -38,9 +38,5 @@ public class EjemploStringB {
         System.out.println(sb);
         String cadena2 = sb.toString(); //Asignar un StringBuffer a String
 
-
-
-
-
     }
 }

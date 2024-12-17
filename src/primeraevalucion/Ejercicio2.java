@@ -145,7 +145,7 @@ public class Ejercicio2 {
 
             ronda++;
             System.out.println("Vida del Jugador1 " + vidaJugador1 + " vida Jugador2 " + vidaJugador2 + " ronda actual " + ronda);
-
+            System.out.println();
         }
 
         if (vidaJugador1==0 || vidaJugador2>vidaJugador1){

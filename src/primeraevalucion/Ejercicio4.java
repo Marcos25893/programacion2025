@@ -48,8 +48,8 @@ public class Ejercicio4 {
      */
     public static String[][] disparo(String tablero[][], int x, int y, int tesoroX, int tesoroY){
         if (tesoro(tablero,x,y,tesoroX,tesoroY)==false) {
-            tablero[x][y] = "fallo";
-        }else tablero[x][y] = "tesoro";
+            tablero[x][y] = "F";
+        }else tablero[x][y] = "X";
         return tablero;
     }
 
@@ -136,8 +136,8 @@ public class Ejercicio4 {
         }
         if (encontrarTesoro){
             System.out.println("Ganaste conseguiste el tesoro");
+            pintar(tablero);
         }else System.out.println("Perdiste, te quedaste sin intentos");
-
 
     }
 }
