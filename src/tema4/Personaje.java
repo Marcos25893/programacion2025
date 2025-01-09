@@ -1,39 +1,27 @@
 package tema4;
 
 public class Personaje {
-    //1. Crear una clase Personaje
-    //   Propiedades: (private)
-    //   - nombre de tipo String
-    //   - clase de tipo String (elfo, bárbaro, ...)
-    //   - sexo de tipo String (hombre, mujer, nodefinido)
-    //   - vida de tipo Integer (0 - 100)
-    //
-    //   Constructor
-    //   - Todas las propiedades -> new Personaje("Aragorn", "Guerrero", "hombre", 50)
-    //   - Vacío -> new Personaje() -> que ponga por defecto ("SinNombre", "Humano", "nodefinido",10)
-    //
-    //   Métodos
-    //   - Getter
-    //   - Setter
-    //   - ToString
-    //
-    //2. Crear una clase TestPersonaje
-    //   - Crear un objeto jugador1 con los valores que queráis.
-    //   - Crear un objeto jugador2 con los valores por defecto.
-    //   - Cambiar la clase de jugador1 a "Enano"
-    //   - Cambiar la vida de jugador2 a 75
-    //   - Pintar jugador1 y jugador2
 
     private String nombre;
     private String clase;
     private String sexo;
     private Integer vida;
+    private Arma arma;
 
-    public Personaje(String nombre, String clase, String sexo, Integer vida) {
+    public Personaje(String nombre, String clase, String sexo, Integer vida, Arma arma) {
         this.nombre = nombre;
         this.clase = clase;
         this.sexo = sexo;
         this.vida = vida;
+        this.arma = arma;
+    }
+
+    public Arma getArma() {
+        return arma;
+    }
+
+    public void setArma(Arma arma) {
+        this.arma = arma;
     }
 
     public Personaje() {
@@ -41,6 +29,7 @@ public class Personaje {
         this.clase="Humano";
         this.sexo="nodefinido";
         this.vida=10;
+
     }
 
     public String getNombre() {
@@ -53,6 +42,18 @@ public class Personaje {
 
     public String getClase() {
         return clase;
+    }
+
+    @Override
+    public String toString() {
+        final StringBuffer sb = new StringBuffer("Personaje{");
+        sb.append("nombre='").append(nombre).append('\'');
+        sb.append(", clase='").append(clase).append('\'');
+        sb.append(", sexo='").append(sexo).append('\'');
+        sb.append(", vida=").append(vida);
+        sb.append(", arma=").append(arma);
+        sb.append('}');
+        return sb.toString();
     }
 
     public void setClase(String clase) {
@@ -75,13 +76,8 @@ public class Personaje {
         this.sexo = sexo;
     }
 
-    @Override
-    public String toString() {
-        return "Personaje{" +
-                "nombre='" + nombre + '\'' +
-                ", clase='" + clase + '\'' +
-                ", sexo='" + sexo + '\'' +
-                ", vida=" + vida +
-                '}';
+    public void golpear(Personaje pj) {
+        this.arma.golpear(pj);
     }
+
 }
