@@ -29,6 +29,7 @@ public class Personaje {
         this.clase="Humano";
         this.sexo="nodefinido";
         this.vida=10;
+        this.arma = null;
 
     }
 

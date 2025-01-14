@@ -1,16 +1,19 @@
 package tema4;
 
-import static tema4.Arma.tipoArma.MARTILLO;
+
 
 public class TestPersonaje {
     public static void main(String[] args) {
 
-      //  Personaje pj1 = new Personaje("Pepe", "Elfo", "Hombre", 80, MARTILLO);
-      //  Personaje pj2 = new Personaje("Alfredo", "Orco", "NoDefinido", 120, Arma.tipoArma.ESPADA);
+        Arma martillo = new Arma("MartilloHielo",100,30,Arma.tipoArma.MARTILLO);
+        Arma espada = new Arma("EspadaFuego", 100,40,Arma.tipoArma.ESPADA);
+        Personaje pj1 = new Personaje("Pepe", "Elfo", "Hombre", 80, martillo);
+        Personaje pj2 = new Personaje();
 
-      //  System.out.println(pj1);
-     //   System.out.println(pj2);
+        System.out.println(pj1);
+        System.out.println(pj2);
 
-
+        pj1.golpear(pj2);
+        System.out.println(pj2);
     }
 }
