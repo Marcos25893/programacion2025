@@ -141,10 +141,24 @@ public class Jugador {
         return muerto;
     }
 
-    public void golpear(Monstruo monstruo){
+    public void golpearJ(Monstruo monstruo){
         if (this.getArmaDerecha() != null){
             monstruo.reducirVidaM(this.getArmaDerecha().getPuntosD());
+            if (!this.armaDerecha.getDosManos()){
+                if (this.getArmaIzquierda() != null){
+                    monstruo.reducirVidaM(this.getArmaIzquierda().getPuntosD());
+                }
+            }
         }
+        if (monstruo.getSalud()<=0){
+            System.out.println("El monstruo a sido derrotado");
+            this.experiencia+=10*monstruo.getNivel();
+            if (this.experiencia>=100){
+                this.experiencia-=100;
+                subirNivelJ();
+            }
+        }
+
     }
 }
 
