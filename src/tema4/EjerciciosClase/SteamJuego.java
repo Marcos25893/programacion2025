@@ -4,6 +4,20 @@ public class SteamJuego {
 
     private String nombre;
     private String descripcionCorta;
+
+    @Override
+    public String toString() {
+        final StringBuffer sb = new StringBuffer("SteamJuego{");
+        sb.append("nombre='").append(nombre).append('\'');
+        sb.append(", descripcionCorta='").append(descripcionCorta).append('\'');
+        sb.append(", mediaJugadoresDiarios=").append(mediaJugadoresDiarios);
+        sb.append(", diasDesdeSalida=").append(diasDesdeSalida);
+        sb.append(", precio=").append(precio);
+        sb.append(", puestoMasVendidos=").append(puestoMasVendidos);
+        sb.append('}');
+        return sb.toString();
+    }
+
     private Integer mediaJugadoresDiarios;
     private Integer diasDesdeSalida;
     private Double precio;

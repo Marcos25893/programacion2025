@@ -1,4 +1,4 @@
-package tema4;
+package tema4.PracticaClase;
 
 public class TestTarjetaRegalo {
     public static void main(String[] args) {

@@ -6,13 +6,16 @@ public class TestSteamJuego {
         SteamJuego juego2 = new SteamJuego("DASS","Accion",80000,49.99,17,23);
         SteamJuego juego3 = new SteamJuego("RED","Aventura",8000,14.99,43,83);
 
+        System.out.println(juego1);
+        System.out.println(juego2);
+        System.out.println(juego3);
+
         juego1.jugadoresDia(89000);
         juego2.jugadoresDia(68000);
         juego3.jugadoresDia(6500);
 
-
-        System.out.println(juego1.getMediaJugadoresDiarios());
-        System.out.println(juego2.getMediaJugadoresDiarios());
-        System.out.println(juego3.getMediaJugadoresDiarios());
+        System.out.println("Media jugadores diarios en FIF " + juego1.getMediaJugadoresDiarios() + " personas");
+        System.out.println("Media jugadores diarios en DASS " + juego2.getMediaJugadoresDiarios() + " personas");
+        System.out.println("Media jugadores diarios en RED " + juego3.getMediaJugadoresDiarios() + " personas");
     }
 }

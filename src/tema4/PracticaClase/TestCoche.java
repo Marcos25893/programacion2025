@@ -1,4 +1,4 @@
-package tema4;
+package tema4.PracticaClase;
 
 public class TestCoche {
     public static void main(String[] args) {

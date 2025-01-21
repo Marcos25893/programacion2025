@@ -1,7 +1,7 @@
-package tema4;
+package tema4.PracticaClase;
 
-import static tema4.Arma.tipoArma.ESPADA;
-import static tema4.Arma.tipoArma.MARTILLO;
+import static tema4.PracticaClase.Arma.tipoArma.ESPADA;
+import static tema4.PracticaClase.Arma.tipoArma.MARTILLO;
 
 public class TestArma {
     public static void main(String[] args) {

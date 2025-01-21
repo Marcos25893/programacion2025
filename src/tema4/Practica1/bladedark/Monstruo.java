@@ -1,4 +1,4 @@
-package tema4.Practica1;
+package tema4.Practica1.bladedark;
 
 public class Monstruo {
 

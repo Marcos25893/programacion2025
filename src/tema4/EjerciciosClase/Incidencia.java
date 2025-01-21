@@ -7,14 +7,14 @@ public class Incidencia {
     private Estado estado;
     private String problema;
     private String solucion;
-    private static int pendientes;
+    private static Integer pendientes=0;
 
-    public Incidencia(Integer codigo, Estado estado, String problema, String solucion) {
+    public Incidencia(Integer codigo, String problema){
         Incidencia.pendientes++;
         this.codigo = codigo;
-        this.estado = estado;
+        this.estado = Estado.ABIERTA;
         this.problema = problema;
-        this.solucion = solucion;
+        this.solucion = "";
     }
 
     public static int getPendientes() {
@@ -64,20 +64,9 @@ public class Incidencia {
         return sb.toString();
     }
 
-    public void resuelve(){
+    public void resuelve(String solucion){
         this.estado=Estado.RESUELTA;
+        this.solucion = solucion;
         Incidencia.pendientes--;
-//        if (this.estado==Estado.RESUELTA) {
-//            Incidencia.pendientes--;
-//        }
     }
-
-//    public static void resuelve(){
-//
-//        Incidencia.pendientes--;
-//
-//    }
-
-
-
 }
