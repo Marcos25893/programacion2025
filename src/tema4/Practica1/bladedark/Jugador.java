@@ -124,10 +124,26 @@ public class Jugador {
         return equipado;
     }
 
+    public void dejarArma(Arma arma){
+        if (this.armaDerecha==arma && this.armaIzquierda==arma){
+            this.armaDerecha=null;
+            this.armaIzquierda=null;
+        } else if (this.armaDerecha==arma) {
+            this.armaDerecha=null;
+        } else if (this.armaIzquierda==arma) {
+            this.armaIzquierda=null;
+        }else System.out.println("No llevas equipada ese arma");
+    }
+
     public void tomarPocion(int puntosS){
-        this.salud += puntosS;
-        if (this.salud>10000){
-            this.salud=10000.0;
+        if (this.salud==0){
+            System.out.println("No puedes tomar pociones, tu personaje esta muerto");
+        }else {
+            this.salud += puntosS;
+            if (this.salud > 10000) {
+                System.out.println("La salud esta al maximo");
+                this.salud = 10000.0;
+            }
         }
     }
 

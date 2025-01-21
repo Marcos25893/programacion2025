@@ -92,7 +92,7 @@ public class Monstruo {
     }
 
     public void golpearM(Jugador jugador){
-        jugador.setSalud(jugador.getSalud()-getPuntosD());
+        jugador.reducirVidaJ(getPuntosD());
         if (jugador.getSalud()<=0){
             System.out.println("El jugador a sido derrotado");
         }
