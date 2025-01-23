@@ -35,7 +35,7 @@ public class TestTelefonoMovil {
             System.out.println("son iguales");
         }else System.out.println("son diferentes");
 
-        System.out.println("Se usaria mejor el equals porque esta comparando que los datos sean los mismo" +
+        System.out.println("Se usaria mejor el equals porque esta comparando que los datos sean los mismos " +
                 "mientras que el == esta viendo si miran al mismo lugar");
     }
 }
