@@ -48,11 +48,17 @@ public class Prueba {
         return sb.toString();
     }
 
+    /**
+     * Si devuelve true si la potencia del hechizo es
+     * mayor que la dificultad de la prueba
+     * y false en caso contrario
+     * @param hechizo
+     * @return
+     */
     public boolean resolver(Hechizo hechizo){
-        boolean completado=false;
-        if (hechizo.getPotencia()>=getNivelDificultad()){
-            completado=true;
-        }
-        return completado;
+        if (hechizo.getPotencia()>=this.getNivelDificultad()){
+            return true;
+        }else return false;
+
     }
 }

@@ -49,10 +49,9 @@ public class Hechizo {
     }
 
     public boolean esEfectivo(Prueba prueba){
-        boolean superado=false;
-        if (this.potencia>=prueba.getNivelDificultad()){
-            superado=true;
-        }
-        return superado;
+
+        if (this.getPotencia()>=prueba.getNivelDificultad()){
+            return true;
+        }else return false;
     }
 }
