@@ -114,7 +114,9 @@ public class Mago {
             }
         }else if (miHechizo==null){
             System.out.println("No puedes usar ese hechizo, primero tienes que aprenderlo");
-        }else System.out.println("No tienes energia suficiente, necesitas " + (miHechizo.getEnergiaNecesaria()-this.getEnergia()) + " energia");
+        }else if (this.getEnergia()<=miHechizo.getEnergiaNecesaria()){
+            System.out.println("No tienes energia suficiente, necesitas " + (miHechizo.getEnergiaNecesaria()-this.getEnergia()) + " energia");
+        }
 
     }
 
