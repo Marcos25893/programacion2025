@@ -100,6 +100,10 @@ public class Jugador {
         return sb.toString();
     }
 
+    /**
+     * Comprueba que el nivel del jugador es menor que 10
+     * y sube un nivel al personaje
+     */
     public void subirNivelJ(){
         if(this.nivel!=10) {
             this.nivel += 1;
@@ -107,6 +111,12 @@ public class Jugador {
         }
     }
 
+    /**
+     * Comprueba si puede equipar el arma
+     * y si se puede se la equipa
+     * @param arma
+     * @return
+     */
     public boolean equipar(Arma arma){
         boolean equipado=false;
         if (this.armaDerecha==null && arma.getDosManos()){
@@ -124,6 +134,10 @@ public class Jugador {
         return equipado;
     }
 
+    /**
+     * El jugador se quita el arma que le pasemos
+     * @param arma
+     */
     public void dejarArma(Arma arma){
         if (this.armaDerecha==arma && this.armaIzquierda==arma){
             this.armaDerecha=null;
@@ -135,6 +149,12 @@ public class Jugador {
         }else System.out.println("No llevas equipada ese arma");
     }
 
+    /**
+     * Si el personaje todavia tiene salud
+     * Aumenta su salud dependiendo del parametro que le pasemos
+     * hasta 10000 de vida
+     * @param puntosS
+     */
     public void tomarPocion(int puntosS){
         if (this.salud==0){
             System.out.println("No puedes tomar pociones, tu personaje esta muerto");
@@ -147,6 +167,12 @@ public class Jugador {
         }
     }
 
+    /**
+     * El jugador pierde vida
+     * y comprueba que esta muerto
+     * @param puntosD
+     * @return
+     */
     public boolean reducirVidaJ(int puntosD){
         boolean muerto=false;
         this.salud-=puntosD;
@@ -157,6 +183,13 @@ public class Jugador {
         return muerto;
     }
 
+    /**
+     * El monstruo recibe daño dependiedo de si estamos usando dos armas o un mandoble
+     *Luego comprueba si el monstruo sigue con vida
+     * Si el mosntruo muero el jugador recibe la experiencia correspondiente
+     * Si llega 100 la experiencia sube de nivel
+     * @param monstruo
+     */
     public void golpearJ(Monstruo monstruo){
         if (this.getArmaDerecha() != null){
             monstruo.reducirVidaM(this.getArmaDerecha().getPuntosD());

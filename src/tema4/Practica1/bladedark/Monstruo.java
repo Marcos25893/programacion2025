@@ -74,6 +74,9 @@ public class Monstruo {
         return sb.toString();
     }
 
+    /**
+     * El monstruo sube de nivel hasta un maximo de 10
+     */
     public void subirNivelM(){
         if(this.nivel!=10) {
             this.nivel += 1;
@@ -81,6 +84,11 @@ public class Monstruo {
         }
     }
 
+    /**
+     * El monstruo pierde salud tanto como le pasemos por parametro
+     * @param puntosD
+     * @return
+     */
     public boolean reducirVidaM(int puntosD){
         boolean muerto=false;
         this.salud-=puntosD;
@@ -91,6 +99,10 @@ public class Monstruo {
         return muerto;
     }
 
+    /**
+     * El monstruo golpea al jugador y comprueba si esta derrotado
+     * @param jugador
+     */
     public void golpearM(Jugador jugador){
         jugador.reducirVidaJ(getPuntosD());
         if (jugador.getSalud()<=0){
