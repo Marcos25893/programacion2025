@@ -79,9 +79,6 @@ public class NotasCurso {
         final StringBuffer sb = new StringBuffer("NotasCurso{");
         sb.append("asignatura='").append(asignatura).append('\'');
         sb.append(", curso=").append(curso);
-        sb.append(", nota1Ev=").append(nota1Ev);
-        sb.append(", nota2Ev=").append(nota2Ev);
-        sb.append(", nota3Ev=").append(nota3Ev);
         sb.append(", notaFinal=").append(notaFinal);
         sb.append('}');
         return sb.toString();
@@ -98,8 +95,6 @@ public class NotasCurso {
     public int hashCode() {
         return Objects.hash(asignatura, curso, nota1Ev, nota2Ev, nota3Ev);
     }
-
-
 
     public Double calcularNotaFinal(){
         return (this.nota1Ev + this.nota2Ev + this.nota3Ev) / 3;
