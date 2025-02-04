@@ -31,6 +31,15 @@ public class Persona {
         this.altura = altura;
     }
 
+    public Persona(Persona unPersona){
+        this.nombre = unPersona.nombre;
+        this.edad = unPersona.edad;
+        this.dni = unPersona.dni;
+        this.sexo = unPersona.sexo;
+        this.peso = unPersona.peso;
+        this.altura = unPersona.altura;
+    }
+
     public String getNombre() {
         return nombre;
     }
