@@ -19,8 +19,20 @@ public class Comercial extends Empleados {
 
     @Override
     public String toString() {
-        return "Comercial{" +
-                "comision=" + comision +
-                '}';
+        final StringBuffer sb = new StringBuffer("Comercial{");
+        sb.append("nombre='").append(nombre).append('\'');
+        sb.append(", edad=").append(edad);
+        sb.append(", salario=").append(salario);
+        sb.append(", comision=").append(comision);
+        sb.append('}');
+        return sb.toString();
+    }
+
+    public boolean plusComercial(){
+        if (this.edad>30 && this.comision>200){
+            this.salario+=this.PLUS;
+            return true;
+        }else
+            return false;
     }
 }
