@@ -35,9 +35,9 @@ public class Banco {
         return Objects.hashCode(cuentaBancarias);
     }
 
-    public CuentaBancaria getCuenta(CuentaBancaria numeroDeCuenta){
+    public CuentaBancaria getCuenta(String numeroDeCuenta){
         for (CuentaBancaria cuenta : cuentaBancarias){
-            if (cuenta.equals(numeroDeCuenta)){
+            if (cuenta.numeroCuenta.equalsIgnoreCase(numeroDeCuenta)){
                 return cuenta;
             }
         }

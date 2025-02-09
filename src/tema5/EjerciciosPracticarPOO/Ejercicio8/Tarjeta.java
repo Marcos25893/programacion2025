@@ -5,7 +5,7 @@ public class Tarjeta extends CuentaCorriente{
     private String numeroTarjetaCredito;
     private String numeroTarjetaDebito;
 
-    public Tarjeta(Double saldo, Double comisionesAnual, String numeroTarjetaCredito, String numeroTarjetaDebito) {
+    public Tarjeta(Double saldo, Double comisionesAnual) {
         super(saldo, comisionesAnual);
         this.numeroTarjetaCredito = generarTarjetaCredito();
         this.numeroTarjetaDebito = generarTarjetaDebito();
@@ -47,5 +47,14 @@ public class Tarjeta extends CuentaCorriente{
         return sb.toString();
     }
 
-
+    @Override
+    public String toString() {
+        return "Tarjeta{" +
+                "numeroTarjetaDebito='" + numeroTarjetaDebito + '\'' +
+                ", numeroTarjetaCredito='" + numeroTarjetaCredito + '\'' +
+                ", modifComisionesCorriente=" + modifComisionesCorriente +
+                ", numeroCuenta='" + numeroCuenta + '\'' +
+                ", saldo=" + saldo +
+                '}';
+    }
 }
