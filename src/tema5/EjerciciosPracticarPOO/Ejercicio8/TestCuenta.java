@@ -30,8 +30,6 @@ public class TestCuenta {
         System.out.println(ctC1);
 
 
-
-
         caja.addCuenta(ctA2);
         caja.addCuenta(ctJ1);
         caja.addCuenta(ctC2);
