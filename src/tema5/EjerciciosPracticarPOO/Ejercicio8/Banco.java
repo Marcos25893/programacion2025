@@ -37,7 +37,7 @@ public class Banco {
 
     public CuentaBancaria getCuenta(String numeroDeCuenta){
         for (CuentaBancaria cuenta : cuentaBancarias){
-            if (cuenta.numeroCuenta.equalsIgnoreCase(numeroDeCuenta)){
+            if (cuenta.getNumeroCuenta().equalsIgnoreCase(numeroDeCuenta)){
                 return cuenta;
             }
         }
