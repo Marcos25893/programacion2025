@@ -1,4 +1,4 @@
-package tema5.BladeofDarnknessll;
+package tema5.Objetos2.BladeofDarnknessll;
 
 public class Jugador extends Personaje{
     enum Clase{MAGO, BRUJO, BARBARO, CABALLERO}

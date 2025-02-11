@@ -1,4 +1,4 @@
-package tema5.BladeofDarnknessll;
+package tema5.Objetos2.BladeofDarnknessll;
 
 public class MonstruoFinalNivel extends Monstruo{
 

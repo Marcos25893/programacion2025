@@ -1,4 +1,4 @@
-package tema5.BladeofDarnknessll;
+package tema5.Objetos2.BladeofDarnknessll;
 
 public class TestJuego {
     public static void main(String[] args) {
