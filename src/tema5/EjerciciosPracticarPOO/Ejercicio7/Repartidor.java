@@ -43,7 +43,8 @@ public class Repartidor extends Operario{
         return Objects.hashCode(zona);
     }
 
-    public boolean plusRepartidor(){
+    @Override
+    public boolean aplicaPlus() {
         if (this.edad<25 && this.zona.equalsIgnoreCase("zona3")){
             if (this.hacerHorasExtra){
                 this.salario+=(this.PLUS*2);

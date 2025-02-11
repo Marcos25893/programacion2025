@@ -8,7 +8,7 @@ public class Partida {
     private ArrayList<Monstruo> monstruos;
 
     public Partida(Jugador jugador) {
-        this.monstruos= new ArrayList<>();
+        this.monstruos= new ArrayList<>(10);
         this.jugador=jugador;
         inicarPartida(jugador);
     }
@@ -26,10 +26,9 @@ public class Partida {
         this.monstruos.add(jefe1);
         this.monstruos.add(jefe2);
 
-        Jugador pj1 = new Jugador();
         Arma espada = new Arma("Excalibur", Arma.Tipo.ESPADA,50,Boolean.TRUE);
 
-        pj1.equipar(espada);
+        jugador.equipar(espada);
     }
 
     public boolean turnoJugador(){

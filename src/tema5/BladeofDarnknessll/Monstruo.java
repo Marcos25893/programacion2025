@@ -71,12 +71,11 @@ public class Monstruo extends Personaje{
      * El monstruo golpea al jugador y comprueba si esta derrotado
      * @param personaje
      */
-
     @Override
     public void golpear(Personaje personaje) {
         personaje.reducirVida(getPuntosD());
         if (personaje.getSalud()<=0){
-            System.out.println("El jugador a sido derrotado");
+            System.out.println(personaje.getNombre() + " ha muerto");
         }
     }
 }

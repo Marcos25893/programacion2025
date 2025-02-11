@@ -1,7 +1,7 @@
 package tema5.EjerciciosPracticarPOO.Ejercicio8;
 
-public class Tarjeta extends CuentaCorriente{
-
+public class Tarjeta /*extends CuentaCorriente*/{
+/*
     private String numeroTarjetaCredito;
     private String numeroTarjetaDebito;
 
@@ -49,12 +49,17 @@ public class Tarjeta extends CuentaCorriente{
 
     @Override
     public String toString() {
-        return "Tarjeta{" +
-                "numeroTarjetaDebito='" + numeroTarjetaDebito + '\'' +
-                ", numeroTarjetaCredito='" + numeroTarjetaCredito + '\'' +
-                ", modifComisionesCorriente=" + modifComisionesCorriente +
-                ", numeroCuenta='" + numeroCuenta + '\'' +
-                ", saldo=" + saldo +
-                '}';
+        final StringBuffer sb = new StringBuffer("Tarjeta{");
+        sb.append("numeroCuenta='").append(numeroCuenta).append('\'');
+        sb.append(", saldo=").append(saldo);
+        sb.append(", tieneTarjetaCredito=").append(tieneTarjetaCredito);
+        sb.append(", tieneTarjetaDebito=").append(tieneTarjetaDebito);
+        sb.append(", comisionesAnual=").append(comisionesAnual);
+        sb.append(", modifComision=").append(modifComision);
+        sb.append(", numeroTarjetaCredito='").append(numeroTarjetaCredito).append('\'');
+        sb.append(", numeroTarjetaDebito='").append(numeroTarjetaDebito).append('\'');
+        sb.append('}');
+        return sb.toString();
     }
+    */
 }

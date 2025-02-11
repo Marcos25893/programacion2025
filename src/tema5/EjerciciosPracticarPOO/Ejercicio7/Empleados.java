@@ -1,6 +1,7 @@
 package tema5.EjerciciosPracticarPOO.Ejercicio7;
 
 public abstract class Empleados {
+    //No se pueden crer objetos de esa clase
 
     protected String nombre;
     protected Integer edad;
@@ -46,4 +47,6 @@ public abstract class Empleados {
                 ", salario=" + salario +
                 '}';
     }
+
+    public  abstract boolean aplicaPlus();
 }

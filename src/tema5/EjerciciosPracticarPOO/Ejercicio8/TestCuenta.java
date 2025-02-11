@@ -9,11 +9,10 @@ public class TestCuenta {
         CuentaJoven ctJ1 = new CuentaJoven(237.45,false,false,2.78);
         CuentaJoven ctJ2 = new CuentaJoven(1478.45,false,true,2.98);
 
-        CuentaCorriente ctC1 = new CuentaCorriente(30858.35,15.38);
-        CuentaCorriente ctC2 = new CuentaCorriente(1254.54,5.3);
-
-        Tarjeta cliente1 = new Tarjeta(4032.25,7.4);
-        Tarjeta cliente2 = new Tarjeta(328.32,3.5);
+        CuentaCorriente ctC1 = new CuentaCorriente(30858.35,15.38,
+                new Tarjeta2("tc250",28000.0),new Tarjeta2("td263",3000.0));
+        CuentaCorriente ctC2 = new CuentaCorriente(1254.54,5.3,
+                new Tarjeta2("tc258",280.0),new Tarjeta2("td269",500.0));
 
         Banco caja = new Banco();
 
@@ -42,15 +41,6 @@ public class TestCuenta {
         System.out.println(caja.getCuenta(ctJ2.getNumeroCuenta()));
 
         System.out.println(caja);
-
-        cliente1.generarTarjetaCredito();
-        cliente1.generarTarjetaDebito();
-
-        cliente2.generarTarjetaCredito();
-        cliente2.generarTarjetaDebito();
-        System.out.println(cliente1);
-        System.out.println(cliente2);
-
 
     }
 }

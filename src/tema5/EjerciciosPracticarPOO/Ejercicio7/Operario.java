@@ -1,6 +1,6 @@
 package tema5.EjerciciosPracticarPOO.Ejercicio7;
 
-public class Operario extends Empleados{
+public abstract class Operario extends Empleados{
 
     protected boolean hacerHorasExtra;
 
@@ -27,4 +27,7 @@ public class Operario extends Empleados{
         sb.append('}');
         return sb.toString();
     }
+
+    @Override
+    public abstract boolean aplicaPlus();
 }

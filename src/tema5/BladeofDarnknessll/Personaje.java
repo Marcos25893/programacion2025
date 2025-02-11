@@ -90,7 +90,7 @@ public abstract class Personaje {
     public void subirNivel() {
         if(nivel!=10) {
             this.nivel += 1;
-            this.salud += Math.pow(2.5, this.nivel);
+            this.salud += Math.pow(2, this.nivel);
         }
     }
 

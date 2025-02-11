@@ -147,7 +147,7 @@ public class Jugador extends Personaje{
             }
         }
         if (personaje.getSalud()<=0){
-            System.out.println("El monstruo a sido derrotado");
+            System.out.println(personaje.getNombre() + " ha sido derrotado");
             this.experiencia+=10*personaje.getNivel();
             if (this.experiencia>=100){
                 this.experiencia-=100;

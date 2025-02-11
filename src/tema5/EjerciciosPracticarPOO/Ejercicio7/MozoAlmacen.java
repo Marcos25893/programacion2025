@@ -44,8 +44,13 @@ public class MozoAlmacen extends Operario {
         return Objects.hashCode(peligrosidad);
     }
 
-    public boolean plusMozoAlmacen(){
-        if ((this.peligrosidad==3 && this.edad>30) || (this.peligrosidad==1 && this.edad < 30)) {
+
+    @Override
+    public boolean aplicaPlus() {
+        if ((this.peligrosidad==2 && this.edad>30) ||
+                (this.peligrosidad==1 && this.edad < 30) ||
+                this.peligrosidad==3) {
+
             if (this.hacerHorasExtra){
                 this.salario += (this.PLUS * 2);
             }else {

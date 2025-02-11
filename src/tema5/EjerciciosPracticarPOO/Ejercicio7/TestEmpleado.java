@@ -11,21 +11,21 @@ public class TestEmpleado {
         MozoAlmacen per6 = new MozoAlmacen("Juana",35,1342.0,false,3);
 
 
-        System.out.println("Tiene el PLUS " + per1.plusComercial());
+        System.out.println("Tiene el PLUS " + per1.aplicaPlus());
 
-        System.out.println("Tiene el PLUS " + per2.plusComercial());
+        System.out.println("Tiene el PLUS " + per2.aplicaPlus());
         System.out.println(per2);
 
-        System.out.println("Tiene el PLUS " + per3.plusRepartidor());
+        System.out.println("Tiene el PLUS " + per3.aplicaPlus());
         System.out.println(per3);
 
-        System.out.println("Tiene el PLUS " + per4.plusRepartidor());
+        System.out.println("Tiene el PLUS " + per4.aplicaPlus());
         System.out.println(per4);
 
-        System.out.println("Tiene el PLUS " + per5.plusMozoAlmacen());
+        System.out.println("Tiene el PLUS " + per5.aplicaPlus());
         System.out.println(per5);
 
-        System.out.println("Tiene el PLUS " + per6.plusMozoAlmacen());
+        System.out.println("Tiene el PLUS " + per6.aplicaPlus());
         System.out.println(per6);
 
 

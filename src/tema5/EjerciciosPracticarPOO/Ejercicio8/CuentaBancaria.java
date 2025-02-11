@@ -9,21 +9,25 @@ public class CuentaBancaria {
     protected Boolean tieneTarjetaCredito;
     protected Boolean tieneTarjetaDebito;
     protected Double comisionesAnual;
+    protected final Double modifComision;
 
-    public CuentaBancaria(Double saldo, Boolean tieneTarjetaCredito, Boolean tieneTarjetaDebito, Double comisionesAnual) {
+    public CuentaBancaria(Double saldo, Boolean tieneTarjetaCredito,
+                          Boolean tieneTarjetaDebito, Double comisionesAnual, Double modifComision) {
         this.numeroCuenta = crearNumeroCuenta() ;
         this.saldo = saldo;
         this.tieneTarjetaCredito = tieneTarjetaCredito;
         this.tieneTarjetaDebito = tieneTarjetaDebito;
         this.comisionesAnual = comisionesAnual;
+        this.modifComision = modifComision;
     }
 
-    public CuentaBancaria(CuentaBancaria cuenta){
-        this.numeroCuenta = cuenta.numeroCuenta ;
-        this.saldo = cuenta.saldo;
-        this.tieneTarjetaCredito = cuenta.tieneTarjetaCredito;
-        this.tieneTarjetaDebito = cuenta.tieneTarjetaDebito;
-        this.comisionesAnual = cuenta.comisionesAnual;
+    public CuentaBancaria(CuentaBancaria otra){
+        this.numeroCuenta = otra.numeroCuenta ;
+        this.saldo = otra.saldo;
+        this.tieneTarjetaCredito = otra.tieneTarjetaCredito;
+        this.tieneTarjetaDebito = otra.tieneTarjetaDebito;
+        this.comisionesAnual = otra.comisionesAnual;
+        this.modifComision = otra.modifComision;
     }
 
     protected static int numero_aleatorio(int min , int max){
@@ -32,17 +36,11 @@ public class CuentaBancaria {
     }
 
     private String crearNumeroCuenta(){
-        int numero=0;
-        int contador=0;
-        String cuenta="";
 
-        StringBuffer sb = new StringBuffer(cuenta);
-        while(contador<20) {
-            numero = numero_aleatorio(0, 9);
-            contador++;
-            sb.append(numero);
+        StringBuffer sb = new StringBuffer(20);
+        for (int i=0;i<20;i++){
+            sb.append(numero_aleatorio(0, 9));
         }
-
         return sb.toString();
     }
 
@@ -75,22 +73,28 @@ public class CuentaBancaria {
     }
 
     public Double getComisionesAnual() {
-        return comisionesAnual;
+        return comisionesAnual * this.modifComision;
     }
 
     public void setComisionesAnual(Double comisionesAnual) {
         this.comisionesAnual = comisionesAnual;
     }
 
+    public Double getModifComision() {
+        return modifComision;
+    }
+
     @Override
     public String toString() {
-        return "CuentaBancaria{" +
-                "numeroCuenta=" + numeroCuenta +
-                ", saldo=" + saldo +
-                ", tieneTarjetaCredito=" + tieneTarjetaCredito +
-                ", tieneTarjetaDebito=" + tieneTarjetaDebito +
-                ", comisionesAnual=" + comisionesAnual +
-                '}';
+        final StringBuffer sb = new StringBuffer("CuentaBancaria{");
+        sb.append("numeroCuenta='").append(numeroCuenta).append('\'');
+        sb.append(", saldo=").append(saldo);
+        sb.append(", tieneTarjetaCredito=").append(tieneTarjetaCredito);
+        sb.append(", tieneTarjetaDebito=").append(tieneTarjetaDebito);
+        sb.append(", comisionesAnual=").append(comisionesAnual);
+        sb.append(", modifComision=").append(modifComision);
+        sb.append('}');
+        return sb.toString();
     }
 
     @Override

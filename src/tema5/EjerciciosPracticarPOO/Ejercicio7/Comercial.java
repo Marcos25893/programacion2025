@@ -28,7 +28,8 @@ public class Comercial extends Empleados {
         return sb.toString();
     }
 
-    public boolean plusComercial(){
+    @Override
+    public boolean aplicaPlus() {
         if (this.edad>30 && this.comision>200){
             this.salario+=this.PLUS;
             return true;
