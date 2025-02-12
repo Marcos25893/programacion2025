@@ -36,5 +36,15 @@ public abstract class Ciclista {
         this.tiempoAcumulado = tiempoAcumulado;
     }
 
+    @Override
+    public String toString() {
+        final StringBuffer sb = new StringBuffer("Ciclista{");
+        sb.append("identificador=").append(identificador);
+        sb.append(", nombre='").append(nombre).append('\'');
+        sb.append(", tiempoAcumulado=").append(tiempoAcumulado);
+        sb.append('}');
+        return sb.toString();
+    }
+
     public abstract String imprimirTipo();
 }
