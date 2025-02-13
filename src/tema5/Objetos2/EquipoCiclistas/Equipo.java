@@ -57,8 +57,32 @@ public class Equipo {
         return sb.toString();
     }
 
-    public Double tiempoEquipo(String nombreEquipo){
-
+    public Double tiempoEquipo(){
+        double suma=0.0;
+        for (Ciclista ciclista : equipo){
+            if (ciclista.getTiempoAcumulado()!=null) {
+                suma += ciclista.getTiempoAcumulado();
+            }
+        }
+        sumaTiempo=suma;
         return sumaTiempo;
+    }
+
+    public String nombreCiclistaEquipo(){
+        StringBuffer sb = new StringBuffer();
+        for (Ciclista ciclista : equipo){
+            sb.append(ciclista.getNombre() + " ");
+        }
+        return sb.toString();
+    }
+
+    public Ciclista ciclista(Integer identificador){
+        for (Ciclista ciclista : equipo){
+            if (ciclista.getIdentificador().equals(identificador)){
+                return ciclista;
+            }
+        }
+        System.out.println("No esta registrado ese ciclista");
+        return null;
     }
 }

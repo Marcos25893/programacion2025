@@ -21,14 +21,17 @@ public class Contrarrelojista extends Ciclista{
     @Override
     public String toString() {
         final StringBuffer sb = new StringBuffer("Contrarrelojista{");
-        sb.append("velocidadMaxima=").append(velocidadMaxima);
+        sb.append("identificador=").append(identificador);
+        sb.append(", nombre='").append(nombre).append('\'');
+        sb.append(", tiempoAcumulado=").append(tiempoAcumulado);
+        sb.append(", velocidadMaxima=").append(velocidadMaxima);
         sb.append('}');
         return sb.toString();
     }
 
     @Override
     public String imprimirTipo() {
-        return "";
+        return "Contrarrelojista";
     }
 
 

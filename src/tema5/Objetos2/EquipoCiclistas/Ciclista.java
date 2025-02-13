@@ -2,11 +2,11 @@ package tema5.Objetos2.EquipoCiclistas;
 
 public abstract class Ciclista {
 
-    private Integer identificador;
-    private String nombre;
-    private Double tiempoAcumulado=0.0;
+    protected Integer identificador;
+    protected String nombre;
+    protected Double tiempoAcumulado=0.0;
 
-    public Ciclista(Integer identificador, String nombre, Double tiempoAcumulado) {
+    protected Ciclista(Integer identificador, String nombre, Double tiempoAcumulado) {
         this.identificador = identificador;
         this.nombre = nombre;
         this.tiempoAcumulado = tiempoAcumulado;
@@ -46,5 +46,5 @@ public abstract class Ciclista {
         return sb.toString();
     }
 
-    public abstract String imprimirTipo();
+    protected abstract String imprimirTipo();
 }

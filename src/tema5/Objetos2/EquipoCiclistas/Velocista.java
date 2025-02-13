@@ -31,7 +31,10 @@ public class Velocista extends Ciclista{
     @Override
     public String toString() {
         final StringBuffer sb = new StringBuffer("Velocista{");
-        sb.append("potenciaPromedio=").append(potenciaPromedio);
+        sb.append("identificador=").append(identificador);
+        sb.append(", nombre='").append(nombre).append('\'');
+        sb.append(", tiempoAcumulado=").append(tiempoAcumulado);
+        sb.append(", potenciaPromedio=").append(potenciaPromedio);
         sb.append(", velocidadPromedio=").append(velocidadPromedio);
         sb.append('}');
         return sb.toString();
@@ -39,6 +42,6 @@ public class Velocista extends Ciclista{
 
     @Override
     public String imprimirTipo() {
-        return "";
+        return "Velocista";
     }
 }

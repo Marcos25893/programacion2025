@@ -31,7 +31,10 @@ public class Escalador extends Ciclista{
     @Override
     public String toString() {
         final StringBuffer sb = new StringBuffer("Escalador{");
-        sb.append("aceleracionPromedioSubida=").append(aceleracionPromedioSubida);
+        sb.append("identificador=").append(identificador);
+        sb.append(", nombre='").append(nombre).append('\'');
+        sb.append(", tiempoAcumulado=").append(tiempoAcumulado);
+        sb.append(", aceleracionPromedioSubida=").append(aceleracionPromedioSubida);
         sb.append(", gradoDeRampaSoportada=").append(gradoDeRampaSoportada);
         sb.append('}');
         return sb.toString();
@@ -39,7 +42,7 @@ public class Escalador extends Ciclista{
 
     @Override
     public String imprimirTipo() {
-        return "";
+        return "Escalador";
     }
 
 
