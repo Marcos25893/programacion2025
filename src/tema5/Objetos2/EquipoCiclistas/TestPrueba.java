@@ -44,17 +44,18 @@ public class TestPrueba {
                     System.out.println("3. Contrarrelojista");
                     tipo=Integer.parseInt(sc.nextLine());
                     System.out.println("Rellenar Datos");
-                    switch (tipo){
-                        case 1:
-                            System.out.println("Identificador");
-                            ident=Integer.parseInt(sc.nextLine());
-                            System.out.println("Nombre");
-                            nombre= sc.nextLine();
-                            System.out.println("Tiempo acumulado");
-                            tAcu=Integer.parseInt(sc.nextLine());
-                            System.out.println("Potencia promedio");
-                            ptPro=Integer.parseInt(sc.nextLine());
-                    }
+//                    switch (tipo){
+//                        case 1:
+//                            System.out.println("Identificador");
+//                            ident=Integer.parseInt(sc.nextLine());
+//                            System.out.println("Nombre");
+//                            nombre= sc.nextLine();
+//                            System.out.println("Tiempo acumulado");
+//                            tAcu=Integer.parseInt(sc.nextLine());
+//                            System.out.println("Potencia promedio");
+//                            ptPro=Integer.parseInt(sc.nextLine());
+//                    }
+                    break;
             }
         }
 
