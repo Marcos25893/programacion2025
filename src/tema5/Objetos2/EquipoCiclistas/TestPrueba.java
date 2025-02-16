@@ -6,22 +6,13 @@ public class TestPrueba {
 
     public static void main(String[] args) {
 
-        Velocista v1 = new Velocista(1,"Paco",12.0,13.5,21.4);
-        Velocista v2 = new Velocista(2,"Pepe", 15.3,10.4,17.8);
-
-        Escalador e1 = new Escalador(3,"Dolores",25.2,2,85);
-        Escalador e2 = new Escalador(4,"Manolo",28.3,1,90);
-
-        Contrarrelojista c1 = new Contrarrelojista(5,"Domingo",5.4,16);
-        Contrarrelojista c2 = new Contrarrelojista(6,"Angustias",5.3,17);
-
         Equipo team1 = new Equipo("Pato","España");
 
         Scanner sc = new Scanner(System.in);
         int eleccion=0;
         int tipo=0;
-        int ident, aProSub, gRamSo, velMax;
-        double tAcu, ptPro, velPro;
+        int ident, aProSubida, gRamSoportada, velMax;
+        double tAcu, ptPromedio, velPromedio;
         String nombre;
 
         while(eleccion!=6){
@@ -38,23 +29,66 @@ public class TestPrueba {
                     System.out.println(team1);
                     break;
                 case 2:
-                    System.out.println("¿Que clase es el ciclista? Elige el numero correspondiente");
-                    System.out.println("1. Velocista");
-                    System.out.println("2. Escalador");
-                    System.out.println("3. Contrarrelojista");
-                    tipo=Integer.parseInt(sc.nextLine());
+                    do {
+
+                        System.out.println("¿De que clase es el ciclista? Elige el numero correspondiente");
+                        System.out.println("1. Velocista");
+                        System.out.println("2. Escalador");
+                        System.out.println("3. Contrarrelojista");
+                        tipo = Integer.parseInt(sc.nextLine());
+                    }while (tipo<1 || tipo>3);
                     System.out.println("Rellenar Datos");
-//                    switch (tipo){
-//                        case 1:
-//                            System.out.println("Identificador");
-//                            ident=Integer.parseInt(sc.nextLine());
-//                            System.out.println("Nombre");
-//                            nombre= sc.nextLine();
-//                            System.out.println("Tiempo acumulado");
-//                            tAcu=Integer.parseInt(sc.nextLine());
-//                            System.out.println("Potencia promedio");
-//                            ptPro=Integer.parseInt(sc.nextLine());
-//                    }
+                    System.out.println("Identificador");
+                    ident=Integer.parseInt(sc.nextLine());
+                    System.out.println("Nombre");
+                    nombre= sc.nextLine();
+                    System.out.println("Tiempo acumulado");
+                    tAcu=Double.parseDouble(sc.nextLine());
+                    switch (tipo){
+                        case 1:
+                            System.out.println("Potencia promedio");
+                            ptPromedio=Double.parseDouble(sc.nextLine());
+                            System.out.println("Velocidad Promedio");
+                            velPromedio=Double.parseDouble(sc.nextLine());
+                            Velocista v1 = new Velocista(ident,nombre,tAcu,ptPromedio,velPromedio);
+                            team1.addCiclista(v1);
+                            break;
+                        case 2:
+                            System.out.println("Aceleraccion Promedio de Subida");
+                            aProSubida=Integer.parseInt(sc.nextLine());
+                            System.out.println("Grado de rampa soportada");
+                            gRamSoportada=Integer.parseInt(sc.nextLine());
+                            Escalador e1 = new Escalador(ident,nombre,tAcu,aProSubida,gRamSoportada);
+                            team1.addCiclista(e1);
+                            break;
+                        case 3:
+                            System.out.println("Velocidad máxima");
+                            velMax=Integer.parseInt(sc.nextLine());
+                            Contrarrelojista c1 = new Contrarrelojista(ident,nombre,tAcu,velMax);
+                            team1.addCiclista(c1);
+                            break;
+                        default:
+                            System.out.println("Valor Incorrecto, el valor tiene que ser 1,2 o 3");
+                            break;
+                    }
+                    break;
+                case 3:
+                    System.out.println(team1.tiempoEquipo());
+                    break;
+
+                case 4:
+                    System.out.println(team1.nombreCiclistaEquipo());
+                    break;
+                case 5:
+                    System.out.println("Dime el identificador del ciclista que quieras buscar");
+                    ident=Integer.parseInt(sc.nextLine());
+                    System.out.println(team1.buscarCiclista(ident));
+                    break;
+                case 6:
+                    System.out.println("Adios");
+                    break;
+                default:
+                    System.out.println("Error, Valor no valido");
                     break;
             }
         }

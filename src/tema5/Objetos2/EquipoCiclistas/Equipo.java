@@ -76,7 +76,7 @@ public class Equipo {
         return sb.toString();
     }
 
-    public Ciclista ciclista(Integer identificador){
+    public Ciclista buscarCiclista(Integer identificador){
         for (Ciclista ciclista : equipo){
             if (ciclista.getIdentificador().equals(identificador)){
                 return ciclista;
