@@ -14,6 +14,18 @@ public class PrimeVideo {
         this.ganancias = 0;
     }
 
+    public Multimedia getCatalogo(int numero) {
+        return catalogo.get(numero);
+    }
+
+    public ArrayList<Multimedia> getCatalogo() {
+        return catalogo;
+    }
+
+    public ArrayList<Cliente> getSuscriptores() {
+        return suscriptores;
+    }
+
     public void addSuscriptor(Cliente cliente){
         boolean sus=false;
         for (Cliente c : suscriptores) {
@@ -49,8 +61,8 @@ public class PrimeVideo {
             this.ganancias+=(c.getPrecioMensual()*12);
         }
 
-
         return this.ganancias;
     }
+
 
 }

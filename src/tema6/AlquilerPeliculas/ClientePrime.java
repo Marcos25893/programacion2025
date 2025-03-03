@@ -8,6 +8,7 @@ public class ClientePrime extends Cliente{
         super(dni, nombre, email);
     }
 
+
     @Override
     public boolean esPro() {
         return false;
