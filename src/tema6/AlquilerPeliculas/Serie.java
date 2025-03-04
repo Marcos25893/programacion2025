@@ -38,12 +38,12 @@ public class Serie extends Multimedia{
     @Override
     public String toString() {
         return "Serie{" +
-                "temporadas=" + temporadas +
+                "titulo='" + titulo + '\'' +
                 ", codigo=" + codigo +
-                ", titulo='" + titulo + '\'' +
                 ", esPlus=" + esPlus +
                 ", precio=" + precio +
                 ", genero=" + genero +
+                ", temporadas=" + temporadas +
                 '}';
     }
 }

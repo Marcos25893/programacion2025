@@ -3,12 +3,12 @@ package tema6.AlquilerPeliculas;
 public class Episodio {
 
     private String titulo;
-    private String duracion;
+    private int duracion;
     Temporada temporada;
 
-    public Episodio(String titulo, String duracion) {
+    public Episodio(String titulo, int duracionMinutos) {
         this.titulo = titulo;
-        this.duracion = duracion;
+        this.duracion = duracionMinutos;
     }
 
     public String getTitulo() {
@@ -19,11 +19,11 @@ public class Episodio {
         this.titulo = titulo;
     }
 
-    public String getDuracion() {
+    public int getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(String duracion) {
+    public void setDuracion(int duracion) {
         this.duracion = duracion;
     }
 
@@ -40,7 +40,6 @@ public class Episodio {
         return "Episodio{" +
                 "titulo='" + titulo + '\'' +
                 ", duracion='" + duracion + '\'' +
-                ", temporada=" + temporada +
                 '}';
     }
 }

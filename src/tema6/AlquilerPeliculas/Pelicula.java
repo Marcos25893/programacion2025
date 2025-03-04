@@ -4,9 +4,9 @@ public class Pelicula extends Multimedia{
 
   private int duraccion;
 
-    public Pelicula(String titulo, double precio, boolean esPlus, int duraccionMinutos) {
-        super(titulo, precio, esPlus);
-        this.duraccion = duraccionMinutos;
+    public Pelicula(String titulo, boolean esPlus, double precio, Genero genero, int duraccion) {
+        super(titulo, esPlus, precio, genero);
+        this.duraccion = duraccion;
     }
 
     public int getDuraccion() {

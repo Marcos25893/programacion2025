@@ -52,7 +52,6 @@ public class Temporada {
     public String toString() {
         return "Temporada{" +
                 "numero=" + numero +
-                ", serie=" + serie +
                 ", episodios=" + episodios +
                 '}';
     }

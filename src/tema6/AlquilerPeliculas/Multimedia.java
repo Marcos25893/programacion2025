@@ -21,14 +21,6 @@ public class Multimedia {
         autoIncremento++;
     }
 
-    public Multimedia(String titulo, double precio, boolean esPlus) {
-        this.titulo = titulo;
-        this.precio = precio;
-        this.esPlus = esPlus;
-        this.codigo=autoIncremento;
-        autoIncremento++;
-    }
-
     public long getCodigo() {
         return codigo;
     }
