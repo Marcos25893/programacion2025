@@ -4,7 +4,7 @@ public class Episodio {
 
     private String titulo;
     private int duracion;
-    Temporada temporada;
+    private Temporada temporada;
 
     public Episodio(String titulo, int duracionMinutos) {
         this.titulo = titulo;

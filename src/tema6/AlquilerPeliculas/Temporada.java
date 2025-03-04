@@ -6,7 +6,7 @@ public class Temporada {
 
     private int numero;
     private ArrayList<Episodio> episodios;
-    Serie serie;
+    private Serie serie;
 
     public Temporada(int numero) {
         this.numero = numero;
