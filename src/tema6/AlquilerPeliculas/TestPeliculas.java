@@ -38,13 +38,12 @@ public class TestPeliculas {
 
             }
 
-            x++;
-            System.out.println(x);
         }
 
+        Serie serie = new Serie(" ",true,10, Genero.Aventuras);
+
         System.out.println(pv.getGanancias());
-        System.out.println(pv.getSuscriptores());
-        System.out.println(pv.getCatalogo());
+
 
 
     }

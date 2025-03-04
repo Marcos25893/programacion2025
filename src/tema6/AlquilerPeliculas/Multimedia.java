@@ -12,6 +12,15 @@ public class Multimedia {
 
     private static int autoIncremento=1;
 
+    public Multimedia(String titulo, boolean esPlus, double precio, Genero genero) {
+        this.titulo = titulo;
+        this.esPlus = esPlus;
+        this.precio = precio;
+        this.genero = genero;
+        this.codigo=autoIncremento;
+        autoIncremento++;
+    }
+
     public Multimedia(String titulo, double precio, boolean esPlus) {
         this.titulo = titulo;
         this.precio = precio;
