@@ -59,11 +59,12 @@ public class PrimeVideo {
     }
 
     public double getGanancias(){
+        double tarifa=0;
         for (Cliente c : suscriptores){
-            this.ganancias+=(c.getPrecioMensual()*12);
+            tarifa+=(c.getPrecioMensual()*12);
         }
 
-        return this.ganancias;
+        return this.ganancias+tarifa;
     }
 
 

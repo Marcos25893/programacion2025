@@ -33,10 +33,11 @@ public class Venta {
     @Override
     public String toString() {
         final StringBuffer sb = new StringBuffer("Venta{");
-        sb.append("cliente=").append(cliente);
-        sb.append(", comic=").append(comic.titulo);
+        sb.append(cliente);
+        sb.append(", comic=").append(comic.getTitulo());
         sb.append(", fechaVenta=").append(fechaVenta);
         sb.append('}');
+        sb.append("\n");
         return sb.toString();
     }
 }

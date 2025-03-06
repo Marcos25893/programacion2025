@@ -17,14 +17,14 @@ public class TestPeliculas {
             pv.addMultimedia(m1);
         }
 
-        for (int i=0;i<750000;i++){
+        for (int i=0;i<750;i++){
             dni= String.valueOf(i);
             ClientePrime cp1 = new ClientePrime(dni, "Paco", " ");
             pv.addSuscriptor(cp1);
 
         }
 
-        for (int i=0;i<250000;i++){
+        for (int i=0;i<250;i++){
             dni=String.valueOf(i);
             ClientePrimePro cp1 = new ClientePrimePro(dni, "Paco", " ");
             pv.addSuscriptor(cp1);

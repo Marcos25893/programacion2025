@@ -6,8 +6,9 @@ public class NovelaGrafica extends Comic{
 
     private String resumen;
 
-    public NovelaGrafica(Integer numPagina, LocalDate fecha, String titulo, Double precio,  Integer numeroEjemplares, String resumen) {
-        super(numPagina, fecha, titulo, precio, numeroEjemplares);
+    public NovelaGrafica(Integer numPagina, LocalDate fecha, String titulo, Double precio, Genero genero,
+                         Integer numeroEjemplares, String resumen) {
+        super(numPagina, fecha, titulo, precio, genero, numeroEjemplares);
         this.resumen = resumen;
     }
 
@@ -29,7 +30,6 @@ public class NovelaGrafica extends Comic{
         sb.append(", autores=").append(autores);
         sb.append(", precio=").append(precio);
         sb.append(", numeroEjemplares=").append(numeroEjemplares);
-        sb.append(", autor=").append(autor.getNombre());
         sb.append(", resumen='").append(resumen).append('\'');
         sb.append('}');
         return sb.toString();

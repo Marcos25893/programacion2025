@@ -7,8 +7,9 @@ public class Anime extends Comic{
     private Integer episodio;
     private String serie;
 
-    public Anime(Integer numPagina, LocalDate fecha, String titulo, Double precio,  Integer numeroEjemplares, Integer episodio, String serie) {
-        super(numPagina, fecha, titulo, precio, numeroEjemplares);
+    public Anime(Integer numPagina, LocalDate fecha, String titulo, Double precio, Genero genero,
+                 Integer numeroEjemplares, Integer episodio, String serie) {
+        super(numPagina, fecha, titulo, precio, genero, numeroEjemplares);
         this.episodio = episodio;
         this.serie = serie;
     }
@@ -39,7 +40,6 @@ public class Anime extends Comic{
         sb.append(", autores=").append(autores);
         sb.append(", precio=").append(precio);
         sb.append(", numeroEjemplares=").append(numeroEjemplares);
-        sb.append(", autor=").append(autor.getNombre());
         sb.append(", episodio=").append(episodio);
         sb.append(", serie='").append(serie).append('\'');
         sb.append('}');

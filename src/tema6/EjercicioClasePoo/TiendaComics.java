@@ -48,7 +48,13 @@ public class TiendaComics {
         return sb.toString();
     }
 
-    public void buscar(LocalDate desde, LocalDate hasta, Comic c){
-
+    public ArrayList<Comic> buscar(LocalDate desde, LocalDate hasta, Genero genero){
+        ArrayList<Comic> encontrados = new ArrayList<>();
+        for (Comic c : comics){
+            if(desde.isBefore(c.getFecha()) && hasta.isAfter(c.getFecha()) && c.getGenero().equals(genero)){
+                encontrados.add(c);
+            }
+        }
+        return encontrados;
     }
 }

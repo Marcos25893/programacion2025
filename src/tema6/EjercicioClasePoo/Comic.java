@@ -13,8 +13,9 @@ public class Comic {
     protected ArrayList<Autor> autores;
     protected Double precio;
     protected Integer numeroEjemplares;
+    protected Genero genero;
 
-    public Comic(Integer numPagina, LocalDate fecha, String titulo, Double precio, Integer numeroEjemplares) {
+    public Comic(Integer numPagina, LocalDate fecha, String titulo, Double precio, Genero genero,Integer numeroEjemplares) {
         this.autores = new ArrayList<>();
         this.numPagina = numPagina;
         this.fecha = fecha;
@@ -22,6 +23,15 @@ public class Comic {
         this.precio = precio;
         this.numeroEjemplares = numeroEjemplares;
         this.id = UUID.randomUUID();
+        this.genero = genero;
+    }
+
+    public Genero getGenero() {
+        return genero;
+    }
+
+    public void setGenero(Genero genero) {
+        this.genero = genero;
     }
 
     public String getTitulo() {
