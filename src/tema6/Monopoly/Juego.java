@@ -1,5 +1,7 @@
 package tema6.Monopoly;
 
+import tema4.Practica1.bladedark.Jugador;
+
 import java.util.ArrayList;
 
 public class Juego {
@@ -10,6 +12,11 @@ public class Juego {
     public Juego(Tablero tablero) {
         this.jugadores = new ArrayList<>();
         this.tablero = tablero;
+
+    }
+
+    public void addJugadores(Jugadores j){
+        this.jugadores.add(j);
     }
 
     public ArrayList<Jugadores> getJugadores() {
@@ -18,5 +25,9 @@ public class Juego {
 
     public Tablero getTablero() {
         return tablero;
+    }
+
+    public void addJugador(Jugadores j){
+        this.jugadores.add(j);
     }
 }
