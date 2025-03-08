@@ -6,16 +6,16 @@ public class Pasajero extends Persona{
     private String restriccionesMedicas;
     private Asiento asiento;
 
-    public Pasajero(String nombre, String apellidos, String dniPasaporte, String email, String direccion, String ciudad,
+    public Pasajero(Long id, String nombre, String apellidos, String dniPasaporte, String email, String direccion, String ciudad,
                     String pais, String telefono, String preferenciasComida, String restriccionesMedicas, Asiento asiento) {
-        super(nombre, apellidos, dniPasaporte, email, direccion, ciudad, pais, telefono);
+        super(id, nombre, apellidos, dniPasaporte, email, direccion, ciudad, pais, telefono);
         this.preferenciasComida = preferenciasComida;
         this.restriccionesMedicas = restriccionesMedicas;
         this.asiento = asiento;
     }
 
     public Pasajero(Pasajero p){
-        super(p.nombre, p.apellidos, p.dniPasaporte, p.email, p.direccion, p.ciudad, p.pais, p.telefono);
+        super(p.id, p.nombre, p.apellidos, p.dniPasaporte, p.email, p.direccion, p.ciudad, p.pais, p.telefono);
         this.preferenciasComida = p.preferenciasComida;
         this.restriccionesMedicas = p.restriccionesMedicas;
         this.asiento = p.asiento;

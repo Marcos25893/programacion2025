@@ -5,7 +5,7 @@ public class TestPeliculas {
     public static void main(String[] args) {
 
         PrimeVideo pv = new PrimeVideo();
-        String dni="";
+        String dni;
 
         for (int i=0;i<30;i++){
             Pelicula m1 = new Pelicula("",true,20, Genero.Comedia, 90);
@@ -62,8 +62,6 @@ public class TestPeliculas {
         }
 
         System.out.println(pv.getGanancias());
-
-
 
     }
 }

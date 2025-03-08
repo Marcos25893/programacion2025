@@ -1,11 +1,10 @@
 package tema6.ReservaVuelos;
 
 import java.util.Objects;
-import java.util.UUID;
 
 public abstract class Persona {
 
-    protected UUID id;
+    protected long id;
     protected String nombre;
     protected String apellidos;
     protected String dniPasaporte;
@@ -15,9 +14,9 @@ public abstract class Persona {
     protected String pais;
     protected String telefono;
 
-    public Persona(String nombre, String apellidos, String dniPasaporte, String email, String direccion,
+    public Persona(Long id,String nombre, String apellidos, String dniPasaporte, String email, String direccion,
                    String ciudad, String pais, String telefono) {
-        this.id = UUID.randomUUID();
+        this.id = id;
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.dniPasaporte = dniPasaporte;
@@ -31,7 +30,7 @@ public abstract class Persona {
     public Persona() {
     }
 
-    public UUID getId() {
+    public long getId() {
         return id;
     }
 
