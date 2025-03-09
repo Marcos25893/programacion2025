@@ -49,7 +49,10 @@ public class Jugadores {
     }
 
     public void addPropiedad(Propiedad p){
-        this.propiedad.add(p);
+        if (!this.propiedad.contains(p)) {
+            this.propiedad.add(p);
+            p.addPropietario(this);
+        }
     }
 
     @Override

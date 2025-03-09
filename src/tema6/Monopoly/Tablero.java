@@ -13,8 +13,28 @@ public class Tablero {
         this.casillas = new ArrayList<>();
 
         for(int i=0;i<15;i++){
-            Casilla c = new Propiedad("C"+i, i,numero_aleatorio(200,350),numero_aleatorio(10,500));
-            this.casillas.add(c);
+            int numero;
+            numero=numero_aleatorio(1,10);
+
+            if (i==0) {
+                Casilla c = new Casilla("Salida",i);
+                this.casillas.add(c);
+            }else if (i==7){
+                CasillasEspeciales ce = new Carcel("Carcel", i);
+                this.casillas.add(ce);
+            }else {
+
+                if (numero<=8) {
+                    Casilla c = new Propiedad("C" + i, i, numero_aleatorio(200, 450), numero_aleatorio(10, 150));
+                    this.casillas.add(c);
+                }else if (numero==9){
+                    CasillasEspeciales ce = new Multa("Multa", i);
+                    this.addCasilla(ce);
+                }else{
+                    CasillasEspeciales ce = new Impuesto("Impuesto", i);
+                    this.casillas.add(ce);
+                }
+            }
         }
     }
 
@@ -53,34 +73,32 @@ public class Tablero {
         }
         sb.append(". Y se queda en la posicion " + j.getPosicionJugador());
 
+        comprobar(j);
+
+
         return sb.toString();
 
     }
 
-    public void comprar(Propiedad p, Jugadores j){
-        int opcion = 0;
 
-        if (j.getPosicionJugador().equals(p.getPosicion())){
-            if (p.getComprado()){
-                j.setDinero(j.getDinero()-p.getPrecioCasilla());
 
-            } else{
-                while(opcion!=1 && opcion!=2){
-                    System.out.println("¿Quieres comprar la casilla?, 1.Si-2.NO ");
-                    opcion=Integer.parseInt(sc.nextLine());
+    public void comprobar(Jugadores j){
 
-                    if (opcion==1){
-                        if (j.getDinero()>=p.getPrecioCompra()){
-                            j.setDinero(j.getDinero()-p.getPrecioCompra());
-                            j.addPropiedad(p);
-                            p.setComprado(true);
-                        }
-                    }
-                }
-
-            }
+        Casilla casillaActual = casillas.get(j.getPosicionJugador());
+        if (casillaActual instanceof Propiedad){
+            ((Propiedad) casillaActual).comprar((Propiedad) casillaActual,j);
+        }else if (casillaActual instanceof Multa){
+            ((Multa) casillaActual).pagar(j);
+        } else if (casillaActual instanceof  Impuesto) {
+            ((Impuesto) casillaActual).pagar(j);
+        } else if (casillaActual instanceof Carcel) {
+            ((Carcel) casillaActual).pagar(j);
         }
+
     }
+
+
+
 
     public void cobrarSalida(Jugadores j){
         j.setDinero(j.getDinero()+200);

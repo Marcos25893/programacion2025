@@ -12,26 +12,24 @@ public class test {
 
         Juego J = new Juego(t1);
 
-        System.out.println(t1.getCasillas());
-
-
-        System.out.println(j1.getPosicionJugador());
-
-        t1.comprar((Propiedad) t1.getCasillas().get(j1.getPosicionJugador()),j1);
+        t1.mover(j1);
         System.out.println(j1);
-        t1.comprar((Propiedad) t1.getCasillas().get(j2.getPosicionJugador()),j2);
+        t1.mover(j1);
+        System.out.println(j1);
+        t1.mover(j2);
         System.out.println(j2);
 
-        t1.mover(j1);
-        t1.comprar((Propiedad) t1.getCasillas().get(j1.getPosicionJugador()),j1);
-        System.out.println(j1);
+        for (int i=0;i<t1.getCasillas().size();i++){
+            System.out.println(t1.getCasillas().get(i));
+        }
 
+        J.addJugador(j1);
+        J.addJugador(j2);
+        System.out.println(J.ganador());
 
-        /*
-        j1.setPosicionJugador(13);
-        t1.mover(j1);
-        System.out.println(j1);
+        /*Metodo pintar tablero
+          Arreglar comprobar ganador
+          Array Cartas Impuesto y Multa*/
 
-         */
     }
 }
