@@ -21,9 +21,9 @@ public class AsientoTurista extends Asiento {
     @Override
     public String toString() {
         return "AsientoTurista{" +
-                "precioBase=" + precioBase +
+                "precio=" + this.calcularPrecio() +
                 ", tipoAsiento=" + tipoAsiento +
-                ", id=" + id +
+                ", codigo=" + this.getCodigo() +
                 ", ventana=" + ventana +
                 ", pasajero=" + pasajero.getDniPasaporte() +
                 '}';
@@ -31,13 +31,9 @@ public class AsientoTurista extends Asiento {
 
     @Override
     public Double calcularPrecio() {
-        double precioTotal=0;
-
-        precioTotal=this.precioBase;
         if (ventana){
-            precioTotal+=10;
+            this.precioBase+=10;
         }
-
-        return precioTotal;
+        return this.precioBase;
     }
 }

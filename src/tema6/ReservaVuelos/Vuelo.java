@@ -5,10 +5,11 @@ import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Objects;
+import java.util.UUID;
 
 public class Vuelo {
 
-    private String codigo;
+    private UUID codigo;
     private String origen;
     private String destino;
     private LocalDate fecha;
@@ -18,15 +19,17 @@ public class Vuelo {
     private ArrayList<Asiento> asientos;
 
 
-    public Vuelo(String codigo, String origen, String destino, LocalDate fecha, LocalTime hora, Double precioBase, Integer asientosDisponibles) {
-        this.codigo = codigo;
+    public Vuelo(String origen, String destino, LocalDate fecha, LocalTime hora, Double precioBase, Integer asientosDisponibles) {
+        this.codigo = UUID.randomUUID();
         this.origen = origen;
         this.destino = destino;
         this.fecha = fecha;
         this.hora = hora;
         this.precioBase = precioBase;
         this.asientosDisponibles = asientosDisponibles;
-        this.asientos = crearAsientos();
+        this.asientos = new ArrayList<>();
+
+        this.asientos=crearAsientos();
 
     }
 
@@ -73,11 +76,11 @@ public class Vuelo {
         this.asientos.add(a);
     }
 
-    public String getCodigo() {
+    public UUID getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(String codigo) {
+    public void setCodigo(UUID codigo) {
         this.codigo = codigo;
     }
 
@@ -168,7 +171,7 @@ public class Vuelo {
         int cantidadAsientos=0;
 
         for (Asiento a : asientos){
-            if (a.getTipoAsiento().equals(tipoAsiento)){
+            if (a.getTipoAsiento().equals(tipoAsiento) && a.getPasajero()==null){
                 cantidadAsientos++;
             }
         }
@@ -203,11 +206,8 @@ public class Vuelo {
         }
     }
 
-
     public long diasFaltanVuelo(){
-        LocalDate ld = LocalDate.now();
-
-        return ChronoUnit.DAYS.between(ld,fecha);
+        return ChronoUnit.DAYS.between(LocalDate.now(),fecha);
     }
 
     public ArrayList<Pasajero> getPasajero(){

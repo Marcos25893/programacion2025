@@ -30,12 +30,11 @@ public class Atrapame {
     }
 
     public boolean crearReserva(Vuelo vuelo, ArrayList<Pasajero> pasajeros, TipoTarifa tTarifa, TipoAsiento tAsiento){
-        if (vuelo.getAsientosDisponibles()>pasajeros.size()){
+        if (vuelo.verificarDisponibilidad(tAsiento)>pasajeros.size()){
             ReservaVuelo rv = new ReservaVuelo(vuelo,tTarifa,tAsiento);
 
-            for (int i=0;i< pasajeros.size();i++) {
-                rv.addPasajero(pasajeros.get(i));
-                rv.reservaAsiento(pasajeros.get(i));
+            for (Pasajero p : pasajeros) {
+                rv.reservaAsiento(p);
             }
             addReservas(rv);
             return true;
@@ -43,19 +42,23 @@ public class Atrapame {
             return false;
     }
 
-//    public boolean cancelarReserva(long id){
-//        for (ReservaVuelo rv : reservas){
-//            if (rv.equals(id)){
-//
-//                rv.getVuelo().liberarAsiento(rv.getVuelo().getAsientos().get(1));
-//            }
-//        }
-//    }
+    public boolean cancelarReserva(long id){
+        for (ReservaVuelo rv : reservas){
+            if (rv.equals(id)){
+                for(Asiento a : rv.getAsiento()){
+                    rv.getVuelo().liberarAsiento(a);
+                }
+                reservas.remove(rv);
+                return true;
+            }
+        }
+        return false;
+    }
 
     public ArrayList<Vuelo> buscarVuelos(String destino){
         ArrayList<Vuelo> vuelosDestino = new ArrayList<>();
         for (Vuelo v : vuelos){
-            if (v.getDestino().equals(destino)){
+            if (v.getDestino().equalsIgnoreCase(destino)){
                 vuelosDestino.add(v);
             }
         }
@@ -66,7 +69,7 @@ public class Atrapame {
     public ArrayList<Vuelo> buscarVuelos(LocalDate fecha){
         ArrayList<Vuelo> vuelosDestino = new ArrayList<>();
         for (Vuelo v : vuelos){
-            if (v.getFecha().isEqual(fecha)){
+            if (v.getFecha().equals(fecha)){
                 vuelosDestino.add(v);
             }
         }
@@ -76,7 +79,7 @@ public class Atrapame {
     public ArrayList<Vuelo> buscarVuelos(LocalDate fecha, String destino){
         ArrayList<Vuelo> vuelosDestino = new ArrayList<>();
         for (Vuelo v : vuelos){
-            if (v.getFecha().isEqual(fecha) && v.getDestino().equals(destino)){
+            if (v.getFecha().isEqual(fecha) && v.getDestino().equalsIgnoreCase(destino)){
                 vuelosDestino.add(v);
             }
         }
@@ -84,13 +87,11 @@ public class Atrapame {
     }
 
     public ArrayList<ReservaVuelo> buscarReservas(String dni){
-        ArrayList<Pasajero> pasajeros = new ArrayList<>();
         ArrayList<ReservaVuelo> reservaVuelos = new ArrayList<>();
 
         for (ReservaVuelo rv : reservas){
             for (Pasajero pj : rv.getPasajeros()){
                 if (pj.getDniPasaporte().equals(dni)){
-                    pasajeros.add(pj);
                     reservaVuelos.add(rv);
                 }
             }

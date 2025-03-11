@@ -21,7 +21,7 @@ public class AsientoBusiness extends Asiento{
     @Override
     public String toString() {
         return "AsientoBusiness{" +
-                "id=" + id +
+                "codigo=" + this.getCodigo() +
                 ", precioBase=" + precioBase +
                 ", tipoAsiento=" + tipoAsiento +
                 ", comida=" + comida +
@@ -31,13 +31,11 @@ public class AsientoBusiness extends Asiento{
 
     @Override
     public Double calcularPrecio() {
-        double precioFinal=0;
-        precioFinal=this.precioBase*1.25;
-
+        this.precioBase*=1.25;
         if (comida){
-            precioFinal+=30;
+            this.precioBase+=30;
         }
 
-        return precioFinal;
+        return this.precioBase;
     }
 }
