@@ -13,7 +13,7 @@ public class ReservaVuelo {
     int valor=1;
 
     public ReservaVuelo(Vuelo vuelo, TipoTarifa tipoT, TipoAsiento tipoA) {
-        id = valor;
+        this.id = valor;
         this.vuelo = vuelo;
         this.pasajeros = new ArrayList<>();
         this.tipoT = tipoT;
@@ -21,11 +21,11 @@ public class ReservaVuelo {
         valor++;
     }
 
-    public static long getId() {
+    public long getId() {
         return id;
     }
 
-    public static void setId(long id) {
+    public void setId(long id) {
         ReservaVuelo.id = id;
     }
 

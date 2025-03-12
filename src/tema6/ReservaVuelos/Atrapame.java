@@ -44,7 +44,7 @@ public class Atrapame {
 
     public boolean cancelarReserva(long id){
         for (ReservaVuelo rv : reservas){
-            if (rv.equals(id)){
+            if (rv.getId()==id){
                 for(Asiento a : rv.getAsiento()){
                     rv.getVuelo().liberarAsiento(a);
                 }
