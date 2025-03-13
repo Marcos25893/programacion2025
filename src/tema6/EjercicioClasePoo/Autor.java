@@ -67,7 +67,7 @@ public class Autor {
     }
 
     public void removeComic(Comic c){
-        c.removeAutor(null);
+        c.removeAutor(this);
         this.comics.remove(c);
     }
 

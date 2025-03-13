@@ -68,8 +68,8 @@ public class Comic {
     }
 
     public void removeAutor(Autor autor){
-        autores.remove(autor);
         autor.removeComic(this);
+        autores.remove(autor);
     }
 
     public UUID getId() {
