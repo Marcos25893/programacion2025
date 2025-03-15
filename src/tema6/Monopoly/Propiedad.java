@@ -10,15 +10,12 @@ public class Propiedad extends Casilla{
 
     private Integer precioCompra;
     private Integer precioCasilla;
-    private ArrayList<Jugadores> propietarios;
-    private boolean comprado;
+    private Jugadores jugador;
 
     public Propiedad(String nombre, Integer posicion, Integer precioCompra, Integer precioCasilla) {
         super(nombre, posicion);
         this.precioCompra = precioCompra;
         this.precioCasilla = precioCasilla;
-        this.propietarios=new ArrayList<>();
-        this.comprado=false;
     }
 
     public Integer getPrecioCompra() {
@@ -37,49 +34,31 @@ public class Propiedad extends Casilla{
         this.precioCasilla = precioCasilla;
     }
 
-    public ArrayList<Jugadores> getPropietarios() {
-        return propietarios;
+    public Jugadores getJugador() {
+        return jugador;
     }
 
-    public void addPropietario(Jugadores jugador){
-        if (!this.propietarios.contains(jugador)){
-            this.propietarios.add(jugador);
-            jugador.addPropiedad(this);
-        }
-    }
-
-    public void setPropietarios(ArrayList<Jugadores> propietarios) {
-        this.propietarios = propietarios;
-    }
-
-    public boolean isComprado() {
-        return comprado;
-    }
-
-    public void setComprado(boolean comprado) {
-        this.comprado = comprado;
+    public void setJugador(Jugadores jugador) {
+        this.jugador = jugador;
     }
 
     @Override
     public String toString() {
         return "Propiedad{" +
-                "precioCompra=" + precioCompra +
-                ", precioCasilla=" + precioCasilla +
+                "posicion=" + posicion +
                 ", nombre='" + nombre + '\'' +
-                ", posicion=" + posicion +
+                ", precioCasilla=" + precioCasilla +
+                ", precioCompra=" + precioCompra +
                 '}';
     }
 
     public void comprar(Propiedad p, Jugadores j){
         int opcion = 0;
 
-        Jugadores dueno;
-
         if (j.getPosicionJugador().equals(p.getPosicion())){
-            if (p.isComprado()){
+            if (p.getJugador()!=null){
                 j.setDinero(j.getDinero()-p.getPrecioCasilla());
-                dueno= p.getPropietarios().get(p.getPosicion());
-                dueno.setDinero(dueno.getDinero()+p.getPrecioCasilla());
+                p.getJugador().setDinero(p.getJugador().getDinero()+p.getPrecioCasilla());
 
             } else{
                 while(opcion!=1 && opcion!=2){
@@ -90,7 +69,7 @@ public class Propiedad extends Casilla{
                         if (j.getDinero()>=p.getPrecioCompra()){
                             j.setDinero(j.getDinero()-p.getPrecioCompra());
                             j.addPropiedad(p);
-                            p.setComprado(true);
+
                         }
                     }
                 }

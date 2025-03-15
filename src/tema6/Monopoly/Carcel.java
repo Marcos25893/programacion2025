@@ -2,6 +2,7 @@ package tema6.Monopoly;
 
 public class Carcel extends CasillasEspeciales{
 
+    protected static final Integer precio=50;
 
     public Carcel(String nombre, Integer posicion) {
         super(nombre, posicion);

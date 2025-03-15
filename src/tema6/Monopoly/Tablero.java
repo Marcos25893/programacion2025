@@ -12,14 +12,14 @@ public class Tablero {
     public Tablero() {
         this.casillas = new ArrayList<>();
 
-        for(int i=0;i<15;i++){
+        for(int i=0;i<20;i++){
             int numero;
             numero=numero_aleatorio(1,10);
 
             if (i==0) {
                 Casilla c = new Casilla("Salida",i);
                 this.casillas.add(c);
-            }else if (i==7){
+            }else if (i==8){
                 CasillasEspeciales ce = new Carcel("Carcel", i);
                 this.casillas.add(ce);
             }else {
@@ -62,7 +62,7 @@ public class Tablero {
         sb.append("El jugador esta en la casilla " + j.getPosicionJugador());
         sb.append(". El jugador se mueve " + numero);
 
-        if (posicion>this.casillas.size()){
+        if (posicion>=this.casillas.size()){
             posicion -= this.casillas.size();
             j.setPosicionJugador(posicion);
             cobrarSalida(j);

@@ -51,7 +51,7 @@ public class Jugadores {
     public void addPropiedad(Propiedad p){
         if (!this.propiedad.contains(p)) {
             this.propiedad.add(p);
-            p.addPropietario(this);
+            p.setJugador(this);
         }
     }
 
