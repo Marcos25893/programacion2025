@@ -14,7 +14,7 @@ public class Tablero {
 
         for(int i=0;i<20;i++){
             int numero;
-            numero=numero_aleatorio(1,10);
+            numero=numero_aleatorio(1,12);
 
             if (i==0) {
                 Casilla c = new Casilla("Salida",i);
@@ -27,7 +27,7 @@ public class Tablero {
                 if (numero<=8) {
                     Casilla c = new Propiedad("C" + i, i, numero_aleatorio(200, 450), numero_aleatorio(10, 150));
                     this.casillas.add(c);
-                }else if (numero==9){
+                }else if (numero<=10){
                     CasillasEspeciales ce = new Multa("Multa", i);
                     this.addCasilla(ce);
                 }else{

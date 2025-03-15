@@ -23,9 +23,16 @@ public class Multa extends CasillasEspeciales{
         this.cartas.add(carta);
     }
 
+    public void removeCartas(Carta carta){
+        this.cartas.remove(carta);
+    }
+
     @Override
     public int pagar(Jugadores j) {
-        j.setDinero(j.getDinero()-getCartas().get(0).getPrecioCarta());
+        Carta carta = getCartas().get(0);
+        j.setDinero(j.getDinero()-carta.getPrecioCarta());
+        removeCartas(carta);
+        addCartas(carta);
 
         return j.getDinero();
     }

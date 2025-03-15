@@ -10,6 +10,12 @@ public class test {
                 lab[i][j] = ' ';
             }
         }
+
+        lab[0][0]='S';
+
+        int variable=1;
+        int abajo=4;
+        int izquierda=4;
         for (int x=1; x<tablero.getCasillas().size()-1;x++) {
 
             if (tablero.getCasillas().get(x) instanceof Propiedad) {
@@ -25,25 +31,17 @@ public class test {
             if (x<lab[1].length) {
                 lab[0][x] = nombre;
             } else if (x< lab.length-1 + lab[1].length-1) {
-
+                lab[variable][lab[1].length-1] = nombre;
+                variable++;
+            } else if (x<(lab.length-1)*2 + lab[1].length-1) {
+                lab[lab.length-1][abajo] = nombre;
+                abajo--;
+            } else if (x<(lab.length-1)*2 + (lab[1].length-1)*2) {
+                lab[izquierda][0] = nombre;
+                izquierda--;
             }
 
-
         }
-/*
-        //Borde superior e inferior
-        for(int j=0; j < lab[0].length; j++) {
-            lab[0][j] = '-';
-            lab[lab.length-1][j] = '-';
-        }
-*/
-        /*
-        //Borde derecho e izquierdo
-        for(int i=0; i<lab.length; i++) {
-            lab[i][0] = '|';
-            lab[i][lab.length - 1] = '|';
-        }
-        */
 
     }
 
@@ -71,6 +69,7 @@ public class test {
         rellenar(pintar , J.getTablero());
 
         pintar(pintar);
+
 /*
         J.addJugador(j1);
         J.addJugador(j2);
