@@ -34,7 +34,8 @@ public class Juego {
         this.jugadores.add(j);
     }
 
-    public Jugadores ganador(){
+    public String ganador(){
+        StringBuffer sb = new StringBuffer();
         double suma =0.0;
         double ganador = 0.0;
         Jugadores ju = new Jugadores("");
@@ -45,6 +46,8 @@ public class Juego {
                 suma +=p.getPrecioCompra();
                 System.out.println(suma);
             }
+            sb.append("Jugador=" + j.getNombre()).append(", Patrimonio=").append(suma).append("\n");
+
             if (ganador<suma){
                 ganador=suma;
                 ju=j;
@@ -52,7 +55,9 @@ public class Juego {
 
         }
 
-        return ju;
+        sb.append("El ganador es " + ju.getNombre());
+
+        return sb.toString();
     }
 
 

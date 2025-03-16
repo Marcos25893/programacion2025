@@ -55,6 +55,11 @@ public class Jugadores {
         }
     }
 
+    public void removePropiedad(Propiedad p){
+        p.setJugador(null);
+        this.propiedad.remove(p);
+    }
+
     @Override
     public String toString() {
         return "Jugadores{" +

@@ -62,7 +62,7 @@ public class Propiedad extends Casilla{
 
             } else{
                 while(opcion!=1 && opcion!=2){
-                    System.out.println("¿Quieres comprar la casilla?, 1.Si-2.NO ");
+                    System.out.println(j.getNombre() + " ¿Quieres comprar la casilla?, 1.Si-2.NO ");
                     opcion=Integer.parseInt(sc.nextLine());
 
                     if (opcion==1){

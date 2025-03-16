@@ -8,9 +8,11 @@ public class Tablero {
     Scanner sc = new Scanner(System.in);
 
     private ArrayList<Casilla> casillas;
+    private ArrayList<Carta> cartas;
 
     public Tablero() {
         this.casillas = new ArrayList<>();
+        this.cartas = new ArrayList<>();
 
         for(int i=0;i<20;i++){
             int numero;
@@ -44,6 +46,22 @@ public class Tablero {
 
     public void addCasilla(Casilla c){
         this.casillas.add(c);
+    }
+
+    public void addCartas(Carta carta){
+        this.cartas.add(carta);
+    }
+
+    public void removeCartas(Carta carta){
+        this.cartas.remove(carta);
+    }
+
+    public ArrayList<Carta> getCartas() {
+        return cartas;
+    }
+
+    public void setCartas(ArrayList<Carta> cartas) {
+        this.cartas = cartas;
     }
 
     public static int numero_aleatorio(int min , int max){

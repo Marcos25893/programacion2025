@@ -10,6 +10,7 @@ public class Impuesto extends CasillasEspeciales{
     public Impuesto(String nombre, Integer posicion) {
         super(nombre, posicion);
         this.cartas = new ArrayList<>();
+
     }
 
     public ArrayList<Carta> getCartas() {
