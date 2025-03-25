@@ -1,4 +1,4 @@
-package tema7.Ejemplos.Ejercicios.Diccionario;
+package tema7.Ejercicios.Diccionario;
 
 public class Test {
 

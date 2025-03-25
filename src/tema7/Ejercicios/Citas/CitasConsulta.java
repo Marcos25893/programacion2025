@@ -1,4 +1,4 @@
-package tema7.Ejemplos.Ejercicios.Citas;
+package tema7.Ejercicios.Citas;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
