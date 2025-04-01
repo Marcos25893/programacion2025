@@ -1,35 +1,35 @@
 package tema7.Practica1.ExpedientesAlumnos;
 
 import java.time.LocalDate;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Objects;
+import java.util.TreeMap;
 
 public class NotasCurso {
 
-    enum etapaEducativa{ESO, Bachillerato, FPBásica, FPMedio, FPSuperior}
-
-    private etapaEducativa etapaEducativa;
+    private Etapa etapaEducativa;
     private String nombreCiclo;
     private Integer curso;
     private HashMap<String, Double> notas;
     private LocalDate anio;
 
-    public NotasCurso(NotasCurso.etapaEducativa etapaEducativa, String nombreCiclo, Integer curso, HashMap<String, Double> notas, LocalDate anio) throws Exception {
+    public NotasCurso(Etapa etapaEducativa, String nombreCiclo, Integer curso, LocalDate anio) throws Exception {
         this.etapaEducativa = etapaEducativa;
         this.nombreCiclo = nombreCiclo;
         if (curso>4 || curso<1){
             throw new Exception ("Valor del curso no valido");
         }
         this.curso = curso;
-        this.notas = notas;
+        this.notas = new HashMap<>();
         this.anio = anio;
     }
 
-    public NotasCurso.etapaEducativa getEtapaEducativa() {
+    public Etapa getEtapaEducativa() {
         return etapaEducativa;
     }
 
-    public void setEtapaEducativa(NotasCurso.etapaEducativa etapaEducativa) {
+    public void setEtapaEducativa(Etapa etapaEducativa) {
         this.etapaEducativa = etapaEducativa;
     }
 
@@ -92,4 +92,25 @@ public class NotasCurso {
     public void addNota(String asignatura, Double nota){
         this.notas.put(asignatura, nota);
     }
+
+    public void deleteNota(String asignatura){
+        this.notas.remove(asignatura);
+    }
+
+    public double buscar(String asignatura){
+        if (this.notas.containsKey(asignatura)){
+            return this.notas.get(asignatura);
+        }else
+            return -1;
+    }
+
+    public void pintar(){
+        TreeMap<String, Double> ordenado = new TreeMap<>(Comparator.comparing(String::trim));
+
+        for (String nota : ordenado.keySet()){
+            System.out.println(nota);
+        }
+    }
+
+
 }
