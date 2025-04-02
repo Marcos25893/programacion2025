@@ -107,6 +107,8 @@ public class NotasCurso {
     public void pintar(){
         TreeMap<String, Double> ordenado = new TreeMap<>(Comparator.comparing(String::trim));
 
+        ordenado.putAll(notas);
+
         for (String nota : ordenado.keySet()){
             System.out.println(nota);
         }
