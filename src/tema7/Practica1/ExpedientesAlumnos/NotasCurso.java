@@ -104,14 +104,17 @@ public class NotasCurso {
             return -1;
     }
 
-    public void pintar(){
+    public String pintar(){
+        StringBuffer sb = new StringBuffer();
         TreeMap<String, Double> ordenado = new TreeMap<>(Comparator.comparing(String::trim));
 
         ordenado.putAll(notas);
 
-        for (String nota : ordenado.keySet()){
-            System.out.println(nota);
+        for (String asignatura : ordenado.keySet()){
+            sb.append(asignatura).append(" -> ").append(ordenado.get(asignatura)).append("\n");
         }
+
+        return sb.toString();
     }
 
 

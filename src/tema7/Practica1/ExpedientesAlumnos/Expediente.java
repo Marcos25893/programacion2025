@@ -1,9 +1,10 @@
 package tema7.Practica1.ExpedientesAlumnos;
 
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Objects;
 
-public class Expediente {
+public class Expediente implements Comparable<Expediente> {
 
     private Estudiante estudiante;
     private HashSet<NotasCurso> notas;
@@ -64,5 +65,11 @@ public class Expediente {
                 System.out.println(nc);
             }
         }
+    }
+
+
+    @Override
+    public int compareTo(Expediente o) {
+       return getEstudiante().getDni().compareTo(o.getEstudiante().getDni());
     }
 }

@@ -95,13 +95,24 @@ public class CentroEducativo {
         this.expedientes.add(e);
     }
 
-    public void buscarExpediente(String dni){
+    public String buscarExpediente(String dni){
         for (Expediente e : expedientes){
             if (e.getEstudiante().getDni().equals(dni)){
-                System.out.println(e);
+                return pintarExpediente(e);
             }
         }
+        return "";
+    }
 
+    private String pintarExpediente(Expediente e){
+        StringBuffer sb = new StringBuffer();
 
+        sb.append(e.getEstudiante()).append("{");
+        sb.append("\n");
+        for (NotasCurso nc : e.getNotas()){
+            sb.append("\t").append(nc).append("\n");
+        }
+        sb.append("}");
+        return sb.toString();
     }
 }
