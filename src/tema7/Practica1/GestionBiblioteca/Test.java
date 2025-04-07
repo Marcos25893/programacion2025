@@ -40,28 +40,30 @@ public class Test {
         b1.prestarLibro("64823791M", "3");
         b1.prestarLibro("64823791M", "7");
 
+        System.out.println("Libros que tiene 12345678Z:");
         b1.buscarPrestamosUsuario("12345678Z");
-        System.out.println();
 
+        System.out.println("\nLibros que tiene 87654321V:");
         b1.buscarPrestamosUsuario("87654321V");
-        System.out.println();
 
+        System.out.println("\nLibros disponibles en la biblioteca:");
         b1.listarLibrosDisponibles();
 
-        System.out.println(b1.devolverLibro("12345678Z","1"));
+        System.out.println("\nEl usuario:12345678Z puede devolver el libro'1' " + b1.devolverLibro("12345678Z","1"));
 
+        System.out.println("\nEl usuario->87654321V hace un prestamo por el libro->1");
         b1.prestarLibro("87654321V","1");
-        System.out.println();
 
+        System.out.println("\nLibros que tiene 12345678Z:");
         b1.buscarPrestamosUsuario("12345678Z");
-        System.out.println();
 
+        System.out.println("\nLibros que tiene 87654321V:");
         b1.buscarPrestamosUsuario("87654321V");
-        System.out.println();
 
+        System.out.println("\nLibros disponibles en la biblioteca:");
         b1.listarLibrosDisponibles();
 
-        System.out.println(b1.devolverLibro("12345678Z","1"));
+        System.out.println("\nEl usuario:12345678Z puede devolver el libro " + b1.devolverLibro("12345678Z","1"));
 
 
 
