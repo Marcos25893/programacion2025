@@ -72,4 +72,5 @@ public class Expediente implements Comparable<Expediente> {
     public int compareTo(Expediente o) {
        return getEstudiante().getDni().compareTo(o.getEstudiante().getDni());
     }
+
 }

@@ -66,7 +66,7 @@ public class Libro {
                 ", titulo='" + titulo + '\'' +
                 ", autor='" + autor + '\'' +
                 ", genero='" + genero + '\'' +
-                ", anoPublicacion=" + anoPublicacion +
+                ", añoPublicacion=" + anoPublicacion +
                 '}';
     }
 

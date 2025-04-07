@@ -147,6 +147,8 @@ public class Biblioteca {
             if (p.getLibro().getIsbn().equals(isbn)) {
                 if (p.estaActivo()){
                     p.devolverLibro();
+                    catalogo.put(p.getLibro().getIsbn(),p.getLibro());
+                    prestamos.get(usuarios.get(dni)).remove(p);
                     return true;
                 }
                 return false;

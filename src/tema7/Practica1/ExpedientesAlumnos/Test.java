@@ -20,6 +20,7 @@ public class Test {
 
        NotasCurso nc1 = new NotasCurso(Etapa.FPSuperior, "DAW", 1, LocalDate.of(2022, 9, 15));
        NotasCurso nc2 = new NotasCurso(Etapa.FPSuperior, "DAW", 2, LocalDate.of(2023, 9, 15));
+        NotasCurso nc7 = new NotasCurso(Etapa.Bachillerato, "DAW", 1, LocalDate.of(2019, 9, 15));
 
        NotasCurso nc3 = new NotasCurso(Etapa.FPSuperior, "DAW", 1, LocalDate.of(2024, 9, 15));
        NotasCurso nc4 = new NotasCurso(Etapa.FPSuperior, "DAW", 2, LocalDate.of(2025, 9, 15));
@@ -39,6 +40,9 @@ public class Test {
        nc1.addNota("BBDD", 8.5);
        nc1.addNota("S.I", 9.2);
        nc1.addNota("Lenguaje de marcas", 5.1);
+
+       nc7.addNota("Mates", 5.5);
+       nc7.addNota("Lengua",6.2);
 
        nc2.addNota("Programacion", 6.5);
        nc2.addNota("BBDD", 5.5);
@@ -67,10 +71,11 @@ public class Test {
 
 
         System.out.println(nc1.pintar());
-        System.out.println(nc1.buscar("Programacion"));
+        System.out.println("En la asignatura de programacion tiene un: " + nc1.buscar("Programacion"));
 
         e1.addNotas(nc1);
         e1.addNotas(nc2);
+        e1.addNotas(nc7);
         e2.addNotas(nc3);
         e2.addNotas(nc4);
         e3.addNotas(nc5);
