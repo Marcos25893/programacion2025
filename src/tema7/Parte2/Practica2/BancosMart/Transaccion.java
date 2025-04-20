@@ -4,12 +4,13 @@ import java.time.LocalDate;
 
 public class Transaccion {
 
-    private static long id=1;
+    private long id;
     private Cuenta cuenta;
     private Double importe;
     private LocalDate fecha;
     private TipoTransaccion tipo;
     private String descripcion;
+    private static long valor=1;
 
     public Transaccion(Cuenta cuenta, Double importe, LocalDate fecha, TipoTransaccion tipo, String descripcion) {
         this.cuenta = cuenta;
@@ -17,15 +18,15 @@ public class Transaccion {
         this.fecha = fecha;
         this.tipo = tipo;
         this.descripcion = descripcion;
-        id=id++;
+        id=valor++;
     }
 
-    public static long getId() {
+    public long getId() {
         return id;
     }
 
-    public static void setId(long id) {
-        Transaccion.id = id;
+    public void setId(long id) {
+        this.id = id;
     }
 
     public Cuenta getCuenta() {
