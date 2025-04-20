@@ -75,4 +75,14 @@ public class Cliente {
     public void setPais(String pais) {
         this.pais = pais;
     }
+
+    @Override
+    public String toString() {
+        return dni + ": {" +
+                dni + '\'' + " | " +
+                "Nombre:'" + nombre + '\'' + " | " +
+                email + '\'' +
+                " - " + telefono + '\'' +
+                '}';
+    }
 }
