@@ -82,32 +82,61 @@ public class Banco {
 
     public void getNumTransaccionesPorCuenta(){
         Map<UUID, Long> TransaccionesCuenta = cuentas.stream()
-                .collect(Collectors.groupingBy(Cuenta::getId, Collectors.counting()));
+                .flatMap(c-> c.getTransacciones().stream())
+                .collect(Collectors.groupingBy(t -> t.getCuenta().getId(), Collectors.counting()));
 
-        TransaccionesCuenta.forEach((k,v) -> System.out.println(k + " " + v));
+        TransaccionesCuenta.forEach((k,v) -> System.out.println(k + ": " + v));
 
     }
-
+/**/
+    /*
     public void getCuentasActivas(){
         cuentas.stream()
                 .flatMap(cuentas -> cuentas.getTransacciones().stream())
-                .filter(t -> t.getFecha().isAfter(t.getFecha().minusMonths(1)))
+                .filter(t -> t.getFecha().isAfter(LocalDate.now().minusMonths(1)))
+                .forEach(System.out::println);
+    }
+*/
+
+    public void getCuentasActivas(){
+        ArrayList<Transaccion> transaccions = new ArrayList<>( cuentas.stream()
+                .flatMap(cuentas -> cuentas.getTransacciones().stream())
+                .filter(t -> t.getFecha().isAfter(LocalDate.now().minusMonths(1)))
+                .toList());
+
+        cuentas.stream()
+                .filter(c -> c.getTransacciones().contains(transaccions))
+                .distinct()
                 .forEach(System.out::println);
     }
 
-    public Map getTransaccionesPorDescripcion(String palabra){
-        return cuentas.stream()
+
+    public void getTransaccionesPorDescripcion(String palabra){
+        Map<UUID, Set<Transaccion>> transacion = cuentas.stream()
                 .collect(Collectors.groupingBy(Cuenta::getId, (Collectors.flatMapping(cuentas -> cuentas.getTransacciones().stream()
                         .filter(t -> t.getDescripcion().contains(palabra)), Collectors.toSet()))));
 
+        transacion.forEach((k, v) -> System.out.println(k + ": " + v));
     }
 
-    public void showAnalisisTemporal(){
-        Map<Month, Double> mes = cuentas.stream()
+    public void showAnalisisTemporal() {
+        Map<Month, List<Transaccion>> mes = cuentas.stream()
                 .flatMap(cuentas -> cuentas.getTransacciones().stream())
-                .collect(Collectors.groupingBy(t -> t.getFecha().getMonth(), Collectors.summingDouble(Transaccion::getImporte)));
-        mes.forEach((k,v) -> System.out.println(k + " " + v));
+                .collect(Collectors.groupingBy(t -> t.getFecha().getMonth()));
+
+        mes.forEach((k, v) -> {
+            System.out.print(k + " - ");
+            double ingreso = v.stream()
+                    .filter(t -> t.getTipo().equals(TipoTransaccion.INGRESO))
+                    .mapToDouble(Transaccion::getImporte)
+                    .sum();
+            double gasto = v.stream()
+                    .filter(t -> t.getTipo().equals(TipoTransaccion.GASTO))
+                    .mapToDouble(Transaccion::getImporte)
+                    .sum();
+            System.out.print("Ingreso: " + ingreso + " - Gasto: " + gasto);
+            System.out.println();
+        });
 
     }
-
 }
