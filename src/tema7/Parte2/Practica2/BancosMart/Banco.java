@@ -88,33 +88,22 @@ public class Banco {
         TransaccionesCuenta.forEach((k,v) -> System.out.println(k + ": " + v));
 
     }
-/**/
-    /*
+
     public void getCuentasActivas(){
         cuentas.stream()
                 .flatMap(cuentas -> cuentas.getTransacciones().stream())
                 .filter(t -> t.getFecha().isAfter(LocalDate.now().minusMonths(1)))
-                .forEach(System.out::println);
-    }
-*/
-
-    public void getCuentasActivas(){
-        ArrayList<Transaccion> transaccions = new ArrayList<>( cuentas.stream()
-                .flatMap(cuentas -> cuentas.getTransacciones().stream())
-                .filter(t -> t.getFecha().isAfter(LocalDate.now().minusMonths(1)))
-                .toList());
-
-        cuentas.stream()
-                .filter(c -> c.getTransacciones().contains(transaccions))
+                .map(Transaccion::getCuenta)
                 .distinct()
                 .forEach(System.out::println);
+
     }
 
-
     public void getTransaccionesPorDescripcion(String palabra){
-        Map<UUID, Set<Transaccion>> transacion = cuentas.stream()
-                .collect(Collectors.groupingBy(Cuenta::getId, (Collectors.flatMapping(cuentas -> cuentas.getTransacciones().stream()
-                        .filter(t -> t.getDescripcion().contains(palabra)), Collectors.toSet()))));
+        Map<UUID, Set<Transaccion>> transacion =cuentas.stream()
+                .flatMap(c -> c.getTransacciones().stream())
+                .filter(t -> t.getDescripcion().contains(palabra))
+                .collect(Collectors.groupingBy(t -> t.getCuenta().getId(), Collectors.toSet()));
 
         transacion.forEach((k, v) -> System.out.println(k + ": " + v));
     }
