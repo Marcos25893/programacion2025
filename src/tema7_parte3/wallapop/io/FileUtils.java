@@ -25,7 +25,7 @@ public class FileUtils {
 
         //Cargar usuarios
         try {
-            usuarios = Files.lines(Paths.get("programacion2025/resources/usuarios.csv"))
+            usuarios = Files.lines(Paths.get("resources/usuarios.csv"))
                     .map(linea -> {
                         List<String> tokens = Arrays.asList(linea.split(","));
                         Usuario user = new Usuario(tokens.get(0),
@@ -45,11 +45,11 @@ public class FileUtils {
             throw new RuntimeException(e);
         }
 
-        //usuarios.forEach(System.out::println);
+        usuarios.forEach(System.out::println);
 
         //Cargar productos2mano
         try {
-            productos = Files.lines(Paths.get("programacion2025/resources/productos.csv"))
+            productos = Files.lines(Paths.get("resources/productos.csv"))
                     .map(linea -> {
                         List<String> tokens = Arrays.asList(linea.split(","));
                         Producto2Mano p2m = new Producto2Mano(
