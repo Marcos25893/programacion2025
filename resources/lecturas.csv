@@ -1,0 +1,2002 @@
+1,9.7,50.1,2023-01-05,1,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+2,25.9,69.1,2023-01-05,2,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+3,14.3,11.4,2023-01-04,3,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+4,7.5,36.8,2023-01-04,4,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+5,16.0,3.6,2023-01-04,5,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+6,35.2,74.1,2023-01-05,6,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+7,34.5,32.2,2023-01-05,7,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+8,12.2,65.6,2023-01-05,8,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+9,22.4,28.6,2023-01-04,9,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+10,38.9,54.8,2023-01-05,10,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+11,33.7,58.3,2023-01-04,11,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+12,13.8,68.4,2023-01-05,12,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+13,19.6,25.6,2023-01-05,13,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+14,7.7,29.5,2023-01-05,14,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+15,5.0,6.9,2023-01-05,15,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+16,33.4,72.8,2023-01-05,16,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+17,8.0,43.9,2023-01-05,17,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+18,26.7,38.7,2023-01-04,18,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+19,38.8,10.2,2023-01-05,19,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+20,20.6,51.2,2023-01-04,20,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+21,16.6,83.0,2023-01-04,21,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+22,17.0,59.9,2023-01-04,22,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+23,18.6,12.0,2023-01-05,23,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+24,7.6,53.7,2023-01-05,24,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+25,10.6,87.5,2023-01-04,25,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+26,31.9,81.0,2023-01-04,26,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+27,37.5,0.0,2023-01-05,27,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+28,5.2,73.6,2023-01-05,28,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+29,9.2,67.1,2023-01-05,29,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+30,23.0,50.9,2023-01-05,30,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+31,35.6,84.1,2023-01-04,31,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+32,5.7,91.3,2023-01-05,32,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+33,33.3,97.9,2023-01-05,33,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+34,27.7,88.7,2023-01-04,34,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+35,21.6,94.7,2023-01-04,35,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+36,10.1,14.5,2023-01-05,36,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+37,5.1,66.2,2023-01-04,37,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+38,8.7,45.0,2023-01-05,38,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+39,13.2,8.2,2023-01-05,39,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+40,26.7,8.0,2023-01-04,40,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+41,36.6,86.7,2023-01-04,41,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+42,21.0,8.3,2023-01-05,42,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+43,28.8,70.3,2023-01-04,43,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+44,7.9,22.7,2023-01-04,44,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+45,14.6,65.2,2023-01-04,45,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+46,36.4,48.8,2023-01-05,46,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+47,34.0,47.3,2023-01-04,47,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+48,18.2,60.9,2023-01-05,48,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+49,34.4,11.6,2023-01-04,49,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+50,22.1,99.2,2023-01-05,50,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+51,16.2,97.1,2023-01-04,51,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+52,16.4,36.3,2023-01-05,52,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+53,36.2,62.8,2023-01-05,53,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+54,27.1,51.1,2023-01-04,54,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+55,25.1,29.8,2023-01-05,55,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+56,19.5,48.1,2023-01-05,56,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+57,6.1,4.0,2023-01-04,57,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+58,20.6,6.5,2023-01-05,58,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+59,12.0,88.8,2023-01-04,59,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+60,25.3,33.9,2023-01-04,60,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+61,33.6,68.2,2023-01-04,61,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+62,33.9,84.5,2023-01-05,62,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+63,5.0,6.4,2023-01-05,63,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+64,28.7,61.3,2023-01-05,64,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+65,18.6,59.9,2023-01-04,65,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+66,25.2,14.7,2023-01-04,66,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+67,8.8,78.3,2023-01-05,67,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+68,12.9,50.5,2023-01-05,68,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+69,29.6,23.5,2023-01-04,69,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+70,29.1,64.5,2023-01-04,70,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+71,21.5,79.4,2023-01-04,71,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+72,22.1,84.1,2023-01-04,72,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+73,10.9,95.2,2023-01-05,73,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+74,8.5,65.5,2023-01-05,74,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+75,6.9,72.7,2023-01-05,75,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+76,10.8,49.2,2023-01-04,76,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+77,32.1,32.7,2023-01-04,77,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+78,29.0,92.4,2023-01-05,78,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+79,32.8,94.2,2023-01-05,79,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+80,7.2,47.4,2023-01-04,80,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+81,6.1,13.3,2023-01-05,81,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+82,8.8,68.0,2023-01-04,82,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+83,17.0,18.3,2023-01-05,83,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+84,10.0,63.2,2023-01-05,84,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+85,18.7,34.0,2023-01-04,85,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+86,7.5,85.5,2023-01-05,86,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+87,32.0,9.1,2023-01-05,87,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+88,8.4,29.2,2023-01-05,88,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+89,33.0,45.3,2023-01-05,89,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+90,10.3,91.3,2023-01-05,90,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+91,10.0,63.6,2023-01-04,91,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+92,26.5,46.8,2023-01-05,92,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+93,15.3,26.5,2023-01-05,93,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+94,26.9,84.8,2023-01-04,94,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+95,13.3,38.9,2023-01-05,95,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+96,6.1,54.5,2023-01-05,96,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+97,19.9,99.2,2023-01-04,97,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+98,23.7,79.6,2023-01-05,98,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+99,13.7,52.3,2023-01-05,99,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+100,19.1,76.0,2023-01-05,100,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+101,15.2,78.7,2023-01-04,101,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+102,18.6,0.5,2023-01-05,102,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+103,26.0,26.9,2023-01-04,103,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+104,30.1,63.7,2023-01-04,104,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+105,38.0,53.5,2023-01-04,105,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+106,5.9,80.2,2023-01-04,106,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+107,32.7,63.7,2023-01-04,107,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+108,9.4,3.9,2023-01-04,108,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+109,17.0,18.0,2023-01-04,109,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+110,13.0,12.0,2023-01-05,110,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+111,23.0,18.2,2023-01-05,111,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+112,27.3,52.5,2023-01-05,112,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+113,6.1,67.7,2023-01-05,113,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+114,16.5,39.2,2023-01-05,114,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+115,30.7,3.0,2023-01-04,115,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+116,8.6,76.3,2023-01-05,116,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+117,10.1,27.9,2023-01-04,117,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+118,13.8,37.3,2023-01-05,118,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+119,26.9,82.8,2023-01-04,119,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+120,27.7,37.1,2023-01-05,120,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+121,11.0,4.6,2023-01-05,121,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+122,35.4,8.7,2023-01-04,122,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+123,38.3,98.0,2023-01-04,123,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+124,6.1,61.8,2023-01-05,124,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+125,31.2,84.0,2023-01-04,125,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+126,32.7,68.9,2023-01-05,126,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+127,7.4,64.0,2023-01-04,127,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+128,34.6,48.1,2023-01-04,128,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+129,36.8,94.4,2023-01-05,129,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+130,31.8,55.4,2023-01-05,130,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+131,11.6,78.6,2023-01-05,131,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+132,19.7,47.7,2023-01-04,132,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+133,38.0,23.7,2023-01-04,133,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+134,34.2,60.4,2023-01-05,134,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+135,24.7,62.6,2023-01-05,135,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+136,14.9,2.9,2023-01-04,136,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+137,37.1,41.5,2023-01-05,137,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+138,10.3,77.5,2023-01-04,138,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+139,5.2,92.2,2023-01-05,139,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+140,30.4,96.9,2023-01-05,140,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+141,12.2,42.7,2023-01-04,141,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+142,17.1,64.7,2023-01-04,142,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+143,28.8,34.4,2023-01-04,143,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+144,11.6,12.0,2023-01-04,144,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+145,5.7,67.5,2023-01-04,145,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+146,15.5,77.2,2023-01-04,146,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+147,8.8,22.3,2023-01-04,147,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+148,22.9,95.4,2023-01-04,148,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+149,37.6,31.8,2023-01-04,149,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+150,31.9,95.6,2023-01-05,150,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+151,26.9,4.4,2023-01-05,151,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+152,17.0,6.0,2023-01-04,152,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+153,5.1,74.8,2023-01-05,153,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+154,6.6,30.7,2023-01-04,154,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+155,25.4,60.0,2023-01-05,155,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+156,26.3,24.7,2023-01-05,156,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+157,30.5,32.4,2023-01-05,157,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+158,32.7,26.7,2023-01-04,158,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+159,20.5,25.6,2023-01-05,159,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+160,14.1,7.7,2023-01-05,160,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+161,10.0,38.5,2023-01-04,161,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+162,18.0,80.0,2023-01-05,162,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+163,18.4,47.6,2023-01-04,163,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+164,18.3,28.1,2023-01-05,164,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+165,15.3,82.2,2023-01-05,165,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+166,20.2,73.1,2023-01-05,166,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+167,6.7,28.5,2023-01-04,167,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+168,21.6,91.3,2023-01-04,168,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+169,22.9,72.9,2023-01-04,169,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+170,6.4,59.0,2023-01-04,170,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+171,16.2,51.1,2023-01-05,171,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+172,33.6,96.5,2023-01-04,172,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+173,8.3,53.6,2023-01-05,173,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+174,24.7,45.2,2023-01-05,174,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+175,36.8,4.2,2023-01-05,175,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+176,34.2,7.4,2023-01-04,176,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+177,20.1,19.7,2023-01-05,177,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+178,25.2,4.4,2023-01-05,178,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+179,36.2,75.2,2023-01-05,179,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+180,24.3,84.4,2023-01-05,180,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+181,27.7,29.3,2023-01-04,181,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+182,24.5,10.5,2023-01-05,182,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+183,24.5,36.0,2023-01-04,183,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+184,10.8,90.5,2023-01-05,184,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+185,8.8,87.9,2023-01-04,185,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+186,17.8,56.9,2023-01-04,186,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+187,20.2,92.8,2023-01-04,187,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+188,11.8,61.4,2023-01-05,188,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+189,15.2,77.0,2023-01-04,189,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+190,31.0,53.0,2023-01-05,190,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+191,24.8,27.4,2023-01-05,191,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+192,36.7,2.2,2023-01-04,192,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+193,9.3,95.7,2023-01-05,193,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+194,23.6,21.4,2023-01-04,194,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+195,32.2,24.6,2023-01-05,195,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+196,32.9,58.3,2023-01-05,196,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+197,27.8,96.1,2023-01-04,197,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+198,32.9,12.3,2023-01-05,198,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+199,11.0,61.3,2023-01-05,199,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+200,22.1,46.3,2023-01-05,200,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+201,17.7,27.6,2023-01-05,201,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+202,16.0,21.0,2023-01-05,202,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+203,12.6,30.8,2023-01-04,203,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+204,23.1,55.3,2023-01-04,204,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+205,28.4,46.6,2023-01-05,205,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+206,38.8,90.3,2023-01-04,206,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+207,19.5,92.2,2023-01-04,207,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+208,36.1,59.8,2023-01-04,208,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+209,36.8,49.3,2023-01-04,209,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+210,32.0,21.2,2023-01-04,210,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+211,6.4,37.8,2023-01-05,211,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+212,29.2,12.8,2023-01-05,212,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+213,13.2,40.3,2023-01-04,213,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+214,40.0,16.1,2023-01-05,214,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+215,18.4,29.1,2023-01-04,215,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+216,22.1,58.8,2023-01-05,216,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+217,29.8,1.9,2023-01-04,217,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+218,39.7,8.1,2023-01-05,218,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+219,22.6,56.5,2023-01-04,219,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+220,36.6,86.6,2023-01-04,220,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+221,32.7,76.8,2023-01-05,221,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+222,9.7,13.0,2023-01-04,222,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+223,17.5,93.1,2023-01-04,223,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+224,28.3,10.4,2023-01-04,224,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+225,31.4,74.5,2023-01-04,225,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+226,13.6,47.7,2023-01-04,226,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+227,18.5,78.1,2023-01-05,227,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+228,14.0,1.5,2023-01-04,228,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+229,25.4,25.8,2023-01-04,229,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+230,5.8,27.4,2023-01-05,230,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+231,21.0,89.3,2023-01-05,231,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+232,21.6,64.9,2023-01-05,232,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+233,10.4,8.6,2023-01-05,233,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+234,11.8,34.2,2023-01-05,234,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+235,21.2,65.7,2023-01-04,235,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+236,9.2,95.5,2023-01-05,236,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+237,38.8,31.9,2023-01-05,237,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+238,16.3,62.5,2023-01-05,238,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+239,5.5,19.9,2023-01-04,239,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+240,17.8,2.4,2023-01-04,240,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+241,30.1,35.4,2023-01-05,241,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+242,8.5,69.1,2023-01-04,242,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+243,21.4,57.6,2023-01-04,243,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+244,20.2,20.0,2023-01-05,244,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+245,30.8,82.1,2023-01-04,245,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+246,26.7,87.8,2023-01-05,246,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+247,10.2,36.9,2023-01-04,247,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+248,12.0,3.4,2023-01-05,248,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+249,22.4,46.3,2023-01-05,249,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+250,34.1,46.9,2023-01-05,250,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+251,30.7,8.2,2023-01-04,251,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+252,32.2,7.2,2023-01-05,252,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+253,17.3,30.8,2023-01-04,253,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+254,18.8,80.7,2023-01-05,254,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+255,33.1,43.0,2023-01-04,255,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+256,10.7,58.6,2023-01-05,256,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+257,32.7,32.9,2023-01-05,257,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+258,39.4,9.1,2023-01-04,258,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+259,7.6,34.9,2023-01-04,259,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+260,6.1,41.7,2023-01-05,260,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+261,7.1,54.2,2023-01-04,261,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+262,21.5,89.6,2023-01-05,262,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+263,35.0,76.5,2023-01-04,263,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+264,19.7,50.0,2023-01-04,264,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+265,37.4,94.2,2023-01-04,265,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+266,19.1,8.4,2023-01-05,266,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+267,14.9,96.0,2023-01-04,267,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+268,15.1,84.5,2023-01-04,268,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+269,17.0,52.6,2023-01-04,269,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+270,14.3,80.9,2023-01-05,270,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+271,39.5,90.7,2023-01-05,271,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+272,24.5,85.4,2023-01-05,272,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+273,25.5,78.4,2023-01-05,273,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+274,37.5,93.8,2023-01-04,274,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+275,31.6,25.1,2023-01-04,275,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+276,19.5,22.9,2023-01-04,276,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+277,24.2,15.1,2023-01-05,277,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+278,13.3,10.8,2023-01-04,278,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+279,21.9,75.0,2023-01-05,279,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+280,18.1,22.6,2023-01-05,280,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+281,23.4,33.8,2023-01-05,281,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+282,11.4,43.0,2023-01-05,282,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+283,30.2,90.6,2023-01-05,283,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+284,36.3,0.1,2023-01-04,284,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+285,22.3,73.2,2023-01-05,285,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+286,9.5,94.7,2023-01-05,286,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+287,37.3,56.6,2023-01-04,287,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+288,36.4,44.6,2023-01-04,288,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+289,29.3,40.8,2023-01-04,289,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+290,6.1,40.2,2023-01-05,290,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+291,20.7,51.1,2023-01-04,291,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+292,5.6,6.1,2023-01-05,292,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+293,31.5,27.2,2023-01-05,293,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+294,7.4,40.9,2023-01-05,294,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+295,6.1,68.8,2023-01-04,295,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+296,36.0,68.8,2023-01-04,296,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+297,16.8,9.6,2023-01-05,297,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+298,9.3,27.2,2023-01-05,298,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+299,29.4,47.1,2023-01-05,299,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+300,8.1,68.6,2023-01-05,300,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+301,13.8,1.8,2023-01-05,301,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+302,24.3,46.3,2023-01-05,302,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+303,26.4,31.9,2023-01-05,303,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+304,19.9,38.3,2023-01-04,304,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+305,9.0,92.0,2023-01-04,305,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+306,16.5,26.1,2023-01-05,306,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+307,9.9,7.2,2023-01-04,307,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+308,21.9,59.8,2023-01-05,308,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+309,24.8,9.3,2023-01-04,309,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+310,10.1,42.2,2023-01-04,310,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+311,17.1,24.1,2023-01-05,311,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+312,13.8,59.0,2023-01-04,312,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+313,9.8,45.5,2023-01-04,313,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+314,34.0,48.3,2023-01-05,314,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+315,20.5,30.3,2023-01-05,315,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+316,23.6,15.6,2023-01-04,316,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+317,18.2,84.3,2023-01-05,317,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+318,17.3,68.6,2023-01-04,318,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+319,26.6,23.2,2023-01-04,319,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+320,20.9,14.1,2023-01-05,320,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+321,11.3,71.4,2023-01-05,321,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+322,28.4,32.4,2023-01-04,322,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+323,30.0,88.9,2023-01-04,323,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+324,11.3,44.6,2023-01-04,324,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+325,21.0,30.6,2023-01-05,325,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+326,24.7,28.5,2023-01-05,326,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+327,14.0,90.2,2023-01-04,327,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+328,32.3,89.0,2023-01-04,328,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+329,26.5,65.9,2023-01-04,329,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+330,27.4,30.6,2023-01-05,330,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+331,8.4,58.3,2023-01-04,331,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+332,11.1,20.2,2023-01-05,332,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+333,32.3,42.3,2023-01-04,333,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+334,7.8,57.3,2023-01-04,334,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+335,17.6,55.4,2023-01-04,335,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+336,10.2,34.9,2023-01-05,336,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+337,10.0,64.8,2023-01-05,337,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+338,37.2,29.7,2023-01-05,338,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+339,20.9,29.0,2023-01-05,339,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+340,33.1,49.6,2023-01-05,340,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+341,33.6,21.5,2023-01-04,341,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+342,37.4,29.0,2023-01-05,342,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+343,17.6,97.6,2023-01-04,343,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+344,32.5,71.7,2023-01-04,344,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+345,28.0,5.4,2023-01-04,345,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+346,29.4,11.4,2023-01-04,346,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+347,37.5,26.8,2023-01-05,347,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+348,20.0,52.4,2023-01-04,348,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+349,34.9,34.6,2023-01-05,349,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+350,15.5,5.7,2023-01-05,350,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+351,23.6,45.9,2023-01-04,351,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+352,16.8,76.2,2023-01-04,352,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+353,36.3,30.6,2023-01-04,353,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+354,32.4,96.1,2023-01-05,354,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+355,8.4,76.2,2023-01-05,355,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+356,20.6,23.6,2023-01-05,356,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+357,15.7,37.3,2023-01-04,357,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+358,12.8,25.2,2023-01-04,358,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+359,12.8,55.0,2023-01-04,359,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+360,36.4,31.4,2023-01-04,360,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+361,32.6,33.5,2023-01-05,361,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+362,28.9,23.6,2023-01-04,362,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+363,36.5,82.5,2023-01-04,363,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+364,38.8,67.2,2023-01-04,364,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+365,32.8,74.6,2023-01-05,365,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+366,39.4,75.4,2023-01-04,366,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+367,14.6,66.9,2023-01-04,367,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+368,29.3,83.5,2023-01-05,368,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+369,22.3,69.0,2023-01-04,369,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+370,20.1,4.3,2023-01-05,370,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+371,18.1,33.7,2023-01-04,371,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+372,5.8,18.7,2023-01-05,372,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+373,5.5,16.2,2023-01-04,373,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+374,31.7,89.5,2023-01-05,374,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+375,18.0,89.5,2023-01-05,375,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+376,14.3,6.0,2023-01-05,376,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+377,23.9,49.8,2023-01-04,377,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+378,37.6,11.9,2023-01-05,378,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+379,33.4,84.0,2023-01-04,379,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+380,38.7,73.0,2023-01-05,380,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+381,18.4,55.1,2023-01-05,381,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+382,12.4,42.0,2023-01-05,382,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+383,12.8,71.9,2023-01-04,383,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+384,37.1,92.9,2023-01-05,384,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+385,14.3,45.8,2023-01-05,385,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+386,18.5,57.0,2023-01-04,386,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+387,9.5,44.0,2023-01-05,387,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+388,23.4,98.9,2023-01-04,388,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+389,19.1,68.6,2023-01-05,389,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+390,6.7,75.6,2023-01-04,390,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+391,21.6,43.6,2023-01-04,391,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+392,24.3,90.0,2023-01-05,392,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+393,19.9,35.6,2023-01-05,393,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+394,31.7,4.8,2023-01-04,394,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+395,37.7,32.5,2023-01-05,395,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+396,33.1,22.4,2023-01-04,396,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+397,33.1,45.8,2023-01-04,397,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+398,7.6,84.3,2023-01-04,398,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+399,11.6,80.5,2023-01-04,399,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+400,34.9,4.8,2023-01-04,400,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+401,24.4,28.5,2023-01-04,401,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+402,10.2,32.3,2023-01-04,402,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+403,8.7,98.8,2023-01-05,403,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+404,6.0,3.6,2023-01-04,404,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+405,15.4,5.8,2023-01-04,405,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+406,8.4,21.5,2023-01-05,406,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+407,34.6,24.7,2023-01-04,407,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+408,20.6,7.7,2023-01-04,408,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+409,23.3,90.4,2023-01-04,409,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+410,18.5,6.5,2023-01-04,410,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+411,39.2,60.0,2023-01-05,411,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+412,21.8,66.3,2023-01-04,412,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+413,20.3,31.7,2023-01-04,413,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+414,12.0,20.1,2023-01-05,414,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+415,11.6,49.6,2023-01-05,415,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+416,28.5,38.3,2023-01-04,416,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+417,28.2,2.3,2023-01-05,417,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+418,38.2,1.6,2023-01-04,418,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+419,36.0,32.3,2023-01-05,419,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+420,35.6,69.6,2023-01-05,420,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+421,35.3,4.7,2023-01-05,421,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+422,29.2,4.2,2023-01-05,422,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+423,28.2,15.7,2023-01-05,423,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+424,35.1,97.5,2023-01-05,424,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+425,6.7,76.4,2023-01-04,425,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+426,31.6,50.3,2023-01-04,426,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+427,18.4,71.0,2023-01-04,427,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+428,13.8,33.5,2023-01-05,428,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+429,20.8,42.6,2023-01-04,429,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+430,6.7,23.3,2023-01-05,430,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+431,20.7,25.6,2023-01-05,431,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+432,26.1,96.5,2023-01-05,432,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+433,15.3,25.0,2023-01-04,433,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+434,29.2,16.1,2023-01-05,434,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+435,33.8,92.5,2023-01-04,435,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+436,14.5,57.8,2023-01-04,436,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+437,20.5,55.9,2023-01-05,437,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+438,12.3,48.5,2023-01-04,438,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+439,33.8,94.9,2023-01-04,439,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+440,13.3,77.6,2023-01-04,440,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+441,19.0,85.2,2023-01-04,441,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+442,24.9,69.2,2023-01-04,442,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+443,39.2,32.2,2023-01-05,443,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+444,28.0,55.7,2023-01-05,444,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+445,23.5,10.4,2023-01-05,445,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+446,17.5,34.5,2023-01-04,446,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+447,13.8,57.1,2023-01-04,447,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+448,16.0,42.9,2023-01-04,448,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+449,14.3,50.7,2023-01-04,449,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+450,20.5,13.7,2023-01-04,450,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+451,31.0,93.1,2023-01-04,451,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+452,10.5,66.9,2023-01-05,452,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+453,21.8,36.4,2023-01-05,453,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+454,26.4,22.9,2023-01-04,454,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+455,32.4,37.4,2023-01-04,455,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+456,34.2,36.0,2023-01-04,456,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+457,19.1,14.7,2023-01-05,457,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+458,39.9,68.0,2023-01-04,458,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+459,16.9,36.9,2023-01-05,459,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+460,23.9,87.6,2023-01-05,460,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+461,6.8,33.5,2023-01-05,461,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+462,9.0,4.6,2023-01-05,462,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+463,23.6,27.7,2023-01-04,463,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+464,34.5,57.7,2023-01-04,464,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+465,15.4,33.6,2023-01-05,465,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+466,16.3,3.2,2023-01-04,466,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+467,32.7,75.9,2023-01-05,467,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+468,36.8,0.6,2023-01-05,468,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+469,29.4,44.2,2023-01-04,469,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+470,5.7,25.9,2023-01-05,470,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+471,23.3,35.5,2023-01-04,471,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+472,19.1,28.8,2023-01-04,472,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+473,22.3,64.0,2023-01-04,473,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+474,34.5,49.0,2023-01-04,474,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+475,24.4,49.6,2023-01-05,475,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+476,32.9,93.4,2023-01-05,476,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+477,20.3,68.0,2023-01-04,477,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+478,14.8,54.6,2023-01-04,478,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+479,21.8,77.7,2023-01-04,479,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+480,11.6,45.4,2023-01-05,480,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+481,19.9,27.6,2023-01-05,481,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+482,12.7,25.1,2023-01-04,482,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+483,9.5,72.1,2023-01-05,483,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+484,35.7,61.8,2023-01-04,484,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+485,31.1,29.9,2023-01-04,485,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+486,30.8,57.9,2023-01-04,486,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+487,39.7,75.2,2023-01-04,487,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+488,8.4,72.5,2023-01-05,488,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+489,9.8,24.9,2023-01-05,489,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+490,12.8,22.2,2023-01-04,490,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+491,33.8,36.6,2023-01-05,491,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+492,7.7,87.0,2023-01-04,492,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+493,20.9,88.5,2023-01-04,493,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+494,5.3,41.0,2023-01-05,494,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+495,8.2,65.8,2023-01-05,495,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+496,22.1,36.6,2023-01-05,496,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+497,21.2,15.0,2023-01-05,497,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+498,8.0,31.7,2023-01-05,498,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+499,36.3,58.8,2023-01-04,499,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+500,26.9,37.4,2023-01-05,500,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+501,22.6,94.9,2023-01-04,501,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+502,20.9,13.1,2023-01-05,502,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+503,22.6,39.5,2023-01-05,503,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+504,33.5,23.2,2023-01-05,504,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+505,30.8,80.7,2023-01-05,505,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+506,18.1,90.4,2023-01-04,506,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+507,23.8,83.5,2023-01-04,507,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+508,18.5,88.9,2023-01-04,508,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+509,22.2,17.0,2023-01-04,509,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+510,32.8,52.9,2023-01-05,510,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+511,38.4,40.1,2023-01-04,511,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+512,39.3,72.2,2023-01-05,512,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+513,23.3,99.3,2023-01-04,513,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+514,5.1,69.4,2023-01-04,514,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+515,22.3,27.6,2023-01-05,515,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+516,30.6,79.6,2023-01-04,516,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+517,20.4,18.4,2023-01-05,517,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+518,31.0,98.5,2023-01-04,518,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+519,19.2,49.0,2023-01-05,519,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+520,24.5,83.7,2023-01-05,520,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+521,19.5,8.6,2023-01-04,521,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+522,13.2,72.8,2023-01-04,522,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+523,31.4,30.9,2023-01-04,523,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+524,22.9,69.0,2023-01-05,524,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+525,22.3,76.3,2023-01-04,525,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+526,18.7,34.5,2023-01-04,526,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+527,26.5,79.2,2023-01-04,527,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+528,7.9,68.6,2023-01-04,528,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+529,15.9,38.5,2023-01-04,529,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+530,24.2,75.8,2023-01-04,530,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+531,20.5,33.2,2023-01-04,531,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+532,6.9,68.3,2023-01-04,532,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+533,21.6,36.8,2023-01-04,533,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+534,24.2,73.0,2023-01-05,534,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+535,25.1,17.7,2023-01-04,535,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+536,25.7,45.0,2023-01-04,536,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+537,34.3,31.5,2023-01-05,537,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+538,37.5,42.9,2023-01-05,538,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+539,15.0,86.1,2023-01-05,539,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+540,34.8,27.1,2023-01-04,540,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+541,13.6,29.1,2023-01-05,541,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+542,10.9,1.5,2023-01-05,542,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+543,34.9,95.3,2023-01-05,543,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+544,33.0,59.5,2023-01-05,544,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+545,34.2,59.5,2023-01-04,545,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+546,18.2,13.3,2023-01-05,546,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+547,14.4,95.0,2023-01-05,547,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+548,15.9,31.9,2023-01-05,548,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+549,27.6,56.1,2023-01-04,549,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+550,38.1,80.5,2023-01-04,550,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+551,33.1,49.4,2023-01-04,551,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+552,23.5,65.1,2023-01-04,552,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+553,19.8,33.6,2023-01-05,553,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+554,25.8,25.7,2023-01-05,554,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+555,9.8,54.3,2023-01-04,555,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+556,37.8,68.3,2023-01-04,556,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+557,6.7,76.5,2023-01-05,557,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+558,38.3,9.1,2023-01-04,558,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+559,7.9,87.3,2023-01-04,559,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+560,33.2,7.6,2023-01-05,560,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+561,6.4,66.2,2023-01-05,561,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+562,30.0,62.1,2023-01-04,562,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+563,23.3,4.0,2023-01-04,563,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+564,36.8,26.2,2023-01-05,564,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+565,26.5,48.2,2023-01-04,565,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+566,36.9,49.3,2023-01-05,566,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+567,15.1,88.5,2023-01-04,567,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+568,21.0,47.8,2023-01-05,568,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+569,24.5,44.0,2023-01-04,569,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+570,30.7,17.9,2023-01-04,570,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+571,32.4,84.5,2023-01-04,571,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+572,18.2,100.0,2023-01-05,572,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+573,9.0,27.3,2023-01-05,573,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+574,27.7,13.7,2023-01-04,574,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+575,19.0,34.9,2023-01-04,575,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+576,8.0,94.1,2023-01-04,576,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+577,26.5,15.5,2023-01-05,577,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+578,9.8,62.3,2023-01-04,578,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+579,23.2,25.9,2023-01-04,579,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+580,30.1,88.2,2023-01-04,580,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+581,20.6,69.2,2023-01-04,581,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+582,10.0,98.7,2023-01-05,582,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+583,20.7,47.0,2023-01-05,583,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+584,32.0,94.6,2023-01-05,584,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+585,10.0,23.2,2023-01-04,585,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+586,38.7,65.3,2023-01-05,586,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+587,32.0,15.3,2023-01-05,587,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+588,9.6,24.3,2023-01-04,588,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+589,5.1,45.2,2023-01-05,589,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+590,37.2,57.2,2023-01-05,590,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+591,18.7,75.0,2023-01-04,591,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+592,38.3,8.0,2023-01-05,592,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+593,25.6,3.5,2023-01-05,593,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+594,35.4,85.1,2023-01-05,594,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+595,21.2,32.0,2023-01-04,595,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+596,9.3,68.5,2023-01-04,596,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+597,16.4,69.6,2023-01-05,597,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+598,17.8,68.5,2023-01-05,598,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+599,27.2,57.8,2023-01-05,599,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+600,22.0,34.7,2023-01-05,600,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+601,25.4,62.5,2023-01-04,601,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+602,13.0,0.1,2023-01-04,602,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+603,9.4,22.7,2023-01-05,603,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+604,19.3,25.8,2023-01-05,604,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+605,34.3,2.1,2023-01-05,605,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+606,7.2,12.8,2023-01-05,606,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+607,11.1,63.2,2023-01-05,607,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+608,17.0,45.3,2023-01-05,608,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+609,28.4,35.3,2023-01-05,609,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+610,18.8,14.6,2023-01-04,610,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+611,27.0,34.8,2023-01-04,611,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+612,8.6,12.0,2023-01-04,612,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+613,34.1,10.8,2023-01-04,613,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+614,29.8,28.9,2023-01-04,614,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+615,9.4,65.4,2023-01-05,615,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+616,39.7,85.8,2023-01-04,616,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+617,11.5,41.6,2023-01-04,617,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+618,34.9,10.1,2023-01-04,618,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+619,7.1,68.1,2023-01-04,619,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+620,23.7,46.4,2023-01-04,620,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+621,13.7,18.3,2023-01-04,621,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+622,29.8,96.8,2023-01-05,622,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+623,18.6,27.8,2023-01-04,623,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+624,30.4,5.0,2023-01-04,624,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+625,35.2,58.3,2023-01-05,625,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+626,34.1,9.7,2023-01-04,626,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+627,39.1,51.0,2023-01-05,627,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+628,25.7,40.3,2023-01-04,628,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+629,38.3,44.6,2023-01-04,629,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+630,18.0,41.0,2023-01-04,630,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+631,32.6,11.3,2023-01-04,631,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+632,10.4,99.3,2023-01-05,632,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+633,25.9,23.8,2023-01-04,633,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+634,8.3,70.2,2023-01-05,634,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+635,35.8,79.5,2023-01-05,635,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+636,6.7,72.3,2023-01-05,636,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+637,34.9,30.7,2023-01-05,637,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+638,13.3,43.8,2023-01-04,638,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+639,12.6,51.6,2023-01-05,639,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+640,22.7,52.7,2023-01-04,640,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+641,16.1,8.0,2023-01-05,641,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+642,10.9,37.2,2023-01-05,642,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+643,16.8,38.6,2023-01-05,643,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+644,10.6,30.1,2023-01-05,644,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+645,14.8,6.8,2023-01-04,645,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+646,35.1,98.0,2023-01-04,646,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+647,39.4,72.2,2023-01-05,647,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+648,34.0,67.0,2023-01-05,648,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+649,37.6,3.7,2023-01-05,649,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+650,10.6,7.6,2023-01-04,650,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+651,15.3,62.6,2023-01-05,651,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+652,25.0,58.2,2023-01-05,652,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+653,7.7,4.8,2023-01-04,653,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+654,31.5,53.6,2023-01-05,654,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+655,15.9,83.1,2023-01-05,655,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+656,7.0,73.6,2023-01-04,656,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+657,30.3,37.2,2023-01-04,657,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+658,7.5,88.1,2023-01-04,658,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+659,19.8,27.6,2023-01-05,659,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+660,34.0,67.2,2023-01-05,660,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+661,38.3,37.2,2023-01-04,661,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+662,7.2,29.7,2023-01-05,662,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+663,10.9,80.5,2023-01-05,663,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+664,18.3,59.7,2023-01-04,664,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+665,16.5,83.9,2023-01-04,665,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+666,23.6,56.8,2023-01-04,666,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+667,9.8,41.5,2023-01-05,667,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+668,38.0,88.7,2023-01-05,668,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+669,8.5,49.2,2023-01-04,669,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+670,23.6,14.0,2023-01-04,670,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+671,17.7,10.8,2023-01-05,671,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+672,31.2,98.2,2023-01-05,672,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+673,35.8,27.8,2023-01-05,673,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+674,35.8,13.0,2023-01-04,674,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+675,9.7,74.0,2023-01-05,675,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+676,16.7,39.1,2023-01-04,676,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+677,28.5,2.9,2023-01-04,677,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+678,13.4,94.9,2023-01-05,678,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+679,5.8,15.1,2023-01-04,679,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+680,39.6,40.9,2023-01-04,680,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+681,7.1,8.4,2023-01-04,681,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+682,15.4,88.2,2023-01-05,682,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+683,24.1,6.5,2023-01-05,683,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+684,18.1,98.1,2023-01-05,684,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+685,20.1,7.8,2023-01-04,685,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+686,19.3,71.4,2023-01-04,686,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+687,17.7,77.7,2023-01-04,687,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+688,14.4,57.9,2023-01-05,688,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+689,38.6,18.6,2023-01-04,689,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+690,20.1,36.0,2023-01-05,690,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+691,32.8,98.4,2023-01-05,691,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+692,25.1,27.3,2023-01-05,692,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+693,29.1,61.3,2023-01-04,693,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+694,32.4,4.1,2023-01-05,694,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+695,29.2,83.6,2023-01-05,695,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+696,22.0,11.4,2023-01-04,696,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+697,24.1,21.2,2023-01-05,697,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+698,30.8,98.2,2023-01-05,698,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+699,32.7,71.3,2023-01-05,699,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+700,35.3,60.6,2023-01-05,700,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+701,13.1,2.5,2023-01-05,701,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+702,17.4,50.1,2023-01-04,702,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+703,36.0,41.0,2023-01-05,703,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+704,7.9,36.8,2023-01-05,704,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+705,6.1,12.0,2023-01-04,705,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+706,21.6,62.2,2023-01-05,706,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+707,37.8,57.3,2023-01-04,707,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+708,39.4,92.1,2023-01-05,708,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+709,38.3,35.1,2023-01-04,709,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+710,32.7,90.3,2023-01-05,710,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+711,25.0,34.1,2023-01-04,711,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+712,35.7,94.0,2023-01-04,712,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+713,20.1,76.2,2023-01-05,713,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+714,17.2,66.6,2023-01-04,714,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+715,29.6,50.5,2023-01-04,715,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+716,33.3,67.2,2023-01-04,716,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+717,23.9,46.7,2023-01-04,717,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+718,30.0,79.8,2023-01-04,718,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+719,31.5,33.2,2023-01-05,719,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+720,32.0,80.7,2023-01-05,720,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+721,18.8,66.6,2023-01-04,721,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+722,35.8,28.6,2023-01-04,722,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+723,22.9,8.8,2023-01-05,723,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+724,35.3,92.4,2023-01-04,724,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+725,5.7,15.9,2023-01-04,725,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+726,21.1,95.5,2023-01-05,726,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+727,13.9,95.7,2023-01-04,727,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+728,37.1,76.7,2023-01-05,728,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+729,34.9,69.8,2023-01-04,729,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+730,31.4,82.0,2023-01-04,730,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+731,14.3,65.9,2023-01-04,731,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+732,14.9,72.8,2023-01-04,732,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+733,35.8,89.4,2023-01-05,733,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+734,7.8,18.3,2023-01-04,734,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+735,36.1,13.1,2023-01-04,735,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+736,6.8,86.9,2023-01-05,736,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+737,28.8,53.5,2023-01-04,737,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+738,34.3,43.0,2023-01-04,738,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+739,5.8,36.4,2023-01-05,739,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+740,15.3,25.1,2023-01-04,740,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+741,10.3,39.3,2023-01-05,741,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+742,15.9,24.5,2023-01-05,742,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+743,29.7,92.4,2023-01-05,743,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+744,38.4,40.6,2023-01-04,744,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+745,29.2,47.3,2023-01-04,745,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+746,24.9,94.5,2023-01-05,746,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+747,23.7,15.5,2023-01-05,747,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+748,24.6,46.8,2023-01-05,748,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+749,32.4,18.5,2023-01-04,749,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+750,6.3,78.1,2023-01-05,750,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+751,14.7,66.0,2023-01-04,751,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+752,11.8,15.7,2023-01-04,752,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+753,7.3,83.6,2023-01-05,753,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+754,39.5,89.8,2023-01-04,754,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+755,10.3,69.8,2023-01-04,755,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+756,25.0,75.9,2023-01-04,756,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+757,20.7,7.6,2023-01-05,757,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+758,25.9,56.9,2023-01-04,758,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+759,35.8,2.3,2023-01-05,759,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+760,36.8,12.3,2023-01-04,760,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+761,30.8,59.3,2023-01-04,761,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+762,5.7,8.3,2023-01-04,762,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+763,38.9,9.8,2023-01-05,763,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+764,13.0,28.4,2023-01-05,764,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+765,20.9,27.4,2023-01-04,765,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+766,27.3,45.2,2023-01-04,766,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+767,30.1,19.8,2023-01-05,767,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+768,39.9,4.4,2023-01-04,768,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+769,25.5,40.9,2023-01-05,769,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+770,35.3,22.3,2023-01-04,770,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+771,17.2,90.2,2023-01-05,771,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+772,35.1,23.6,2023-01-05,772,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+773,9.6,19.1,2023-01-04,773,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+774,23.4,60.4,2023-01-04,774,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+775,32.8,65.1,2023-01-05,775,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+776,19.0,64.3,2023-01-04,776,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+777,17.8,83.1,2023-01-04,777,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+778,39.4,18.7,2023-01-05,778,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+779,38.4,89.9,2023-01-04,779,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+780,16.5,80.3,2023-01-05,780,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+781,28.6,37.6,2023-01-05,781,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+782,22.0,66.1,2023-01-04,782,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+783,14.6,80.6,2023-01-04,783,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+784,22.3,54.9,2023-01-05,784,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+785,18.2,73.1,2023-01-05,785,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+786,7.2,27.5,2023-01-05,786,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+787,21.0,99.3,2023-01-04,787,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+788,39.8,45.4,2023-01-04,788,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+789,15.8,67.8,2023-01-04,789,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+790,18.4,58.4,2023-01-04,790,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+791,21.9,92.0,2023-01-05,791,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+792,20.7,24.0,2023-01-04,792,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+793,35.2,54.0,2023-01-04,793,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+794,28.7,5.9,2023-01-04,794,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+795,8.5,93.7,2023-01-04,795,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+796,26.2,59.5,2023-01-04,796,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+797,15.3,58.5,2023-01-05,797,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+798,8.2,2.6,2023-01-04,798,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+799,39.3,36.6,2023-01-05,799,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+800,5.7,44.0,2023-01-05,800,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+801,29.1,30.6,2023-01-05,801,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+802,17.6,95.9,2023-01-04,802,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+803,15.6,6.6,2023-01-04,803,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+804,16.7,33.7,2023-01-04,804,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+805,6.7,57.6,2023-01-04,805,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+806,30.3,33.8,2023-01-04,806,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+807,6.7,68.4,2023-01-04,807,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+808,24.6,47.0,2023-01-04,808,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+809,16.1,12.6,2023-01-05,809,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+810,26.2,13.8,2023-01-04,810,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+811,35.8,78.4,2023-01-05,811,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+812,39.9,6.9,2023-01-04,812,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+813,20.3,35.9,2023-01-05,813,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+814,12.1,56.9,2023-01-05,814,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+815,16.5,47.5,2023-01-04,815,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+816,29.7,32.3,2023-01-05,816,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+817,18.9,4.8,2023-01-05,817,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+818,24.3,69.4,2023-01-04,818,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+819,32.7,36.9,2023-01-05,819,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+820,17.3,84.3,2023-01-05,820,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+821,10.2,4.1,2023-01-05,821,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+822,16.6,27.2,2023-01-04,822,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+823,16.7,85.7,2023-01-04,823,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+824,9.9,57.5,2023-01-04,824,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+825,24.2,39.9,2023-01-05,825,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+826,39.6,87.5,2023-01-04,826,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+827,38.5,54.7,2023-01-05,827,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+828,39.4,30.7,2023-01-05,828,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+829,28.2,54.1,2023-01-04,829,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+830,22.1,33.8,2023-01-04,830,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+831,32.6,24.8,2023-01-04,831,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+832,34.9,59.3,2023-01-04,832,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+833,15.5,51.0,2023-01-04,833,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+834,9.7,86.3,2023-01-04,834,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+835,6.5,83.8,2023-01-05,835,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+836,24.8,9.7,2023-01-04,836,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+837,19.2,76.8,2023-01-04,837,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+838,7.7,1.9,2023-01-05,838,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+839,20.6,32.5,2023-01-05,839,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+840,26.6,81.7,2023-01-04,840,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+841,35.4,99.0,2023-01-04,841,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+842,23.0,69.3,2023-01-04,842,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+843,9.3,32.6,2023-01-04,843,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+844,27.2,25.7,2023-01-04,844,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+845,15.5,22.5,2023-01-04,845,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+846,19.8,7.5,2023-01-05,846,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+847,24.2,86.9,2023-01-05,847,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+848,28.9,7.0,2023-01-04,848,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+849,36.5,3.6,2023-01-04,849,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+850,21.0,49.0,2023-01-04,850,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+851,31.8,11.6,2023-01-05,851,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+852,33.2,20.5,2023-01-04,852,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+853,16.7,99.0,2023-01-04,853,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+854,14.0,49.3,2023-01-04,854,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+855,14.0,47.0,2023-01-04,855,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+856,40.0,93.9,2023-01-05,856,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+857,8.4,66.7,2023-01-04,857,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+858,13.5,59.5,2023-01-04,858,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+859,9.7,37.8,2023-01-05,859,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+860,36.8,33.9,2023-01-04,860,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+861,31.4,2.4,2023-01-04,861,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+862,23.8,52.3,2023-01-05,862,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+863,6.8,60.1,2023-01-05,863,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+864,20.7,29.5,2023-01-05,864,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+865,7.9,50.9,2023-01-04,865,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+866,36.6,0.9,2023-01-04,866,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+867,8.1,54.8,2023-01-04,867,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+868,13.4,28.3,2023-01-04,868,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+869,30.5,99.4,2023-01-04,869,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+870,14.2,90.2,2023-01-05,870,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+871,36.4,73.7,2023-01-05,871,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+872,33.6,45.4,2023-01-05,872,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+873,29.8,21.3,2023-01-04,873,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+874,19.9,73.7,2023-01-05,874,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+875,34.9,34.9,2023-01-05,875,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+876,29.8,27.4,2023-01-05,876,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+877,23.5,28.7,2023-01-05,877,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+878,34.8,89.1,2023-01-05,878,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+879,5.7,14.2,2023-01-04,879,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+880,33.2,7.6,2023-01-05,880,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+881,16.5,61.1,2023-01-05,881,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+882,5.7,78.2,2023-01-04,882,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+883,8.2,39.9,2023-01-05,883,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+884,10.4,43.8,2023-01-04,884,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+885,32.8,4.0,2023-01-04,885,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+886,13.2,24.4,2023-01-05,886,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+887,12.7,14.9,2023-01-05,887,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+888,14.0,77.9,2023-01-05,888,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+889,37.2,36.8,2023-01-04,889,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+890,7.1,18.1,2023-01-04,890,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+891,31.0,51.2,2023-01-05,891,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+892,28.4,14.4,2023-01-05,892,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+893,25.3,24.3,2023-01-04,893,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+894,6.9,60.4,2023-01-05,894,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+895,32.7,12.6,2023-01-05,895,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+896,27.8,82.1,2023-01-04,896,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+897,20.4,67.5,2023-01-04,897,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+898,15.3,26.2,2023-01-05,898,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+899,6.0,6.5,2023-01-04,899,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+900,10.0,48.6,2023-01-05,900,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+901,9.4,67.5,2023-01-04,901,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+902,13.7,46.6,2023-01-05,902,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+903,11.8,91.6,2023-01-05,903,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+904,8.8,19.0,2023-01-04,904,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+905,12.6,80.6,2023-01-04,905,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+906,27.4,60.2,2023-01-05,906,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+907,6.2,98.7,2023-01-04,907,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+908,27.8,60.8,2023-01-05,908,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+909,34.0,61.7,2023-01-04,909,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+910,18.7,11.7,2023-01-05,910,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+911,33.9,86.9,2023-01-04,911,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+912,10.0,39.7,2023-01-05,912,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+913,31.7,30.3,2023-01-05,913,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+914,31.6,59.2,2023-01-05,914,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+915,10.5,78.2,2023-01-05,915,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+916,39.8,47.4,2023-01-05,916,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+917,6.4,76.7,2023-01-04,917,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+918,11.8,71.5,2023-01-04,918,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+919,14.2,56.9,2023-01-04,919,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+920,11.7,95.8,2023-01-05,920,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+921,29.5,0.7,2023-01-05,921,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+922,19.7,48.9,2023-01-04,922,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+923,12.7,20.5,2023-01-04,923,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+924,13.1,98.5,2023-01-04,924,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+925,19.3,74.3,2023-01-05,925,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+926,26.5,56.0,2023-01-05,926,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+927,10.1,32.4,2023-01-04,927,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+928,23.8,55.7,2023-01-04,928,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+929,5.6,22.8,2023-01-05,929,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+930,16.1,16.1,2023-01-04,930,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+931,38.9,46.8,2023-01-04,931,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+932,17.4,2.1,2023-01-04,932,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+933,39.2,69.9,2023-01-05,933,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+934,11.2,72.1,2023-01-04,934,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+935,26.4,73.0,2023-01-05,935,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+936,23.3,94.9,2023-01-04,936,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+937,9.6,93.4,2023-01-05,937,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+938,28.7,77.3,2023-01-04,938,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+939,12.9,48.4,2023-01-05,939,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+940,33.2,76.2,2023-01-04,940,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+941,5.2,32.5,2023-01-04,941,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+942,38.8,98.6,2023-01-04,942,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+943,13.8,83.1,2023-01-05,943,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+944,17.3,55.4,2023-01-04,944,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+945,32.1,87.0,2023-01-05,945,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+946,25.0,0.7,2023-01-05,946,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+947,14.8,71.3,2023-01-04,947,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+948,22.5,42.0,2023-01-04,948,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+949,26.3,60.5,2023-01-04,949,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+950,30.2,27.9,2023-01-05,950,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+951,11.1,67.2,2023-01-05,951,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+952,17.9,19.3,2023-01-05,952,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+953,17.3,74.0,2023-01-04,953,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+954,13.1,94.0,2023-01-05,954,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+955,38.2,20.6,2023-01-04,955,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+956,37.7,18.6,2023-01-05,956,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+957,15.8,71.2,2023-01-05,957,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+958,9.2,2.0,2023-01-05,958,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+959,13.0,95.9,2023-01-04,959,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+960,6.4,3.9,2023-01-05,960,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+961,32.0,11.6,2023-01-04,961,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+962,9.8,67.7,2023-01-04,962,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+963,11.7,68.4,2023-01-05,963,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+964,32.6,71.6,2023-01-05,964,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+965,38.7,94.5,2023-01-05,965,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+966,7.6,52.3,2023-01-04,966,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+967,27.4,37.1,2023-01-04,967,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+968,13.7,60.9,2023-01-04,968,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+969,25.8,35.8,2023-01-05,969,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+970,13.3,79.3,2023-01-05,970,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+971,36.7,18.3,2023-01-05,971,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+972,28.5,5.3,2023-01-04,972,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+973,16.0,35.6,2023-01-05,973,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+974,12.9,40.0,2023-01-05,974,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+975,7.6,83.0,2023-01-05,975,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+976,8.4,7.4,2023-01-05,976,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+977,24.7,36.5,2023-01-04,977,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+978,35.7,97.6,2023-01-05,978,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+979,31.7,17.7,2023-01-05,979,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+980,35.4,6.6,2023-01-04,980,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+981,29.4,69.1,2023-01-05,981,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+982,6.9,89.1,2023-01-04,982,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+983,38.2,98.0,2023-01-05,983,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+984,29.8,21.0,2023-01-05,984,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+985,9.1,72.4,2023-01-04,985,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+986,21.6,34.9,2023-01-05,986,Finca{nombre='Y-Solowarm', longitud=254.6, latitud=46.8, superficie=132.8, localidad='Fort Worth', provincia='2323 TEXAS ST '}
+,
+987,35.8,82.8,2023-01-05,987,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+988,34.0,2.3,2023-01-04,988,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+989,26.5,2.0,2023-01-05,989,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+990,13.3,30.4,2023-01-05,990,Finca{nombre='Tampflex', longitud=223.8, latitud=33.2, superficie=81.8, localidad='Kuching', provincia='330 SEVEN SPRINGS WAY '}
+,
+991,16.0,6.9,2023-01-04,991,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+992,29.0,44.0,2023-01-05,992,Finca{nombre='Zoolab', longitud=168.2, latitud=70.4, superficie=83.8, localidad='Veliki Preslav', provincia='1520 N DIVISION ST '}
+,
+993,14.0,30.8,2023-01-04,993,Finca{nombre='Prodder', longitud=92.5, latitud=70.2, superficie=161.2, localidad='Skanör', provincia='2943 CUESTA WAY '}
+,
+994,29.6,61.7,2023-01-05,994,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+995,5.9,65.6,2023-01-05,995,Finca{nombre='Ventosanzap', longitud=155.1, latitud=12.0, superficie=156.9, localidad='Tirana', provincia='3 E BENJAMIN DR '}
+,
+996,26.8,22.9,2023-01-05,996,Finca{nombre='Latlux', longitud=104.6, latitud=58.7, superficie=88.5, localidad='Hvar', provincia='1225 WARM SPRINGS AVE '}
+,
+997,18.6,16.7,2023-01-04,997,Finca{nombre='Transcof', longitud=197.9, latitud=84.1, superficie=84.5, localidad='Bagnères-de-Bigorre', provincia='PO BOX 268 383 N 17TH ST'}
+,
+998,27.5,65.1,2023-01-04,998,Finca{nombre='Tresom', longitud=274.7, latitud=70.9, superficie=121.7, localidad='Österbybruk', provincia='645 S CENTRAL AVE'}
+,
+999,25.4,81.7,2023-01-04,999,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
+1000,21.4,96.6,2023-01-04,1000,Finca{nombre='Bytecard', longitud=99.3, latitud=90.0, superficie=56.4, localidad='Venda Nova', provincia='1333 S SAM HOUSTON BLVD '}
+,
+1001,25.4,50.3,2023-04-28,1001,Finca{nombre='Sub-Ex', longitud=238.6, latitud=73.3, superficie=189.9, localidad='Aksu', provincia='248 WYATT EARP LOOP '}
+,
