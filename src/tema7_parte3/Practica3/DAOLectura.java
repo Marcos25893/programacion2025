@@ -56,10 +56,7 @@ public class DAOLectura {
             sb.append(",");
             sb.append(l.getMomento());
             sb.append(",");
-            sb.append(l.getId());
-            sb.append(",");
-            sb.append(l.getFinca());
-            sb.append(",");
+            sb.append(l.getFinca().getId());
 
             lineas.add(sb.toString());
                 }
