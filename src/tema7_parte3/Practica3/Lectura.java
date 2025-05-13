@@ -1,6 +1,5 @@
 package tema7_parte3.Practica3;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
@@ -9,10 +8,10 @@ public class Lectura {
     private Integer id;
     private Double temperatura;
     private Double humedad;
-    private LocalDate momento;
+    private LocalDateTime momento;
     private Finca finca;
 
-    public Lectura(Integer id, Double temperatura, Double humedad, LocalDate momento, Finca finca) {
+    public Lectura(Integer id, Double temperatura, Double humedad, LocalDateTime momento, Finca finca) {
         this.id = id;
         this.temperatura = temperatura;
         this.humedad = humedad;
@@ -44,11 +43,11 @@ public class Lectura {
         this.humedad = humedad;
     }
 
-    public LocalDate getMomento() {
+    public LocalDateTime getMomento() {
         return momento;
     }
 
-    public void setMomento(LocalDate momento) {
+    public void setMomento(LocalDateTime momento) {
         this.momento = momento;
     }
 

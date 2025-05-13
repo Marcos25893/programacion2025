@@ -7,6 +7,8 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -23,6 +25,8 @@ public class DAOLectura {
 
         DAOFinca daoFinca = new DAOFinca();
 
+        DateTimeFormatter forma = DateTimeFormatter.ofPattern("H:mm");
+
         try {
             lecturas = Files.lines(Paths.get("resources/lecturas.csv"))
                     .map(linea -> {
@@ -31,8 +35,8 @@ public class DAOLectura {
                                 Integer.parseInt(tokens.get(0)),
                                 Double.parseDouble(tokens.get(1)),
                                 Double.parseDouble(tokens.get(2)),
-                                LocalDate.parse(tokens.get(3)),
-                                daoFinca.findById(Integer.parseInt(tokens.get(4)))
+                                LocalDateTime.of(LocalDate.parse(tokens.get(3)), LocalTime.parse(tokens.get(4), forma)),
+                                daoFinca.findById(Integer.parseInt(tokens.get(5)))
 
                         );
                         return lectura;
@@ -54,7 +58,9 @@ public class DAOLectura {
             sb.append(",");
             sb.append(l.getHumedad());
             sb.append(",");
-            sb.append(l.getMomento());
+            sb.append(l.getMomento().toLocalDate());
+            sb.append(",");
+            sb.append(l.getMomento().toLocalTime());
             sb.append(",");
             sb.append(l.getFinca().getId());
 
@@ -119,7 +125,7 @@ public class DAOLectura {
                 .map(Lectura::getTemperatura)
                 .toList();
     }
-/*
+
     public List<Double> getTempDiaPorFinca(int id, LocalDate dia){
         return lecturas.stream()
                 .filter(l -> l.getFinca().getId().equals(id))
@@ -128,8 +134,6 @@ public class DAOLectura {
                 .map(Lectura::getTemperatura)
                 .toList();
     }
-
-*/
 
     @Override
     public String toString() {
